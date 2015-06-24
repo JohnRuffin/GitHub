@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<web-app xmlns="http://java.sun.com/xml/ns/javaee"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
+    version="2.5">
+
+	<servlet>
+		<description>AtmosphereServlet</description>
+		<servlet-name>AtmosphereServlet</servlet-name>
+		<servlet-class>org.atmosphere.cpr.AtmosphereServlet</servlet-class>
+		<init-param>
+          		<param-name>org.atmosphere.cpr.broadcaster.maxProcessingThreads</param-name>
+          		<param-value>10</param-value>
+		</init-param>
+		<init-param>
+          		<param-name>org.atmosphere.useNative</param-name>
+          		<param-value>true</param-value>
+      		</init-param>
+       
+		
+		<load-on-startup>1</load-on-startup>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>AtmosphereServlet</servlet-name>
+		<url-pattern>/alerts/*</url-pattern>
+		<url-pattern>/ack/*</url-pattern>
+	</servlet-mapping>
+	
+	<listener>
+		<description>Application context Listener</description>
+		<display-name>Application Context Listener</display-name>
+		<listener-class>com.spacetimeinsight.alerts.atmosphere.AppContextListener</listener-class>
+	</listener>
+	
+	<welcome-file-list id="WelcomeFileList">
+        <welcome-file>alertsws.jsp</welcome-file>
+    </welcome-file-list>
+</web-app>

@@ -1,0 +1,316 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>Highcharts Example</title>
+
+			<script type="text/javascript" src="http://code.jquery.com/jquery-1.9.0.js"></script>
+			<script type="text/javascript" src="js/jquery.atmosphere.js"></script>
+			<script src="http://code.highcharts.com/stock/highstock.js"></script>
+			<script src="http://code.highcharts.com/highcharts-more.js"></script>
+			<script src="http://code.highcharts.com/modules/exporting.js"></script>
+			<script src="theme.js"></script>
+			<script type="text/javascript">
+			var acknowledge = [];
+			var subSocket=null;
+			var isAck=false;
+			$(function () {
+				var time = (new Date()).getTime();
+				var p = [];
+				var socket = $.atmosphere;
+				var wsUri ='http://'+ document.location.host+'/jmstest/alerts';
+				//alert("as :"+wsUri);
+				var request = { url :wsUri  , transport: 'websocket',shared:'false'};
+				 subSocket = socket.subscribe(request);
+				var obj;
+				var globalseries = [];
+
+				var DataPointNum = 900;
+				var upper_threshold = 55;
+				var lower_threshold = 45;
+				var num_of_series = 5;
+
+
+				createSeries(num_of_series);
+				createChart();
+
+				socket.onMessage = function(response)
+				{
+					if (response.status == 200)
+					{
+					var acks='';
+					var index=0;
+					var enableDisable=0;
+					var responseData=response.responseBody;
+					var marqElement = document.getElementById("marqueediv");
+					if(responseData.indexOf("ACK:")>=0 || responseData.indexOf("DISABLE:")>=0 || responseData.indexOf("ENABLE:")>=0 ){
+						if(responseData.indexOf("ACK:")>=0){
+							enableDisable=1;
+						 acks = responseData.substring(4,responseData.length).split(',');
+						 }
+						 if(responseData.indexOf("DISABLE:")>=0){
+						 enableDisable=1;
+						  acks = responseData.substring(8,responseData.length).split(',');
+						 }
+						 if(responseData.indexOf("ENABLE:")>=0){
+						 enableDisable=0;
+						 			acks = responseData.substring(7,responseData.length).split(',');
+						 }
+					 // if(!isAck	){
+						for(var i=0;i<acks.length;i++){
+							//alert(" acks :"+acks[i]);
+							if(acks[i].trim().length>0){
+								index=acks[i].substring(3,4);
+								//alert("index :"+index);
+								acknowledge[index]=enableDisable;
+							}
+						}
+					 // }else{
+					 // isAck=false;
+					 // }
+
+
+					marqElement.innerHTML = marqElement.innerHTML +'<p>msg :'+ acks+"</p>";
+					return;
+					}
+
+
+					//alert(" data in alerts :"+response.responseBody);
+						var chart = $('#container').highcharts();
+						var series = chart.series;
+
+						obj = JSON.parse(response.responseBody);
+
+						marqElement.innerHTML='';
+						for (var i = 0; i< num_of_series; i++)
+						{
+							/*if(num_of_series!=document.getElementById("mylist").length){
+								var opt = document.createElement("option");
+								document.getElementById("mylist").options.add(opt); // Assign text and value to Option object
+								opt.text = 'PMU' +i+ 'FREQ (Hz)';
+								opt.value = obj[i].name;
+							}*/
+							var time = (new Date()).getTime();
+							var shift = false;
+							for (var j = 0; j<1; j++)
+							{
+								p[i] = p[i] + 0.004*(obj[i].data[j]-500);
+								//marqElement.innerHTML = marqElement.innerHTML+'<p>p['+ i+']'+p[i]+':'+obj[i].data[j]+'</p>';
+								if (p[i] > upper_threshold+5)
+								{
+									p[i] = upper_threshold+5;
+								}
+								if (p[i]<lower_threshold-5)
+								{
+									p[i] = lower_threshold -5;
+								}
+								if (series[i*3].data.length == DataPointNum)
+								{
+									shift = true;
+								}
+								else
+								{
+									shift = false;
+								}
+
+								series[i*3].addPoint([time,p[i]], false, shift, false);
+								if (p[i] < lower_threshold)
+								{
+									if (acknowledge[i] == 0)
+									{
+										series[(i*3)+1].addPoint([time,p[i],lower_threshold], false, shift, false);
+									}
+									else
+									{
+										series[(i*3)+1].addPoint([time,lower_threshold,lower_threshold], false, shift, false);
+									}
+									series[(i*3)+2].addPoint([time,upper_threshold,upper_threshold], false, shift, false);
+								}
+								else if (p[i] > upper_threshold)
+								{
+									if (acknowledge[i] == 0)
+									{
+										series[(i*3)+2].addPoint([time,upper_threshold,p[i]], false, shift, false);
+									}
+									else
+									{
+										series[(i*3)+2].addPoint([time,upper_threshold,upper_threshold], false, shift, false);
+									}
+									series[(i*3)+1].addPoint([time,lower_threshold,lower_threshold], false, shift, false);
+								}
+								else
+								{
+									series[(i*3)+1].addPoint([time,lower_threshold,lower_threshold], false, shift, false);
+									series[(i*3)+2].addPoint([time,upper_threshold,upper_threshold], false, shift, false);
+								}
+							}
+							chart.redraw();
+						}
+					}
+				}
+
+				function createSeries(n) {
+
+					var time = (new Date()).getTime();
+					var lines = [];
+					var upperlines = [];
+					var lowerlines = [];
+
+					for (var ii = 0; ii< n; ii++){
+						p.push(50);
+
+						lines[ii] = [[time,50]];
+						upperlines[ii] = [[time,50,50]];
+						lowerlines[ii] = [[time,50,50]];
+						acknowledge.push(0);
+
+						globalseries.push(
+							{
+								name: 'PMU'+ii+' FREQ (Hz)',
+								data: lines[ii],
+								zIndex: 1,
+								marker: {
+									enabled: false
+								}
+							},
+							{
+								name: 'Upper Threshold Alarm'+ii,
+								data: upperlines[ii],
+								type: 'arearange',
+								lineWidth: 0,
+								linkedTo: ':previous',
+								color: Highcharts.getOptions().colors[ii],
+								fillOpacity: 1,
+								zIndex: 0
+							},
+							{
+								name: 'Lower Threshold Alarm'+ii,
+								data: lowerlines[ii],
+								type: 'arearange',
+								lineWidth: 0,
+								linkedTo: ':previous',
+								color: Highcharts.getOptions().colors[ii],
+								fillOpacity: 1,
+								zIndex: 0
+							}
+							);
+						}
+					}
+
+					function createChart() {
+					$('#container').highcharts({
+						chart:{
+							zoomType: 'xy',
+							animation: false,
+							events:{
+								load: function(){
+
+										}
+							}
+						},
+						title: {
+							text: 'Frequency (Hz)'
+						},
+
+						xAxis: {
+							type: 'datetime'
+						},
+
+						yAxis: {
+							max : 60,
+							min : 40,
+							plotBands: [{ // mark the weekend
+							color: 'red',
+							from: 45.1,
+							to: 44.9
+										},{
+							color: 'red',
+							from: 54.9,
+							to: 55.1
+										}],
+							title: {
+								text: 'Frequency (Hz)'
+							}
+						},
+
+						tooltip: {
+							enabled: false,
+							crosshairs: true,
+							shared: true,
+							valueSuffix: ' kV'
+						},
+
+						legend: {
+						},
+						plotOptions: {
+							series: {
+								animation: false
+							}
+					   },
+						series: globalseries,
+
+
+
+					});
+				}
+		});
+
+		function ackClicked(){
+			var x=document.getElementById("mylist");
+			var ackStr='ACK:';
+			for (var i=0;i<x.length;i++){
+				 if( x.options[i].selected){
+					 alert(" ack :"+x.options[i].text);
+					 acknowledge[i]=1;
+					 ackStr=ackStr+x.options[i].value+","
+				 }//else{
+				  //acknowledge[i]=0;
+				 //}
+ 			  }
+			  alert(" ackStr :"+ackStr);
+				if(ackStr.trim().length>0){
+				 subSocket.push(ackStr);
+				 isAck=true;
+				// alert("push :"+ackStr);
+				}
+
+		}
+		//ack socket
+		/*var socketAck = $.atmosphere;
+		var wsUriAck ='http://'+ document.location.host+'/jmstest/ack';
+			var requestAck = { url :wsUriAck  , transport: 'websocket',logLevel:'debug',shared:'false'};
+		var subsocketAck = socketAck.subscribe(requestAck);
+		socketAck.onMessage = function(response) {
+				alert("test");
+				if (response.status == 200) {
+
+					var data = response.responseBody;
+					var marqElement = document.getElementById("marqueediv");
+					marqElement.innerHTML = marqElement.innerHTML +'msg :'+ data+"&nbsp;&#13;";
+
+
+				}
+		};
+		socket.onOpen = function(response) {
+		alert(" onopne :"+response);
+		};
+		*/
+	</script>
+	</head>
+	<body>
+
+<table border="0" width="100%">
+<!--<tr>
+<td ><select height="100" id="mylist"  multiple></select><input type="button" id="ack"  value="Acknowledge" width="100%" height="30" onclick="ackClicked()"/> </td>
+</tr>
+<tr>-->
+<td width="100%" colspan=2><div id="container"></div></td>
+</tr>
+<tr>
+<td colspan=2 width='100%'><div width="100%" height="100%" id="marqueediv" align="center" ><div> </td>
+</tr>
+</table>
+
+
+	</body>
+</html>
