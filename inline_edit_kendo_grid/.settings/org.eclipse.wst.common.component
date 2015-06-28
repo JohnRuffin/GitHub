@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="inline_edit_kendo_grid">
+        <wb-resource deploy-path="/" source-path="/WebContent" tag="defaultRootSource"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src"/>
+        <property name="context-root" value="inline_edit_kendo_grid"/>
+        <property name="java-output-path" value="/inline_edit_kendo_grid/build/classes"/>
+    </wb-module>
+</project-modules>
