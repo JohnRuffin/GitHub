@@ -10,8 +10,12 @@ $(document).ready(function() {
 	var socket = $.atmosphere;
 	var wsUri = document.location.toString()+'custom';
 	alert(" wsUri :"+wsUri);
-	var request = { url :wsUri  , transport: 'websocket', fallbackTransport: 'long-polling'};
+	var request = { url :wsUri,
+					transport: 'websocket',
+					fallbackTransport: 'long-polling',
+					contentType : "application/json"};
 	var subSocket = socket.subscribe(request);
+	
 	
 	socket.onMessage = function(response) {
 		if (response.status == 200) {
@@ -19,11 +23,10 @@ $(document).ready(function() {
 			var data = response.responseBody;
 			//alert(" respnse :"+data);
 			var marqElement = document.getElementById("marqueediv");
-			var messagestr = "<message>";
-			//var message = data.substring(data.indexOf(messagestr) + messagestr.length ,data.indexOf("</message"));
+			var messagestr = "<message>";			
 			marqElement.innerHTML = 'count :'+ counter+"&nbsp;";
 			counter++;
-			
+			console.log(data);
 		}
 	};
 	
@@ -38,6 +41,10 @@ $(document).ready(function() {
 		socket.unsubscribe();
 		subSocket = null;
 	}
+	
+	setTimeout(function(){
+		subSocket.push(JSON.stringify({ author: 'Pegasus', message: 'Hello World!' }));
+	}, 5000);
 });
 </script>
 

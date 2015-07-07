@@ -30,20 +30,20 @@ public class CustomAtmosphereHandler implements AtmosphereHandler {
 	public void onRequest(AtmosphereResource r) throws IOException {
 		AtmosphereRequest req = r.getRequest();
 		Map map = req.getParameterMap();
-		String browserSessionId = (String) map.get("browserSessionId");
-		if (browserSessionId == null) {
-			browserSessionId = "self";
+		String broadcasterId = (String) map.get("broadcasterId");
+		if (broadcasterId == null) {
+			broadcasterId = "self";
 		}
 		String selector = (String) map.get("selector");
-		System.out.println(" connected to jms 'CUSTOM' services "
+		/*System.out.println(" connected to jms 'CUSTOM' services "
 				+ req.getRequestURI() + " Broadcaster Id :" + r.getBroadcaster()
-				+ "\t selector :" + selector + "\t Browser Session Id :" + browserSessionId);
+				+ "\t selector :" + selector + "\t Broadcaster Id :" + broadcasterId);*/
 
 		if (!(registered)) {
 			System.out.println(" registered one consumer ");
 			registered = true;
 			try {
-				JMSMessageListener listener = new JMSMessageListener(browserSessionId);
+				JMSMessageListener listener = new JMSMessageListener(broadcasterId);
 				Context ctx = new InitialContext();
 				ConnectionFactory connectionFactory = (ConnectionFactory) ctx
 						.lookup("java:comp/env/jms/ConnectionFactory");
@@ -81,8 +81,8 @@ public class CustomAtmosphereHandler implements AtmosphereHandler {
 		if (r.isSuspended()) {
 			String body = event.getMessage().toString();
 			res.getWriter().write(body);
-			System.out.println("----onStateChange :" + r.transport()
-					+ "\t counter :" + counter);
+			/*System.out.println("----onStateChange :" + r.transport()
+					+ "\t counter :" + counter);*/
 
 			counter += 1L;
 		}
@@ -94,10 +94,10 @@ public class CustomAtmosphereHandler implements AtmosphereHandler {
 		case WEBSOCKET:
 		case STREAMING:
 			res.getWriter().flush();
-		default:
+		/*default:
 			if (event.isResuming())
 				return;
-			event.broadcaster().broadcast("Test Message").toString();
+			event.broadcaster().broadcast("Test Message").toString();*/
 		}
 	}
 }

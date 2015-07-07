@@ -8,10 +8,10 @@ import org.atmosphere.cpr.MetaBroadcaster;
 
 public class JMSMessageListener implements MessageListener {
 	@SuppressWarnings("unused")
-	private String browserSessionId;
+	private String broadcasterId;
 
 	public JMSMessageListener(String bId) {
-		this.browserSessionId = bId;
+		this.broadcasterId = bId;
 	}
 
 	public void onMessage(Message message) {

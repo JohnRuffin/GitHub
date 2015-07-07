@@ -22,11 +22,11 @@ public class AppContextListener implements ServletContextListener {
 		// Your code here
 		System.out.println("Atmosphere Listener initialized.");		
 
-		TimerTask vodTimer = new CustTimer("self", 100, 100);
+		TimerTask vodTimer = new CustTimer("self", 5, 1);
 		
 		System.out.println("Schedule a timer task...");
 		Timer timer = new Timer();
-		timer.schedule(vodTimer, 5000, (4 * 1000));
+		timer.schedule(vodTimer, 10000, (10 * 1000));
 
 	}
 

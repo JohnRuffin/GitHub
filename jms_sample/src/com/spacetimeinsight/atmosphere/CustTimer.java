@@ -14,14 +14,15 @@ import javax.naming.InitialContext;
 import org.codehaus.jackson.map.ObjectMapper;
 
 public class CustTimer extends TimerTask {
-	private String browserSessionId;
+	private String broadcasterId;
 	private int series;
 	private int samples;
 	MessageProducer publisher = null;
 	Session pSession = null;
+	long count = 1;
 
 	public CustTimer(String pUid, int nSeries, int nSamples) {
-		this.browserSessionId = pUid;
+		this.broadcasterId = pUid;
 		this.series = nSeries;
 		this.samples = nSamples;
 		try {
@@ -41,22 +42,18 @@ public class CustTimer extends TimerTask {
 	public void run() {
 		try {
 			List returnData = new ArrayList();
-
 			for (int i = 0; i < this.series; ++i) {
 				Example ex = new Example();
-				ex.setName("PMU" + i + " FREQ (Hz)");
-				List data = new ArrayList();
-				for (int j = 0; j < this.samples; ++j) {
-					data.add(Long.valueOf(Math.round(Math.random() * 1000.0D)));
-				}
-				ex.setData(data);
+				ex.setName("Message:" + count );
+				ex.setCount(count);
+				count++;				
 				returnData.add(ex);
 			}
 
 			String jasObj = new ObjectMapper().writeValueAsString(returnData);
 
 			TextMessage textMessage = this.pSession.createTextMessage(jasObj);
-			textMessage.setStringProperty("uid", this.browserSessionId);
+			textMessage.setStringProperty("uid", this.broadcasterId);
 			this.publisher.send(textMessage);
 		} catch (Exception e) {
 			e.printStackTrace();
@@ -64,19 +61,14 @@ public class CustTimer extends TimerTask {
 	}
 
 	public class Example {
-		private List<Long> data;
 		private String name;
-
-		public Example() {
-			this.data = new ArrayList();
+		private long count;
+		public long getCount() {
+			return count;
 		}
 
-		public List<Long> getData() {
-			return this.data;
-		}
-
-		public void setData(List<Long> data) {
-			this.data = data;
+		public void setCount(long count) {
+			this.count = count;
 		}
 
 		public String getName() {
