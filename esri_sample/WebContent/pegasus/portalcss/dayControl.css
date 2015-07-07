@@ -1,0 +1,174 @@
+.calYrLblDiv {
+	text-align: center; 
+	font: bold 12px Arial, san-serif;
+	margin-bottom: 5px;
+	color: #595959;
+}
+
+.tableStyle {
+	border-left: 1px solid #f0f0f0;
+	border-bottom: 1px solid #f0f0f0;
+}
+
+.tableStyle td{
+	text-align: center;
+	border-right : 1px solid #f0f0f0;
+	border-top : 1px solid #f0f0f0;
+	height: 25px;
+	width: 30px;
+}
+.selectAllStyle {
+	width: 35px !important;
+	height: 25px !important;
+	white-space: pre-wrap !important;
+	padding: 0px !important;
+	margin: 0px !important;
+	color: #ffffff;
+	display: none;
+	font: bold 9px Arial, san-serif !important;
+	min-width: 35px !important;
+	cursor: pointer !important;
+}
+
+.weekBoxStyle{
+	background-color: #dce6f2;
+	cursor: pointer;
+	color: #7f7f7f;
+	font: bold 11px Arial, san-serif;}
+
+.unSelectableWeekBoxStyle{
+	background-color: #dce6f2;
+	color: #7f7f7f;
+	font: bold 11px Arial, san-serif;
+}
+
+.unSelectedDayStyle {
+	background-color: #ffffff;
+	cursor: pointer;
+	color: #7f7f7f;
+	font-size: 12px;
+}
+
+.selectedDayStyle {
+	cursor: pointer;
+	background-color: #558ED5;
+	font-size: 12px;
+	font-weight: bold;
+	color: #ffffff;
+}
+
+.disabledDayStyle {
+	color: #A6A6A6;
+	background-color: #EEECE1;
+	font: normal 12px Arial, san-serif;
+}
+
+.deletedDayStyle {
+	background-color: #ffffff;
+	cursor: pointer;
+	color: #ff0000;
+	font-size: 12px;
+}
+
+.addedDayStyle {
+	background-color: #575757;
+	cursor: pointer;
+	color: #ffff00;
+	font-size: 12px;
+}
+
+.noPathStyle {
+	color: #ffffff;
+	background-color: #ff0000;
+	font: normal 12px Arial, san-serif;
+}
+.prodRestrictedStyle {
+	color: #ffffff;
+	background-color: #ff0000;
+	font: normal 12px Arial, san-serif;
+}
+.badLaneStyle {
+	color: #ffffff;
+	background-color: #ff0000;
+	font: normal 12px Arial, san-serif;
+}
+.notEffectiveStyle {
+	color: #ffffff;
+	background-color: #808080;
+	font: normal 12px Arial, san-serif;
+}
+.naStyle {
+	color: #ffffff;
+	background-color: #006600;
+	font: normal 12px Arial, san-serif;
+}
+.okStyle {
+	color: #ffffff;
+	background-color: #0080ff;
+	font: normal 12px Arial, san-serif;
+}
+.zeroStyle {
+	color: #ffffff;
+	background-color: #ff0000;
+	font: normal 12px Arial, san-serif;
+}
+.partialStyle {
+	color: #333333;
+	background-color: #ffff00;
+	font: normal 12px Arial, san-serif;
+}
+.excessStyle {
+	color: #333333;
+	background-color: #ffc800;
+	font: normal 12px Arial, san-serif;
+}
+.unknownStyle {
+	color: #333333;
+	background-color: #ffffff;
+	font: normal 12px Arial, san-serif;
+}
+
+.mouseOverStyle {
+	cursor: pointer;
+	background-color: #376092;
+	color: #ffffff;
+	font: bold 12px Arial, san-serif;
+}
+
+.calendar-header {
+	float:right;
+	margin-top:0px;
+	vertical-align: middle;
+	align:right;
+	padding-bottom:0px;
+	padding-top: 0px; 
+	text-align:right;
+	padding-right:10px;
+	
+}
+
+.calendar-header .iconbtn {
+	width:24px;
+	height:24px;
+	opacity:1;
+	padding-top:0px;
+}
+
+.calendar-header .icon-btn:hover {
+	width:24px;
+	height:24px;
+	padding-top:0px;
+}
+
+.calendar-btn-div {
+	float: right;
+}
+
+.calendar-btn-style {
+	width: 30px !important;
+	height: 20px !important;
+	text-align: center !important;
+	cursor: pointer !important;
+	min-width: 30px !important;
+	padding: 0px !important;
+}

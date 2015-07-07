@@ -1,0 +1,269 @@
+@charset "utf-8";
+
+
+/* header */
+
+.calendar_header,
+.k-window .k-header {
+  background-image: -moz-linear-gradient( 90deg, rgb(205,211,240) 0%, rgb(222,243,255) 99%);
+  background-image: -webkit-linear-gradient( 90deg, rgb(205,211,240) 0%, rgb(222,243,255) 99%);
+  background-image: -ms-linear-gradient( 90deg, rgb(205,211,240) 0%, rgb(222,243,255) 99%);
+  box-shadow: 0.5px 0.866px 1px 0px rgb( 168, 185, 205 );
+  height: 23px;
+  font-size: 12px;
+  font-family: "Arial";
+  color: rgb( 50, 118, 200 );
+  font-weight: bold;
+  text-align: left;
+}
+
+.locations_field {
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgb( 41, 133, 230 );
+  border-radius: 5px;
+  background-color: rgb( 255, 255, 255 );
+  box-shadow: 0.5px 0.866px 0px 0px rgb( 255, 255, 255 );
+  width: 200px;
+  height: 18px;
+  margin-left:2px;
+			font-size: 12px !important;
+			font-family: arial !important;
+}
+
+.calendar_help_text {
+  font-size: 12px;
+  font-family: "Arial";
+  color: rgb( 179, 179, 179 );
+  text-align: left;
+}
+
+.clear_helptext {
+  background-image: url("clear.png");
+  margin-top: 3px;
+  margin-right:2px;
+  margin-bottom: 4px;
+  width: 16px;
+  height: 16px;
+}
+
+.calender_header_text {
+  font-size: 12px;
+  font-family: "Arial";
+  color: rgb( 50, 118, 200 );
+  font-weight: bold;
+  text-align: left;
+}
+
+.calendar-btn-close {
+	border:none;
+	background-image:url(../../assets/icons/sqw_close.png) !important;
+	background-position: center center !important;
+	background-repeat: no-repeat !important;
+	width: 16px;
+  	height: 16px;
+  	margin-top: 2px;
+  	margin-right:2px; 
+			cursor: pointer;
+}
+
+
+/* active time buttons */
+
+.active_time_button,
+a.active_time_button:hover {
+  font-size: 12px;
+  font-family: "Arial";
+  color: rgb( 255, 255, 255 );
+  font-weight: bold;
+  text-align: center;
+  text-shadow: 0px -1px 0px rgb( 0, 0, 0 );
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgb( 0, 74, 128 );
+  border-radius: 4px;
+  background-image: -moz-linear-gradient( 90deg, rgb(54,156,236) 0%, rgb(29,122,227) 18%, rgb(93,184,242) 100%);
+  background-image: -webkit-linear-gradient( 90deg, rgb(54,156,236) 0%, rgb(29,122,227) 18%, rgb(93,184,242) 100%);
+  background-image: -ms-linear-gradient( 90deg, rgb(54,156,236) 0%, rgb(29,122,227) 18%, rgb(93,184,242) 100%);
+  box-shadow: 0.5px 0.866px 1px 0px rgb( 0, 41, 117 );
+  width: 100px;
+  line-height: 20px;
+  height: 23px;
+  text-decoration: none;
+  margin-bottom:7px;
+  margin-top:4px;
+  margin-left:1px;
+}
+
+.deselected_time_button,
+a.deselected_time_button:hover	 {
+  font-size: 12px;
+  font-family: "Arial";
+  color: rgb( 97, 97, 97 );
+  font-weight: bold;
+  text-align: center;
+  text-shadow: 0.5px 1px 0px rgb( 255, 255, 255 );
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgb( 204, 204, 204 );
+  border-radius: 4px;
+  text-decoration: none;
+  background-image: -moz-linear-gradient( 90deg, rgb(227,227,227) 0%, rgb(247,247,247) 100%);
+  background-image: -webkit-linear-gradient( 90deg, rgb(227,227,227) 0%, rgb(247,247,247) 100%);
+  background-image: -ms-linear-gradient( 90deg, rgb(227,227,227) 0%, rgb(247,247,247) 100%);
+  width: 100px;
+  height: 23px;
+   line-height: 20px;
+  margin-bottom:7px;
+  margin-top:4px;
+  margin-left:1px;
+}
+
+
+/* calendar tabs */
+
+.active_plan_tab,
+a.active_plan_tab:hover  {
+  font-size: 12px;
+  font-family: "Arial";
+  color: rgb( 255, 255, 255 );
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  text-shadow: 0px -1px 0px rgb( 0, 0, 0 );
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgb( 0, 74, 128 );
+  -moz-border-radius-topleft: 2px;
+  -webkit-border-top-left-radius: 2px;
+  border-top-left-radius: 2px;
+  -moz-border-radius-topright: 2px;
+  -webkit-border-top-right-radius: 2px;
+  border-top-right-radius: 2px;
+  background-image: -moz-linear-gradient( 90deg, rgb(54,156,236) 0%, rgb(29,122,227) 18%, rgb(93,184,242) 100%);
+  background-image: -webkit-linear-gradient( 90deg, rgb(54,156,236) 0%, rgb(29,122,227) 18%, rgb(93,184,242) 100%);
+  background-image: -ms-linear-gradient( 90deg, rgb(54,156,236) 0%, rgb(29,122,227) 18%, rgb(93,184,242) 100%);
+  width: 100px;
+  line-height: 20px;
+  height: 20px;
+ }
+
+
+.deactive_plan_tab,
+a.deactive_plan_tab:hover {
+  font-size: 12px;
+  font-family: "Arial";
+  color: rgb( 97, 97, 97 );
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  text-shadow: 0.5px 0.866px 0px rgb( 255, 255, 255 );
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgb( 204, 204, 204 );
+  -moz-border-radius-topleft: 2px;
+  -webkit-border-top-left-radius: 2px;
+  border-top-left-radius: 2px;
+  -moz-border-radius-topright: 2px;
+  -webkit-border-top-right-radius: 2px;
+  border-top-right-radius: 2px;
+  background-image: -moz-linear-gradient( 90deg, rgb(227,227,227) 0%, rgb(247,247,247) 100%);
+  background-image: -webkit-linear-gradient( 90deg, rgb(227,227,227) 0%, rgb(247,247,247) 100%);
+  background-image: -ms-linear-gradient( 90deg, rgb(227,227,227) 0%, rgb(247,247,247) 100%);
+  width: 100px;
+  line-height: 20px;
+  height: 20px;
+ }
+
+
+
+/* apply button styles for "select all" and "clear all" */
+
+#calSelectAllBtn,
+#calClearBtn {
+  font-size: 12px;
+  font-family: "Arial";
+  color: rgb( 255, 255, 255 );
+  font-weight: bold;
+  text-align: center;
+  text-shadow: 0px -1px 0px rgb( 0, 0, 0 );
+  border-radius: 4px;
+  background-image: -moz-linear-gradient( 90deg, rgb(56,177,28) 0%, rgb(32,147,14) 18%, rgb(95,199,61) 100%);
+  background-image: -webkit-linear-gradient( 90deg, rgb(56,177,28) 0%, rgb(32,147,14) 18%, rgb(95,199,61) 100%);
+  background-image: -ms-linear-gradient( 90deg, rgb(56,177,28) 0%, rgb(32,147,14) 18%, rgb(95,199,61) 100%);
+  box-shadow: 0.5px 0.866px 1px 0px rgb( 0, 69, 0 );
+  width: 50px;
+			height: 18px;
+}
+
+#calSelectAllBtn[disabled],
+#calClearBtn[disabled]{
+	font-size: 12px;
+  font-family: "Arial";
+  color: rgb( 97, 97, 97 );
+  font-weight: bold;
+  text-align: center;
+  text-shadow: 0.5px 0.866px 0px rgb( 255, 255, 255 );
+   border-radius: 4px;
+  background-image: -moz-linear-gradient( 90deg, rgb(227,227,227) 0%, rgb(247,247,247) 100%);
+  background-image: -webkit-linear-gradient( 90deg, rgb(227,227,227) 0%, rgb(247,247,247) 100%);
+  background-image: -ms-linear-gradient( 90deg, rgb(227,227,227) 0%, rgb(247,247,247) 100%);
+  position: relative;
+  width: 50px;
+		height: 18px;
+}
+
+#calClearBtn {
+	float: right;
+}
+
+.active_apply_button_over {
+  border-radius: 4px;
+  background-image: -moz-linear-gradient( -90deg, rgb(56,177,28) 0%, rgb(32,147,14) 18%, rgb(95,199,61) 100%);
+  background-image: -webkit-linear-gradient( -90deg, rgb(56,177,28) 0%, rgb(32,147,14) 18%, rgb(95,199,61) 100%);
+  background-image: -ms-linear-gradient( -90deg, rgb(56,177,28) 0%, rgb(32,147,14) 18%, rgb(95,199,61) 100%);
+  box-shadow: 0.5px 0.866px 1px 0px rgb( 0, 69, 0 );
+  width: 50px;
+		height: 18px;
+}
+
+.active_apply_button_click {
+  border-radius: 4px;
+  background-image: -moz-linear-gradient( -90deg, rgb(56,177,28) 0%, rgb(32,147,14) 18%, rgb(95,199,61) 100%);
+  background-image: -webkit-linear-gradient( -90deg, rgb(56,177,28) 0%, rgb(32,147,14) 18%, rgb(95,199,61) 100%);
+  background-image: -ms-linear-gradient( -90deg, rgb(56,177,28) 0%, rgb(32,147,14) 18%, rgb(95,199,61) 100%);
+  box-shadow: 0.5px 0.866px 1px 0px rgb( 0, 69, 0 );
+  width: 50px;
+		height: 18px;
+}
+
+
+/* background */
+
+#calenderDiv.k-window-content {
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgb( 41, 133, 230 );
+  background: rgb( 255, 255, 255 );
+  box-shadow: 1px 1.732px 4px 0px rgb( 0, 0, 0 );
+  width: 325px;
+			padding-right: 10px;
+			padding-bottom: 10px;
+}
+
+
+#planViewDiv,#monthViewDiv {
+			margin-left: 31px;
+			margin-bottom: 10px;
+}
+
+#switchMonthPlanViewDiv {
+	margin-left: 31px;
+	
+}
+
+#calTimeTypeDiv{
+			margin-top: -5px;
+			margin-bottom: 1px;
+			margin-left: 2px;
+}

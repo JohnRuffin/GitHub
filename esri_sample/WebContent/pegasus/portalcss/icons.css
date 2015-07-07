@@ -1,0 +1,2254 @@
+/* Common Icons */
+.icon-select-calendar {
+	width:21px;
+	height:22px;
+	border:none;
+	background-image:url(../assets/icons/day_selector.png);
+	background-position: center center;
+}
+
+.icon-select-calendar-disable {
+	width:21px;
+	height:22px;
+	border:none;
+	background-image:url(../assets/icons/day_selector_disable.png);
+	background-position: center center;
+}
+
+.sqw-icon-select-calendar {
+	width:15px;
+	height:17px;
+	border:none;
+	background-image:url(../assets/icons/sqw_calendar.png);
+	background-position: center center;
+}
+
+.sqw-icon-select-calendar-disable {
+	width:15px;
+	height:17px;
+	border:none;
+	background-image:url(../assets/icons/sqw_calendar_disable.png);
+	background-position: center center;
+}
+
+.icon-toggle-local {
+	width:22px;
+	height:22px;
+	border:none;
+	background-image:url(../assets/icons/local_time.png);
+	background-position: center center;
+}
+/* Added by Sachin*/
+.icon-toggle-delete {
+	width:22px;
+	height:22px;
+	border:none;
+	background-image:url(../assets/icons/Delete.png);
+	background-position: center center;
+}
+
+.icon-toggle-save {
+	width:22px;
+	height:22px;
+	border:none;
+	background-image:url(../assets/icons/save_settings.png);
+	background-position: center center;
+}
+
+.icon-toggle-duplicate {
+	width:22px;
+	height:22px;
+	border:none;
+	background-image:url(../assets/icons/clone_screen_disable.png);
+	background-position: center center;
+}
+
+.icon-toggle-add {
+	width:22px;
+	height:22px;
+	border:none;
+	background-image:url(../assets/icons/add_row.png);
+	background-position: center center;
+}
+
+.sqw-icon-toggle-local {
+	width:17px;
+	height:17px;
+	border:none;
+	background-image:url(../assets/icons/sqw_local_time.png);
+	background-position: center center;
+}
+
+.icon-toggle-local-disable {
+	width:22px;
+	height:22px;
+	border:none;
+	background-image:url(../assets/icons/local_time_off.png);
+	background-position: center center;
+}
+
+.sqw-icon-toggle-local-disable {
+	width:17px;
+	height:17px;
+	border:none;
+	background-image:url(../assets/icons/sqw_local_time_off.png);
+	background-position: center center;
+}
+
+.icon-toggle-zulu {
+	width:22px;
+	height:22px;
+	border:none;
+	background-image:url(../assets/icons/zulu_time.png);
+	background-position: center center;
+}
+
+.icon-toggle-zulu-disable {
+	width:22px;
+	height:22px;
+	border:none;
+	background-image:url(../assets/icons/zulu_time_off.png);
+	background-position: center center;
+}
+
+.sqw-icon-toggle-zulu {
+	width:17px;
+	height:17px;
+	border:none;
+	background-image:url(../assets/icons/sqw_zulu_time.png);
+	background-position: center center;
+}
+
+.sqw-icon-toggle-zulu-disable {
+	width:17px;
+	height:17px;
+	border:none;
+	background-image:url(../assets/icons/sqw_zulu_time_off.png);
+	background-position: center center;
+}
+
+.icon-favorites {
+	width:22px;
+	height:22px;
+	border:none;
+	background-image:url(../assets/icons/favorites.png);
+	background-position: center center;
+}
+
+.icon-favorites-disable {
+	width:22px;
+	height:22px;
+	border:none;
+	background-image:url(../assets/icons/favorites_disable.png);
+	background-position: center center;
+}
+
+.sqw-favorite-dropdown .icon-favorites {
+	width:16px;
+	height:16px;
+	border:none;
+	background-image:url(../assets/icons/favorite_active.png);
+	background-position: center center;
+}
+
+.sqw-favorite-dropdown .icon-favorites-disable {
+	width:16px;
+	height:16px;
+	border:none;
+	background-image:url(../assets/icons/favorite_inactive.png);
+	background-position: center center;
+}
+
+.icon-schedule-maintenance {
+	width:22px;
+	height:20px;
+	border:none;
+	background-image:url(../assets/icons/scheduleMxMode.png);
+	background-position: center center;
+}
+.icon-schedule-maintenance-disable {
+	width:22px;
+	height:20px;
+	border:none;
+	background-image:url(../assets/icons/schedule.png);
+	background-position: center center;
+}
+
+.icon-network-view{
+	width:22px;
+	height:22px;
+	border:none;
+	background-image:url(../assets/icons/network_view.png);
+	background-position: center center;
+}
+
+.icon-network-view-disable{
+	width:22px;
+	height:22px;
+	border:none;
+	background-image:url(../assets/icons/network_view_off.png);
+	background-position: center center;
+}
+
+.icon-schedule-overlay-view{
+	width:22px;
+	height:22px;
+	border:none;
+	background-image:url(../assets/icons/schedule_overlay_view.png) ;
+	background-position: center center;
+}
+
+.icon-schedule-overlay-view-disable{
+	width:22px;
+	height:22px;
+	border:none;
+	background-image:url(../assets/icons/schedule_overlay-view-disable.png) ;
+	background-position: center center;
+}
+
+.sync-to-map {
+	width:30px;
+	height:22px;
+	border:none;
+	background-image:url(../assets/icons/synchronize_to_map.png);
+	background-position: center center;
+}
+
+.sync-to-map-disable {
+	width:30px;
+	height:22px;
+	border:none;
+	background-image:url(../assets/icons/synchronize_to_map_disabled.png);
+	background-position: center center;
+}
+
+.icon-sync-to-matrix {
+	width:29px;
+	height:22px;
+	border:none;
+	background-image:url(../assets/icons/synchronize_to_matrix.png);
+	background-position: center center;
+}
+
+.icon-sync-to-matrix-disable {
+	width:29px;
+	height:22px;
+	border:none;
+	background-image:url(../assets/icons/synchronize_to_matrix_disabled.png);
+	background-position: center center;
+}
+
+.sync-to-schematic {
+	width:27px;
+	height:22px;
+	border:none;
+	background-image:url(../assets/icons/synchronize_to_schematic.png);
+	background-position: center center;
+}
+
+.sync-to-schematic-disable {
+	width:27px;
+	height:22px;
+	border:none;
+	background-image:url(../assets/icons/synchronize_to_schematic_disabled.png);
+	background-position: center center;
+}
+
+.icon-refresh, .icon-plan-refresh {
+	width:18px;
+	height:22px;
+	border:none;
+	background-image:url(../assets/icons/refresh_window.png);
+	background-position: center center;
+}
+
+.icon-refresh-disable {
+	width:18px;
+	height:22px;
+	border:none;
+	background-image:url(../assets/icons/refresh_window_disabled.png);
+	background-position: center center;
+}
+
+.icon-print-map {
+	width:22px;
+	height:22px;
+	border:none;
+	background-image:url(../assets/icons/print_map.png);
+	background-repeat:no-repeat;
+}
+
+.icon-print-map-disable {
+	width:22px;
+	height:22px;
+	border:none;
+	background-image:url(../assets/icons/print_map_off.png);
+	background-repeat:no-repeat;
+}
+
+.export-to-excel {
+	width:24px;
+	height:22px;
+	border:none;
+	background-image:url(../assets/icons/export_to_excel.png);
+	background-position: center center;
+}
+
+.export-to-excel-disable {
+	width:24px;
+	height:22px;
+	border:none;
+	background-image:url(../assets/icons/export_to_excel_off.png);
+	background-position: center center;
+}
+
+.icon-toggle-month{
+	width:21px;
+	height:22px;
+	border:none;
+	background-image:url(../assets/icons/plan_day_M.png);
+	background-position: center center;
+	
+}
+
+.icon-toggle-month-disable{
+	width:21px;
+	height:22px;
+	border:none;
+	background-image:url(../assets/icons/plan_day_M_off.png);
+	background-position: center center;
+}
+
+.icon-toggle-plan{
+	width:21px;
+	height:22px;
+	border:none;
+	background-image:url(../assets/icons/plan_day_P.png);
+	background-position: center center;
+}
+
+.icon-toggle-plan-disable{
+	width:21px;
+	height:22px;
+	border:none;
+	background-image:url(../assets/icons/plan_day_P_off.png);
+	background-position: center center;
+}
+
+.collapse-all{
+	width:14px;
+	height:22px;
+	border:none;
+	background-image:url(../assets/icons/collapse_all.png);
+	background-position: center center;
+}
+
+.collapse-all-disable {
+	width:14px;
+	height:22px;
+	border:none;
+	background-image:url(../assets/icons/collapse_all_off.png);
+	background-position: center center;
+}
+
+.expand-all{
+	width:14px;
+	height:22px;
+	border:none;
+	background-image:url(../assets/icons/expand_all.png);
+	background-position: center center;
+}
+
+.expand-all-disable{
+	width:14px;
+	height:22px;
+	border:none;
+	background-image:url(../assets/icons/expand_all_off.png);
+	background-position: center center;
+}
+
+.favorites-shared {
+	width:22px;
+	height:22px;
+	border:none;
+	background-image:url(../assets/icons/favorites_shared.png);
+	background-position: center center;
+}
+
+.favorites-shared-disable {
+	width:22px;
+	height:22px;
+	border:none;
+	background-image:url(../assets/icons/favorites_shared_disabled.png);
+	background-position: center center;
+}
+
+/* End of common Icons */
+
+/* Header Icons - Pegasus  */
+.icon-mode-anaylsis {
+	width:27px;
+	height:22px;
+	border:none;
+	background-image:url(../assets/icons/mode_analysis.png);
+	background-position: center center;
+}
+
+.icon-mode-anaylsis-disable {
+	width:27px;
+	height:22px;
+	border:none;
+	background-image:url(../assets/icons/mode_analysis_disable.png);
+	background-position: center center;
+}
+
+
+.icon-clone {
+	width:34px;
+	height:22px;
+	border:none;
+	background-image:url(../assets/icons/clone_screen.png);
+	background-position: center center;
+}
+
+.icon-clone-disable {
+	width:34px;
+	height:22px;
+	border:none;
+	background-image:url(../assets/icons/clone_screen_disable.png);
+	background-position: center center;
+}
+
+.window-select {
+	width: 20px;
+  	height: 22px;
+  	border:none;
+  	overflow: hidden;
+  	/* margin-right:9px; */
+  	background: url("../assets/icons/select_window.png");
+  	background-position: center center; 
+}
+
+.window-select-disable {
+	width: 20px;
+  	height: 22px;
+  	border:none;
+  	overflow: hidden;
+  	/* margin-right:9px; */
+  	background: url("../assets/icons/select_window_disable.png");
+  	background-position: center center; 
+}
+
+.window-select:hover {
+	width:20px; 
+	height:22px;
+	text-align:center;
+	vertical-align:middle;
+	background-color:#a8c6ee;
+}
+
+.icon-system-settings {
+	width:22px;
+	height:22px;
+	border:none;
+	background-image:url(../assets/icons/system_settings.png);
+	background-position: center center; 
+}
+
+.icon-system-settings-disable {
+	width:22px;
+	height:22px;
+	border:none;
+	background-image:url(../assets/icons/system_settings_disable.png);
+	background-position: center center; 
+}
+
+.icon-help {
+	width:18px;
+	height:22px;
+	border:none;
+	background-image:url(../assets/icons/help.png);
+	background-position: center center;
+}
+
+.icon-help-disable {
+	width:18px;
+	height:22px;
+	border:none;
+	background-image:url(../assets/icons/help_disable.png);
+	background-position: center center;
+}
+
+/* End of Header Icons - Pegasus  */
+
+/* Header icons - Query Window */
+.icon-run {
+	width:21px;
+	height:22px;
+	border:none;
+	background-image:url(../assets/icons/run_query.png);
+	background-position: center center;
+}
+	
+#runQryBtn {
+	min-height:19px;
+	height:22px;
+	display:inline-block;
+	float:left;
+	width:50px;
+	font-family: "Arial";
+	font-size: 13px;
+	font-weight: bold;
+	color:#385723;
+	padding-left:15px;
+	padding-top:0px;
+	padding-right:0px;
+	border:1px solid;
+	border-color:#A9D18E;
+	margin-right:9px;
+	margin-top:2px;
+	margin-bottom:2px;
+	-moz-border-radius:5px;
+    -webkit-border-radius:5px;
+    
+    background-color: #cae5ba;
+	background-image: url(../assets/icons/run_query_small3.png) 4px no-repeat; 
+	background: url(../assets/icons/run_query_small.png) 4px no-repeat, -moz-linear-gradient(bottom, #B0D497 20%, #D7E9CA 50%, #E2F0D9 85%) !important; 
+	background: url(../assets/icons/run_query_small.png) 4px no-repeat, -webkit-gradient(linear, bottom, #B0D497 20%, #D7E9CA 50%, #E2F0D9 85%) !important; 
+	background: url(../assets/icons/run_query_small.png) 4px no-repeat, -webkit-linear-gradient(bottom, #B0D497 20%, #D7E9CA 50%, #E2F0D9 85%) !important;
+	background: url(../assets/icons/run_query_small.png) 4px no-repeat, -o-linear-gradient(bottom, #B0D497 20%, #D7E9CA 50%, #E2F0D9 85%) !important;
+	background: url(../assets/icons/run_query_small.png) 4px no-repeat, -ms-linear-gradient(bottom, #B0D497 20%, #D7E9CA 50%, #E2F0D9 85%) !important;
+ 	background: url(../assets/icons/run_query_small.png) 4px no-repeat, linear-gradient(bottom, #B0D497 20%, #D7E9CA 50%, #E2F0D9 85%) !important;
+ 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#B0D497', endColorstr='#E2F0D9',GradientType=0 ) !important;
+}
+/*
+#runQryBtn:before {
+	display:inline-block;
+	float:left;
+	height:19px;
+	background-image:url(../assets/icons/run_query_small.png);
+	background-position: left center;
+	background-repeat:no-repeat;
+	border:1px solid;
+	border-color:#A9D18E;
+	background: -moz-linear-gradient(bottom, #B0D497 20%, #D7E9CA 50%, #E2F0D9 85%) !important; 
+	background: -webkit-gradient(linear, bottom, #B0D497 20%, #D7E9CA 50%, #E2F0D9 85%) !important; 
+	background: -webkit-linear-gradient(bottom, #B0D497 20%, #D7E9CA 50%, #E2F0D9 85%) !important;
+	background: -o-linear-gradient(bottom, #B0D497 20%, #D7E9CA 50%, #E2F0D9 85%) !important;
+	background: -ms-linear-gradient(bottom, #B0D497 20%, #D7E9CA 50%, #E2F0D9 85%) !important;
+	background: linear-gradient(bottom, #B0D497 20%, #D7E9CA 50%, #E2F0D9 85%) !important;
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#B0D497', endColorstr='#E2F0D9',GradientType=0 ) !important;
+}
+*/
+#runQryBtn:active {
+	color:#cbe5bb;
+	background-color: #406329;
+	border-color:#2a4518;
+	background-image: url(../assets/icons/run_query_small_inverse2.png) 6px no-repeat; 
+	background: url(../assets/icons/run_query_small_inverse.png) 6px no-repeat, -moz-linear-gradient(bottom, #3c5d26 10%, #548235 60%, #4b742f 90%) !important; 
+	background: url(../assets/icons/run_query_small_inverse.png) 6px no-repeat, -webkit-gradient(linear, bottom, #3c5d26 10%, #548235 60%, #4b742f 90%) !important; 
+	background: url(../assets/icons/run_query_small_inverse.png) 6px no-repeat, -webkit-linear-gradient(bottom, #3c5d26 10%, #548235 60%, #4b742f 90%) !important;
+	background: url(../assets/icons/run_query_small_inverse.png) 6px no-repeat, -o-linear-gradient(bottom, #3c5d26 10%, #548235 60%, #4b742f 90%) !important;
+	background: url(../assets/icons/run_query_small_inverse.png) 6px no-repeat, -ms-linear-gradient(bottom, #3c5d26 10%, #548235 60%, #4b742f 90%) !important;
+ 	background: url(../assets/icons/run_query_small_inverse.png) 6px no-repeat, linear-gradient(bottom, #3c5d26 10%, #548235 60%, #4b742f 90%) !important;
+ 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3c5d26', endColorstr='#4b742f',GradientType=0 ) !important;
+}
+
+.icon-run-disable {
+	width:21px;
+	height:22px;
+	border:none;
+	background-image:url(../assets/icons/run_query_off.png);
+	background-position: center center;
+}
+
+.add-to-results {
+	width:24px;
+	height:22px;
+	border:none;
+	background-image:url(../assets/icons/add_to_results.png);
+	background-position: center center;
+}
+
+.add-to-results-disable {
+	width:24px;
+	height:22px;
+	border:none;
+	background-image:url(../assets/icons/add_to_results_off.png);
+	background-position: center center;
+}
+
+.clear-query{
+	width:18px;
+	height:22px;
+	border:none;
+	background-image:url(../assets/icons/clear_query.png);
+	background-position: center center;
+}
+
+.clear-query-disable {
+	width:18px;
+	height:22px;
+	border:none;
+	background-image:url(../assets/icons/clear_query_off.png);
+	background-position: center center;
+}
+
+.sqw-clear-query{
+	width:14px;
+	height:17px;
+	border:none;
+	background-image:url(../assets/icons/garbage_hover.png);
+	background-position: center center;
+}
+
+.sqw-clear-query-disable {
+	width:14px;
+	height:17px;
+	border:none;
+	background-image:url(../assets/icons/garbage_inactive.png);
+	background-position: center center;
+}
+/* End of Header icons - Query Window */
+
+/* Grid Icons */
+
+.add-row {
+	width:12px;
+	height:12px;
+	border:none;
+	background-image:url(../assets/icons/add_row.png);
+	background-position: center center;
+}
+
+.delete-row {
+	width:12px;
+	height:12px;
+	border:none;
+	background-image:url(../assets/icons/delete_row.png);
+	background-position: center center;
+}
+
+.calendar-mini {
+	width:11px;
+	height:12px;
+	border:none;
+	background-image:url(../assets/icons/calendar_mini.png);
+	background-position: center center;
+}
+
+.k-i-expand {
+	width:11px;
+	height:11px;
+	border:none;
+	background-image:url(../assets/icons/collapsebtn.png);
+	background-position: center center;
+}
+
+.k-i-collapse {
+	width:11px;
+	height:11px;
+	border:none;
+	background-image:url(../assets/icons/expandbtn.png);
+	background-position: center center;
+}
+
+.k-i-arrow-s {
+	width:14px;
+	height:12px;
+	border:none;
+	background-image:url(../assets/icons/blue-arrow.png);
+	background-position: center center;
+}
+
+.k-select .k-i-arrow-s {
+	margin-top:2px;
+	width:10px;
+	height:8px;
+	border:none;
+	background-image:url(../assets/icons/arrow-small-down.png);
+	background-position: center center;
+}
+
+.k-numerictextbox .k-i-arrow-n {
+	width:10px;
+	height:8px;
+	border:none;
+	background-image:url(../assets/icons/arrow-small-up.png);
+	background-position: center center;
+}
+
+.k-numerictextbox .k-i-arrow-s {
+	width:10px;
+	height:8px;
+	border:none;
+	background-image:url(../assets/icons/arrow-small-down.png);
+	background-position: center center;
+}
+
+/* End of Grid Icons */
+
+/* Header icons - Schedule matrix Viewer */
+.open-allocations-matrix {
+	width:23px;
+	height:22px;
+	border:none;
+	background-image:url(../assets/icons/open_allocations_matrix.png);
+	background-position: center center;
+}
+
+.open-allocations-matrix-disable {
+	width:23px;
+	height:22px;
+	border:none;
+	background-image:url(../assets/icons/open_allocations_matrix_off.png);
+	background-position: center center;
+}
+
+.open-utilization-matrix {
+	width:23px;
+	height:22px;
+	border:none;
+	background-image:url(../assets/icons/open_utilization_matrix.png);
+	background-position: center center;
+}
+
+.open-utilization-matrix-disable {
+	width:23px;
+	height:22px;
+	border:none;
+	background-image:url(../assets/icons/open_utilization_matrix_off.png);
+	background-position: center center;
+}
+/* End of Schedule matrix Icons */
+
+/* Header icons - Map Viewer */
+.icon-lasso-select {
+	width:25px;
+	height:22px;
+	border:none;
+	background-image:url(../assets/icons/lasso.png);
+	background-position: center center;
+}
+
+.icon-lasso-select-disable {
+	width:25px;
+	height:22px;
+	border:none;
+	background-image:url(../assets/icons/lasso_off.png);
+	background-position: center center;
+}
+
+.icon-outbound-view{
+	width:24px;
+	height:22px;
+	border:none;
+	background-image:url(../assets/icons/outbound.png) ;
+	background-position: center center;
+}
+
+.icon-outbound-view-disable{
+	width:24px;
+	height:22px;
+	border:none;
+	background-image:url(../assets/icons/outbound_off.png) ;
+	background-position: center center;
+}
+
+.icon-inbound-view{
+	width:24px;
+	height:22px;
+	border:none;
+	background-image:url(../assets/icons/inbound.png) ;
+	background-position: center center;
+}
+
+.icon-inbound-view-disable{
+	width:24px;
+	height:22px;
+	border:none;
+	background-image:url(../assets/icons/inbound_off.png) ;
+	background-position: center center;
+}
+
+.icon-both-view{
+	width:24px;
+	height:22px;
+	border:none;
+	background-image:url(../assets/icons/both_directions.png) ;
+	background-position: center center;
+}
+
+.icon-both-view-disable{
+	width:24px;
+	height:22px;
+	border:none;
+	background-image:url(../assets/icons/both_directions_off.png) ;
+	background-position: center center;
+}
+
+.icon-market-view {
+	width:24px;
+	height:22px;
+	border:none;
+	background-image:url(../assets/icons/market_view.png);
+	background-position: center center;
+}
+
+.icon-market-view-disable {
+	width:24px;
+	height:22px;
+	border:none;
+	background-image:url(../assets/icons/market_view_off.png);
+	background-position: center center;
+}
+
+.lasso-lasso-on {
+	width:21px;
+	height:22px;
+	border:none;
+	background-image:url(../assets/icons/lasso_lasso_on.png);
+	background-position: center center;
+}
+
+.lasso-lasso-off {
+	width:21px;
+	height:22px;
+	border:none;
+	background-image:url(../assets/icons/lasso_lasso_off.png);
+	background-position: center center;
+}
+
+.lasso-freeform-on {
+	width:21px;
+	height:22px;
+	border:none;
+	background-image:url(../assets/icons/lasso_freeform_on.png);	
+	background-position: center center;
+}
+
+.lasso-freeform-off {
+	width:21px;
+	height:22px;
+	border:none;
+	background-image:url(../assets/icons/lasso_freeform_off.png);
+	background-position: center center;
+}
+
+.lasso-square-on {
+	width:21px;
+	height:22px;
+	border:none;
+	background-image:url(../assets/icons/lasso_square_on.png);
+	background-position: center center;
+}
+
+.lasso-square-off {
+	width:21px;
+	height:22px;
+	border:none;
+	background-image:url(../assets/icons/lasso_square_off.png);
+	background-position: center center;
+}
+
+.lasso-polygon-on {
+	width:21px;
+	height:22px;
+	border:none;
+	background-image:url(../assets/icons/lasso_polygon_on.png);
+	background-position: center center;
+}
+
+.lasso-polygon-off {
+	width:21px;
+	height:22px;
+	border:none;
+	background-image:url(../assets/icons/lasso_polygon_off.png);
+	background-position: center center;
+}
+
+.locations-gray {
+	width:21px;
+	height:22px;
+	border:none;
+	background-image:url(../assets/sqw/graydot.png);
+	background-position: center center;
+}
+
+.locations-red {
+	width:21px;
+	height:22px;
+	border:none;
+	background-image:url(../assets/sqw/red-circle.png);
+	background-position: center center;
+}
+/* End of Header icons - Map Viewer */
+
+
+/* Schematic header Icons */
+.optimize-schematic {
+	width:18px;
+	height:22px;
+	border:none;
+	background:url(../assets/icons/optimize_schematic.png);
+	background-position: center center;
+}
+
+.optimize-schematic-disable {
+	width:18px;
+	height:22px;
+	border:none;
+	background:url(../assets/icons/optimize_schematic_off.png);
+	background-position: center center;
+}
+/* End of schematic header icons */
+
+/* Window header title icons */
+.icon-window-map {
+	width:26px;
+	height:22px;
+	border:none;
+	background-image:url(../assets/icons/window_header_map.png);
+	background-position: center center;
+}
+
+.icon-window-filter {
+	width:26px;
+	height:22px;
+	border:none;
+	background-image:url(../assets/icons/filter.png);
+	background-position: center center;
+	-webkit-transform: scale(0.8);
+}
+
+.icon-window-map-tearoff {
+	width:26px;
+	height:22px;
+	border:none;
+	background-image:url(../assets/icons/window_header_map_tearoff.png);
+	background-position: center center;
+}
+
+.icon-window-map-small {
+	width:17px;
+	height:14px;
+	border:none;
+	background-image:url(../assets/icons/window_header_map_sml.png);
+	background-position: center center;
+}
+
+.icon-window-map-small-tearoff {
+	width:17px;
+	height:14px;
+	border:none;
+	background-image:url(../assets/icons/window_header_map_tearoff_sml.png);
+	background-position: center center;
+}
+
+.window-header-query {
+	width:25px;
+	height:22px;
+	border:none;
+	background-image:url(../assets/icons/window_header_query.png);
+	background-position: center center;
+}
+
+.window-header-query-tearoff {
+	width:25px;
+	height:22px;
+	border:none;
+	background-image:url(../assets/icons/window_header_query_tearoff.png);
+	background-position: center center;
+}
+
+.window-header-query-sml {
+	width:15px;
+	height:14px;
+	border:none;
+	background-image:url(../assets/icons/window_header_query_sml.png);
+	background-position: center center;
+}
+
+.window-header-query-tearoff-sml {
+	width:15px;
+	height:14px;
+	border:none;
+	background-image:url(../assets/icons/window_header_query_tearoff_sml.png);
+	background-position: center center;
+}
+
+.window-header-table {
+	width:22px;
+	height:22px;
+	border:none;
+	background-image:url(../assets/icons/window_header_table.png);
+	background-position: center center;
+	-webkit-transform: scale(0.9);
+}
+
+.matrix-popup {
+	width:22px;
+	height:22px;
+	border:none;
+	background-image:url(../assets/icons/window_header_table_disable.png);
+	background-position: center center;
+}
+
+.matrix-on {
+	width:22px;
+	height:22px;
+	border:none;
+	background-image:url(../assets/icons/matrix-on.png);
+	background-position: center center;
+}
+
+.matrix-off {
+	width:22px;
+	height:22px;
+	border:none;
+	background-image:url(../assets/icons/matrix-off.png);
+	background-position: center center;
+}
+
+.window-header-table-tearoff {
+	width:22px;
+	height:22px;
+	border:none;
+	background-image:url(../assets/icons/window_header_table_tearoff.png);
+	background-position: center center;
+}
+
+.window-header-table-sml {
+	width:13px;
+	height:14px;
+	border:none;
+	background-image:url(../assets/icons/window_header_table_sml.png);
+	background-position: center center;
+}
+
+.window_header_table_tearoff_sml {
+	width:13px;
+	height:14px;
+	border:none;
+	background-image:url(../assets/icons/window_header_table_tearoff_sml.png);
+	background-position: center center;
+}
+
+.window-header-mode-analysis {
+	width:26px;
+	height:22px;
+	border:none;
+	background-image:url(../assets/icons/window_header_mode_analysis.png);
+	background-position: center center;
+}
+
+.window-header-mode-analysis-tearoff {
+	width:26px;
+	height:22px;
+	border:none;
+	background-image:url(../assets/icons/window_header_mode_analysis_tearoff.png);
+	background-position: center center;
+}
+
+.window-header-mode-analysis-sml {
+	width:16px;
+	height:14px;
+	border:none;
+	background-image:url(../assets/icons/window_header_mode_analysis_sml.png);
+	background-position: center center;
+}
+
+.window-header-mode-analysis-tearoff-sml {
+	width:16px;
+	height:14px;
+	border:none;
+	background-image:url(../assets/icons/window_header_mode_analysis_tearoff_sml.png);
+	background-position: center center;
+}
+
+.window-header-schematic {
+	width:22px;
+	height:22px;
+	border:none;
+	background-image:url(../assets/icons/window_header_schematic.png);
+	background-position: center center;
+}
+
+.window-header-schematic-tearoff {
+	width:22px;
+	height:22px;
+	border:none;
+	background-image:url(../assets/icons/window_header_schematic_tearoff.png);
+	background-position: center center;
+}
+
+.window-header-schematic-sml {
+	width:14px;
+	height:14px;
+	border:none;
+	background-image:url(../assets/icons/window_header_schematic_sml.png);
+	background-position: center center;
+}
+
+.window-header-schematic-tearoff-sml {
+	width:14px;
+	height:14px;
+	border:none;
+	background-image:url(../assets/icons/window_header_schematic_tearoff_sml.png);
+	background-position: center center;
+}
+/* End of window header title icons */
+
+/* Task bar icons */
+.icon-sti-logo {
+	width: 245px;
+	background-image:url(../assets/icons/logo.png);
+}
+
+.logotray {
+	margin-top:3px;
+	width:100px;
+	height:19px;
+	background:url(../assets/icons/sti-logo.png);
+	background-position: center center;
+}
+
+.taskbar-icon {
+	margin-top:2px;
+	width:12px;
+	height:12px;
+	background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* End of taskbar icons */
+
+.icon-dummy {
+	background-image:url(../assets/icons/icon-dummy.png);
+	border:none;
+	width:22px;
+	height:22px;
+}
+
+/* Legend options images */
+.arrow-green-solid {
+	background-image:url(../assets/icons/legend/arrow-green.png);
+	width:100%;
+	min-width:60px;
+	height:10px;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+.arrow-green-dot {
+	background-image:url(../assets/icons/legend/arrow-green-dot.png);
+	width:100%;
+	min-width:60px;
+	height:10px;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+.arrow-green-dash {
+	background-image:url(../assets/icons/legend/arrow-green-dash.png);
+	width:100%;
+	min-width:60px;
+	height:10px;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+.arrow-green-dash-dot {
+	background-image:url(../assets/icons/legend/arrow-green-dash-dot.png);
+	width:100%;
+	min-width:60px;
+	height:10px;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+.arrow-orange-solid {
+	background-image:url(../assets/icons/legend/arrow-orange.png);
+	width:100%;
+	min-width:60px;
+	height:10px;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+.arrow-orange-dot {
+	background-image:url(../assets/icons/legend/arrow-orange-dot.png);
+	width:100%;
+	min-width:60px;
+	height:10px;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+.arrow-orange-dash {
+	background-image:url(../assets/icons/legend/arrow-orange-dash.png);
+	width:100%;
+	min-width:60px;
+	height:10px;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+.arrow-orange-dash-dot {
+	background-image:url(../assets/icons/legend/arrow-orange-dash-dot.png);
+	width:100%;
+	min-width:60px;
+	height:10px;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+.arrow-red-solid {
+	background-image:url(../assets/icons/legend/arrow-red.png);
+	width:100%;
+	min-width:60px;
+	height:10px;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+.arrow-red-dot {
+	background-image:url(../assets/icons/legend/arrow-red-dot.png);
+	width:100%;
+	min-width:60px;
+	height:10px;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+.arrow-red-dash {
+	background-image:url(../assets/icons/legend/arrow-red-dash.png);
+	width:100%;
+	min-width:60px;
+	height:10px;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+.arrow-red-dash-dot {
+	background-image:url(../assets/icons/legend/arrow-red-dash-dot.png);
+	width:100%;
+	min-width:60px;
+	height:10px;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+.circle-lightblue {
+	background-image:url(../assets/icons/legend/circle-lightblue.png);
+	width:16px;
+	height:16px;
+}
+
+.circle-blue {
+	background-image:url(../assets/icons/legend/circle-blue.png);
+	width:16px;
+	height:16px;
+}
+
+.circle-red {
+	background-image:url(../assets/icons/legend/circle-red.png);
+	width:16px;
+	height:16px;
+}
+
+.circle-green {
+	background-image:url(../assets/icons/legend/circle-green.png);
+	width:16px;
+	height:16px;
+}
+
+.circle-orange {
+	background-image:url(../assets/icons/legend/circle-orange.png);
+	width:16px;
+	height:16px;
+}
+
+.circle-violet {
+	background-image:url(../assets/icons/legend/circle-violet.png);
+	width:16px;
+	height:16px;
+}
+
+.diamond-red {
+	background-image:url(../assets/icons/legend/diamond-red.png);
+	width:16px;
+	height:16px;
+}
+
+.diamond-green {
+	background-image:url(../assets/icons/legend/diamond-green.png);
+	width:16px;
+	height:16px;
+}
+
+.diamond-blue {
+	background-image:url(../assets/icons/legend/diamond-blue.png);
+	width:16px;
+	height:16px;
+}
+
+.diamond-orange {
+	background-image:url(../assets/icons/legend/diamond-orange.png);
+	width:16px;
+	height:16px;
+}
+
+.diamond-violet {
+	background-image:url(../assets/icons/legend/diamond-violet.png);
+	width:16px;
+	height:16px;
+}
+
+.diamond-red-exclamation {
+	background-image:url(../assets/icons/legend/diamond-red-exclamation.png);
+	width:16px;
+	height:16px;
+}
+
+.diamond-green-exclamation {
+	background-image:url(../assets/icons/legend/diamond-green-exclamation.png);
+	width:16px;
+	height:16px;
+}
+
+.diamond-blue-exclamation {
+	background-image:url(../assets/icons/legend/diamond-blue-exclamation.png);
+	width:16px;
+	height:16px;
+}
+
+.diamond-orange-exclamation {
+	background-image:url(../assets/icons/legend/diamond-orange-exclamation.png);
+	width:16px;
+	height:16px;
+}
+
+.diamond-violet-exclamation {
+	background-image:url(../assets/icons/legend/diamond-violet-exclamation.png);
+	width:16px;
+	height:16px;
+}
+
+.solid-line-red {
+	background-image:url(../assets/icons/legend/solid-line-red.png);
+	width:100%;
+	min-width:60px;
+	height:10px;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+.solid-line-green {
+	background-image:url(../assets/icons/legend/solid-line-green.png);
+	width:100%;
+	min-width:60px;
+	height:10px;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+.solid-line-blue {
+	background-image:url(../assets/icons/legend/solid-line-blue.png);
+	width:100%;
+	min-width:60px;
+	height:10px;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+.solid-line-orange {
+	background-image:url(../assets/icons/legend/solid-line-orange.png);
+	width:100%;
+	min-width:60px;
+	height:10px;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+.solid-line-violet {
+	background-image:url(../assets/icons/legend/solid-line-violet.png);
+	width:100%;
+	min-width:60px;
+	height:10px;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+.dot-line-red {
+	background-image:url(../assets/icons/legend/dot-line-red.png);
+	width:100%;
+	min-width:60px;
+	height:10px;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+.dot-line-green {
+	background-image:url(../assets/icons/legend/dot-line-green.png);
+	width:100%;
+	min-width:60px;
+	height:10px;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+.dot-line-blue {
+	background-image:url(../assets/icons/legend/dot-line-blue.png);
+	width:100%;
+	min-width:60px;
+	height:10px;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+.dot-line-orange {
+	background-image:url(../assets/icons/legend/dot-line-orange.png);
+	width:100%;
+	min-width:60px;
+	height:10px;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+.dot-line-violet {
+	background-image:url(../assets/icons/legend/dot-line-violet.png);
+	width:100%;
+	min-width:60px;
+	height:10px;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+.rectangle-red {
+	background-image:url(../assets/icons/legend/rectangle-red.png);
+	width:20px;
+	height:14px;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+.rectangle-green {
+	background-image:url(../assets/icons/legend/rectangle-green.png);
+	width:20px;
+	height:14px;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+.rectangle-blue {
+	background-image:url(../assets/icons/legend/rectangle-blue.png);
+	width:20px;
+	height:14px;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+.rectangle-light-blue {
+	background-image:url(../assets/icons/legend/rectangle-light-blue.png);
+	width:20px;
+	height:14px;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+.rectangle-orange {
+	background-image:url(../assets/icons/legend/rectangle-orange.png);
+	width:20px;
+	height:14px;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+.rectangle-violet {
+	background-image:url(../assets/icons/legend/rectangle-violet.png);
+	width:20px;
+	height:14px;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+.dash-line-red {
+	background-image:url(../assets/icons/legend/dash-line-red.png);
+	width:100%;
+	min-width:60px;
+	height:10px;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+.dash-line-green {
+	background-image:url(../assets/icons/legend/dash-line-green.png);
+	width:100%;
+	min-width:60px;
+	height:10px;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+.dash-line-blue {
+	background-image:url(../assets/icons/legend/dash-line-blue.png);
+	width:100%;
+	min-width:60px;
+	height:10px;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+.dash-line-orange {
+	background-image:url(../assets/icons/legend/dash-line-orange.png);
+	width:100%;
+	min-width:60px;
+	height:10px;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+.dash-line-violet {
+	background-image:url(../assets/icons/legend/dash-line-violet.png);
+	width:100%;
+	min-width:60px;
+	height:10px;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+.arrow-no-connectivity {
+	background-image:url(../assets/icons/legend/no-connectivity.png);
+	/* width:206px; */
+	height:10px;
+}
+
+.schematic-arrow-no-connectivity {
+	background-image:url(../assets/icons/legend/schematic-no-connectivity.png);
+	width:100%;
+	min-width:226px; 
+	height:10px;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+.map-arrow-no-connectivity {
+	background-image:url(../assets/icons/legend/map-no-connectivity.png);
+	width:100%;
+	min-width:206px; 
+	height:10px;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+.bar-dark-red {
+	background-color: #833B0B;
+    height: 15px;
+    width: 50px;
+    color: #ffffff;
+    text-align: center;
+    line-height: 1.4;
+    border-radius: 5px;
+    font-size: 8pt;
+}
+
+.bar-orange {
+	background-image:url(../assets/icons/legend/bar-orange.png);
+	width:50px;
+	height:15px;
+}
+
+.bar-green {
+	background-image:url(../assets/icons/legend/bar-green.png);
+	width:50px;
+	height:15px;
+}
+
+.bar-red {
+	background-image:url(../assets/icons/legend/bar-red.png);
+	width:50px;
+	height:15px;
+}
+
+.arrow-under {
+	background-image:url(../assets/icons/under_arrow.png);
+	height:10px;
+}
+.arrow-normal {
+	background-image:url(../assets/icons/normal_arrow.png);
+	height:10px;
+}
+.arrow-caution {
+	background-image:url(../assets/icons/caution_arrow.png);
+	height:10px;
+}
+.arrow-excess {
+	background-image:url(../assets/icons/excess_arrow.png);
+	height:10px;
+}
+
+.multiple-lanes-three {
+	background-image:url(../assets/icons/legend/multiple-lanes-three.png);
+	width:13px;
+	height:13px;
+}
+
+.xs-small {
+	background-image:url(../assets/icons/legend/xs-small.png);
+	width:13px;
+	height:13px;
+}
+
+.multiple-modes-three {
+	background-image:url(../assets/icons/legend/multiple-modes-three.png);
+	width:13px;
+	height:13px;
+}
+
+.routes-line {
+	background-image:url(../assets/icons/legend/routes.png);
+	width:335px;
+	height:16px;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+.network-routes-line {
+	background-image:url(../assets/icons/legend/network-routes.png);
+	width:335px;
+	height:16px;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+/* End of Legend options images */
+
+.calendar-icon {
+	background-image:url(../assets/icons/calendar-16px.png);
+	width:16px;
+	height:16px;
+	border:none;
+	background-position: center center;
+}
+
+/* Window actions icons */
+
+.k-i-windowtearoff {
+	width:17px;
+	height:22px;
+	border:none ! important;
+    background:url(../assets/icons/tear_off.png) ! important;
+   	background-position: center center ! important;
+   	background-repeat: no-repeat ! important;
+}
+
+.k-i-minimizetotaskbar {
+	width:16px;
+	height:22px;
+	border:none ! important;
+	background:url(../assets/icons/minimize_window.png) ! important;
+	background-position: center center ! important;
+	background-repeat: no-repeat ! important;
+}
+
+.k-i-maximize {
+	width:18px;
+	height:22px;
+	border:none ! important;
+	background:url(../assets/icons/maximize_window.png) ! important;
+	background-position: center center ! important;
+	background-repeat: no-repeat ! important;
+}
+
+.k-i-restore {
+	width:18px;
+	height:22px ;
+	border:none ! important;
+	background:url(../assets/icons/maximize_window_restore.png) ! important;
+	background-position: center center ! important;
+	background-repeat: no-repeat ! important;
+}
+
+.k-i-close {
+	width:17px;
+	height:22px;
+	border:none ! important;
+	background:url(../assets/icons/close_window.png) ! important;
+	background-position: center center ! important;
+	background-repeat: no-repeat ! important;
+}
+
+/* End of window actions icons */
+
+/* Mode Icons */
+.truck {
+	width:25px;
+	height:12px;
+	border:none;
+	background:url(../assets/icons/truck.png);
+	background-position: center center;
+}
+	
+.plane {
+	width:32px;
+	height:12px;
+	border:none;
+	background:url(../assets/icons/plane.png);
+	background-position: center center;
+}
+
+.plane-feeder {
+	width:41px;
+	height:12px;
+	border:none;
+	background:url(../assets/icons/plane_feeder.png);
+	background-position: center center;
+}
+
+.ship {
+	width:22px;
+	height:12px;
+	border:none;
+	background:url(../assets/icons/ship.png);
+	background-position: center center;
+}
+
+.train {
+	width:17px;
+	height:12px;
+	border:none;
+	background:url(../assets/icons/train.png);
+	background-position: center center;
+}
+
+.train-and-ship {
+	width:38px;
+	height:12px;
+	border:none;
+	background:url(../assets/icons/train_and_ship.png);
+	background-position: center center;
+}
+/* End of mode icons */
+
+
+/* others */
+.schematic-diagram {
+	width:22px;
+	height:22px;
+	border:none;
+	background:url(../assets/icons/schematic_diagram.png);
+	background-position: center center;
+}
+
+.schematic-diagram-disable {
+	width:22px;
+	height:22px;
+	border:none;
+	background:url(../assets/icons/schematic_diagram_off.png);
+	background-position: center center;
+}
+
+/* Header icons - Schedule matrix Viewer */
+.open-network-matrix {
+	width:23px;
+	height:22px;
+	border:none;
+	background-image:url(../assets/icons/open_network_matrix.png);
+	background-position: center center;
+}
+
+.open-odpd-matrix {
+	width:21px;
+	height:22px;
+	border:none;
+	background:url(../assets/icons/open_odpd_matrix.png);
+	background-position: center center;
+}
+
+.open-odpd-matrix-disable {
+	width:21px;
+	height:22px;
+	border:none;
+	background:url(../assets/icons/open_odpd_matrix_off.png);
+	background-position: center center;
+}
+
+.replace-results {
+	width:24px;
+	height:22px;
+	border:none;
+	background:url(../assets/icons/replace_results.png);
+	background-position: center center;
+}
+
+.replace-results-disable {
+	width:24px;
+	height:22px;
+	border:none;
+	background:url(../assets/icons/replace_results_off.png);
+	background-position: center center;
+}
+
+.save-settings {
+	width:24px;
+	height:22px;
+	border:none;
+	background:url(../assets/icons/save_settings.png);
+	background-position: center center;
+}
+.save-settings-wip {
+	width:24px;
+	height:22px;
+	border:none;
+	background:url(../assets/icons/save_settings_wip.png);
+	background-position: center center;
+}
+.dupicate-route{
+	width:24px;
+	height:22px;
+	border:none;
+	background-image:url(../assets/edit/Duplicate.png) ;
+	background-position: center center;
+}
+.edit-route{
+	width:24px;
+	height:22px;
+	border:none;
+	background-image:url(../assets/edit/Edit.png) ;
+	background-position: center center;
+}
+
+.edit-route-disable{
+	width:24px;
+	height:22px;
+	border:none;
+	background-image:url(../assets/edit/Edit_off.png) ;
+	background-position: center center;
+}
+
+.save-settings-disable {
+	width:24px;
+	height:22px;
+	border:none;
+	background:url(../assets/icons/save_settings_off.png);
+	background-position: center center;
+}
+
+.icon-button {
+	
+	width:22px;
+	height:22px;
+	border:none; 
+	background-image:url(../assets/icons/arrow-up.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+
+/* End of other icons */
+
+button .arrow-up {
+	width:12px;
+	height:12px;
+	border:none; 
+	background-image:url(../assets/icons/arrow-up.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+button[disabled] .arrow-up {
+	width:12px;
+	height:12px;
+	border:none; 
+	background-image:url(../assets/icons/arrow-up-disable.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+button .arrow-down {
+	width:12px;
+	height:12px;
+	border:none; 
+	background-image:url(../assets/icons/arrow-down.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+button[disabled] .arrow-down {
+	width:12px;
+	height:12px;
+	border:none; 
+	background-image:url(../assets/icons/arrow-down-disable.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+button .arrow-left {
+	width:12px;
+	height:12px;
+	border:none; 
+	background-image:url(../assets/icons/arrow-left.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+button[disabled] .arrow-left {
+	width:12px;
+	height:12px;
+	border:none; 
+	background-image:url(../assets/icons/arrow-left-disable.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+button .arrow-right {
+	width:12px;
+	height:12px;
+	border:none; 
+	background-image:url(../assets/icons/arrow-right.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+button[disabled] .arrow-right {
+	width:12px;
+	height:12px;
+	border:none; 
+	background-image:url(../assets/icons/arrow-right-disable.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+.k-filterable .k-grid-filter .k-filter {
+	/* margin:0px; */
+	width:9px;
+	height:13px;
+	background:url(../assets/icons/matrix_filter_off.png);
+	background-position: center center;
+	border:none;
+}
+
+.k-filterable .k-state-border-down .k-filter,  .k-filterable .k-state-active .k-filter{
+	/* margin:0px; */
+	width:9px;
+	height:13px;
+	background:url(../assets/icons/matrix_filter_on.png);
+	background-position: center center;
+	border:none;
+}
+
+.k-filterable .k-grid-filter .k-filter-disable {
+	/* margin:0px; */
+	width:9px;
+	height:13px;
+	background:url(../assets/icons/matrix_filter_off.png);
+	background-position: center center;
+	border:none;
+}
+
+.k-filterable .k-link .k-i-arrow-n {
+	width:9px;
+	height:13px;
+	background:url(../assets/icons/matrix_sort_ascending.png);
+	background-position: center center;
+	background-repeat:no-repeat;
+	border:none;
+}
+
+.k-filterable .k-link .k-i-arrow-s {
+	width:9px;
+	height:13px;
+	background:url(../assets/icons/matrix_sort_descending.png);
+	background-position: center center;
+	background-repeat:no-repeat;
+	border:none;
+}
+
+.k-filterable .k-link .k-i-arrow-default {
+	width:9px;
+	height:13px;
+	background:url(../assets/icons/matrix_sort_off.png);
+	background-position: center center;
+	background-repeat:no-repeat;
+	border:none;
+}
+
+.clock-green {
+	width:16px;
+	height:16px;
+	background:url(../assets/icons/time_entry_modified.png);
+	background-position: center center;
+	background-repeat:no-repeat;
+	border:none;
+}
+
+.clock-blue {
+	width:16px;
+	height:16px;
+	background:url(../assets/icons/time_entry_default.png);
+	background-position: center center;
+	background-repeat:no-repeat;
+	border:none;
+}
+
+.mktpopup-window-actions .k-i-close {
+	width:12px !important;
+	height:12px !important;
+	background:url(../assets/icons/blue_close.png) !important;
+	background-position: center center !important;
+	background-repeat:no-repeat;
+	border:none;
+}
+
+.box-count {
+	width:43px;
+	height:19px;
+	background:url(../assets/icons/box_count.png);
+	background-position: center center;
+	background-repeat:no-repeat;
+	border:none;
+	display: inline-block;
+	vertical-align: sub;
+	padding-left: 10px;
+}
+
+.box-count {
+	width:43px;
+	height:19px;
+	background:url(../assets/icons/box_count.png);
+	background-position: center center;
+	background-repeat:no-repeat;
+	border:none;
+	display: inline-block;
+	vertical-align: sub;
+	padding-left: 10px;
+}
+
+.gray-circle {
+	width:16px;
+	height:16px;
+	background:url(../assets/icons/gray_circle.png);
+	background-position: center center;
+	background-repeat:no-repeat;
+	border:none;
+}
+
+.sqw-icon-pointer {
+	width:17px;
+	height:15px;
+	background:url(../assets/icons/pointer.png);
+	background-position: center center;
+	background-repeat:no-repeat;
+	border:none;
+}
+
+.icon-locations-select {
+	width:25px;
+	height:22px;
+	border:none;
+	background-image:url(../assets/sqw/red-dot.png);
+	background-position: center center;
+}
+
+.icon-locations-select-disable {
+	width:25px;
+	height:22px;
+	border:none;
+	background-image:url(../assets/icons/lasso_off.png);
+	background-position: center center;
+}
+
+.icon-locations-view{
+	width:24px;
+	height:22px;
+	border:none;
+	background-image:url(../assets/icons/rel4/map-pin-3D.png) ;
+	background-position: center center;
+}
+
+.icon-add-leg{
+	width:24px;
+	height:22px;
+	border:none;
+	background-image:url(../assets/icons/window-tear-off.png) ;
+	background-position: center center;
+}
+.icon-add-route{
+	width:24px;
+	height:22px;
+	border:none;
+	background-image:url(../assets/edit/Add_Route.png) ;
+	background-position: center center;
+}
+.icon-delete-route{
+	width:35px;
+	height:35px;
+	border:none;
+	background-image:url(../assets/edit/Delete.png) ;
+	background-position: center center;
+}
+
+.icon-delete-route-disable{
+	width:35px;
+	height:35px;
+	border:none;
+	background-image:url(../assets/edit/Delete_Gray.png) ;
+	background-position: center center;
+}
+
+.icon-cancel-route{
+	width:35px;
+	height:35px;
+	border:none;
+	background-image:url(../assets/edit/Cancel_Route.png) ;
+	background-position: center center;
+}
+
+.icon-dupicate-route{
+	width:35px;
+	height:35px;
+	border:none;
+	background-image:url(../assets/edit/Duplicate.png) ;
+	background-position: center center;
+}
+.icon-edit-route{
+	width:35px;
+	height:35px;
+	border:none;
+	background-image:url(../assets/edit/RE_Icon.png) ;
+	background-position: center center;
+}
+
+.icon-cursor-add{
+	width:35px;
+	height:35px;
+	border:none;
+	background-image:url(../assets/edit/Cursor_Add.png) ;
+	background-position: center center;
+}
+
+.icon-cursor-delete{
+	width:35px;
+	height:35px;
+	border:none;
+	background-image:url(../assets/edit/Cursor_Delete.png) ;
+	background-position: center center;
+}
+.icon-cursor-calcel{
+	width:35px;
+	height:35px;
+	border:none;
+	background-image:url(../assets/edit/Cursor_Delete.png) ;
+	background-position: center center;
+}
+.icon-cursor-select{
+	width:35px;
+	height:35px;
+	border:none;
+	background-image:url(../assets/edit/Cursor.png) ;
+	background-position: center center;
+}
+
+.icon-save-settings {
+	width:35px;
+	height:35px;
+	border:none;
+	background-image:url(../assets/icons/save_settings.png);
+	background-position: center center;
+}
+.icon-save-settings-wip {
+	width:35px;
+	height:35px;
+	border:none;
+	background-image:url(../assets/icons/save_settings_wip.png);
+	background-position: center center;
+}
+
+.icon-save-settings-wip {
+	width:35px;
+	height:35px;
+	border:none;
+	background-image:url(../assets/icons/save_settings_wip.png);
+	background-position: center center;
+}
+
+.icon-save-settings-disabled{
+	width:35px;
+	height:35px;
+	border:none;
+	background-image:url(../assets/icons/save_settings_off.png);
+	background-position: center center;
+}
+
+.cursor-selection {
+	cursor: url("../assets/edit/Cursor.png"), auto;
+}
+
+.cursor-add {
+	cursor: url("../assets/edit/Cursor_Add.png"), auto;
+}
+
+.cursor-delete {
+	cursor: url("../assets/edit/Cursor_Delete.png"), auto;
+}
+
+.cursor-default {
+	cursor: default;
+}
+
+#SkdMxMapDrawerContainer .iconbtn {
+	width: 37px !important;
+	height: 37px !important;
+}
+
+.icon-save-settings-wip-smd {
+	width:35px;
+	height:35px;
+	border:none;
+	background:url(../assets/edit/Edit.png);
+	background-position: center center;
+	background-repeat: no-repeat;
+}
+
+.icon-save-wip-settings-disabled{
+    width:35px;
+    height:35px;
+    border:none;
+    background-image:url(../assets/edit/Edit_off.png);
+    background-position: center center;
+}
+
+.k-i-list-popup {
+	background:url(../assets/icons/pop-up-list.png) no-repeat ! important;
+	width:11px;
+	height:11px;
+	background-position: center center ! important;
+	border:none ! important;
+	opacity:1;
+}
+
+/* Icons for ITRS */
+
+.icon-itrs-enabled{
+	width:24px;
+	height:22px;
+	border:none;
+	background-image:url(../assets/icons/launch_itrs.png) ;
+	background-position: center center;
+}
+
+.icon-itrs-disabled{
+	width:24px;
+	height:22px;
+	border:none;
+	background-image:url(../assets/icons/launch_itrs_disable.png) ;
+	background-position: center center;
+}
+
+.icon-window-itrs {
+	width:26px;
+	height:22px;
+	border:none;
+	background-image:url(../assets/icons/itrs.png);
+	background-position: center center;
+}

@@ -1,0 +1,879 @@
+
+.flexiciousGrid{
+font-family:Tahoma, Helvetica, Sans-Serif;
+font-size: 11px;
+
+}
+.flexiciousGrid .flexDataGrid{
+position: relative;
+}
+/*.flexiciousGridPager .pagerDiv  {
+vertical-align: top;
+}*/
+.flexiciousGridPager .toolbarButtonIconCell {
+cursor: pointer;
+}
+.flexiciousGridPager .iconCell{
+margin: 0px 2px 3px 3px;
+padding: 0px;
+border-radius: 2px;
+border: solid 1px #94b2d9;
+/*
+margin: 2px;
+border-radius: 4px;
+padding: 2px;
+border: solid 1px #afafaf;
+background: #efefef; 
+height:17px;
+*/
+background: #ffffff;
+height:13px;
+text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.4);
+box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.4), 0 1px 1px rgba(0, 0, 0, 0.2);
+-webkit-border-radius: 4px;
+-moz-border-radius: 4px;
+-webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.4), 0 1px 1px rgba(0, 0, 0, 0.2);
+-moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.4), 0 1px 1px rgba(0, 0, 0, 0.2);
+
+-webkit-transition-duration: 0.2s;
+-moz-transition-duration: 0.2s;
+transition-duration: 0.2s;
+
+-webkit-user-select:none;
+-moz-user-select:none;
+-ms-user-select:none;
+user-select:none;
+
+cursor: default;
+box-sizing : content-box;
+-moz-box-sizing : content-box;
+-webkit-box-sizing : content-box;
+-ms-box-sizing : content-box;
+}
+.flexiciousGridPager .iconCell:hover {
+background: #afafaf;
+border: solid 1px #2A4D77;
+text-decoration: none;
+cursor: default;
+}
+.flexiciousGridPager .iconCell:active {
+-webkit-box-shadow: inset 0 1px 4px rgba(0, 0, 0, 0.6);
+-moz-box-shadow: inset 0 1px 4px rgba(0, 0, 0, 0.6);
+box-shadow: inset 0 1px 4px rgba(0, 0, 0, 0.6);
+background: #afafaf;
+border: solid 1px #213E5F;
+cursor: default;
+}
+.flexiciousGridPager .disabled{
+cursor: not-allowed; 
+opacity : 0.4;
+filter: alpha(opacity=40);
+}
+/*.flexiciousGridPager .iconCell img{
+border: solid 1px transparent; 
+}*/
+.flexiciousGridPager .iconCell {
+display: inline-block;
+vertical-align: middle;
+}
+
+.flexiciousGridPager .iconCell .over{
+}
+
+.flexiciousGridPager .pageInfo {
+width: 220px;
+display:inline-block;
+/* padding-top:0.5%;*/
+/* vertical-align: middle;*/
+height:100%;
+}
+.flexiciousGridPager .lineSep {
+border-left: 1px solid #dfebfe;
+width:1px;
+display:inline-block;
+/* margin-top:4px;*/
+height:70%;
+margin-left:5px;
+margin-right:5px;
+vertical-align: middle;
+}
+.flexiciousGridPager .lineSep:last-child{
+display: none;
+}
+
+.flexiciousGridPager .gotoPage {
+display:inline-block;
+/*padding-top:0.5%;*/
+}
+.flexiciousGrid .normalWhiteSpace{
+white-space: normal;
+}
+
+.flexiciousGrid .pagerTable{
+padding-left: 2px;
+
+-webkit-user-select:none;
+-moz-user-select:none;
+-ms-user-select:none;
+user-select:none;
+}
+
+.flexiciousGrid .pagerControl .pagerTable:nth-child(2){
+padding-right: 25px;
+}
+
+.flexiciousGrid .pagerControl .pagerTable:nth-child(2) .iconCell{
+background: none;
+border: 0px solid transparent;
+margin-top: 5px;
+
+box-shadow: none;
+cursor: pointer;
+}
+.flexiciousGrid .pagerControl .pagerTable:nth-child(2) .lineSep{
+display: none;
+}
+
+
+.flexiciousGrid td{
+padding:0px;
+margin:0px;
+cursor:default;
+}
+.flexiciousGrid input{
+overflow: hidden;
+white-space: nowrap;
+padding:0px;
+margin:0px;
+
+cursor:default;
+}
+.flexiciousGrid .TextInput{
+
+position:relative;
+}
+
+.flexiciousGrid .disclosureIcon{
+position: absolute;
+cursor: pointer;
+}
+.flexiciousGrid .columnIcon{
+position: absolute;
+cursor: pointer;
+}
+
+
+.flexiciousGrid .matchStick{
+position:absolute;top:0px;left:0px;width:1px;height:1px;
+}
+.flexiciousGrid .editor{
+position:absolute;
+}
+.flexiciousGrid .multiColumnSortNumberStyle{
+font-size: 10pt;
+}
+
+
+
+/*=============controls===================*/
+.flexiciousGrid .iconTextInput span {
+position: relative;
+}
+.flexiciousGrid .watermarkStyle{
+color:#bbbbbb;
+font-style:italic;
+}
+
+.flexiciousGrid .inputIcon{
+position: absolute;
+display: block;
+cursor: pointer;
+}
+.flexiciousGrid .unSelectableText {
+
+-webkit-user-select: none;
+-khtml-user-select: none;
+-moz-user-select: none;
+-o-user-select: none;
+user-select: none;
+cursor: default;
+}
+
+.flexiciousUnSelectableText {
+
+-webkit-user-select: none;
+-khtml-user-select: none;
+-moz-user-select: none;
+-o-user-select: none;
+user-select: none;
+cursor:default;
+}
+
+/*=============checkbox icons===================*/
+.flexiciousGrid .checkBox{
+background: url('images/checkboxicons/unchecked_checkbox.png')  no-repeat ;
+padding-left: 20px;
+}
+.flexiciousGrid .checkBoxDisabled{
+background: url('images/checkboxicons/unchecked_checkbox.png')  no-repeat ;
+opacity : 0.4;
+filter: alpha(opacity=40);
+padding-left: 20px;
+}
+.flexiciousGrid .checkBoxSelected{
+background: url('images/checkboxicons/checked_checkbox.png')  no-repeat ;
+padding-left: 20px;
+}
+.flexiciousGrid .checkBoxSelectedDisabled{
+background: url('images/checkboxicons/checked_checkbox.png')  no-repeat ;
+opacity : 0.4;
+filter: alpha(opacity=40);
+padding-left: 20px;
+}
+
+.flexiciousGrid .checkBoxMiddle{
+background: url('images/checkboxicons/partially_selected_checkbox.png')  no-repeat ;
+padding-left: 20px;
+}
+
+.flexiciousGrid .checkBoxMiddleDisabled{
+background: url('images/checkboxicons/partially_selected_checkbox.png')  no-repeat ;
+padding-left: 20px;
+opacity : 0.4;
+filter: alpha(opacity=40);
+}
+.flexiciousGrid .radio{
+background: url('images/checkboxicons/radio_button_unselected.png')  no-repeat ;
+}
+.flexiciousGrid .radioDisabled{
+background: url('images/checkboxicons/radio_button_unselected.png')  no-repeat ;
+padding-left: 20px;
+opacity : 0.4;
+filter: alpha(opacity=40);
+}
+.flexiciousGrid .radioSelected{
+background: url('images/checkboxicons/radio_button_selected.png')  no-repeat ;
+padding-left: 20px;
+}
+.flexiciousGrid .radioSelectedDisabled{
+background: url('images/checkboxicons/radio_button_selected.png')  no-repeat ;
+padding-left: 20px;
+opacity : 0.4;
+filter: alpha(opacity=40);
+}
+
+/*=============sort icons===================*/
+.flexiciousGrid .sortIcon {
+position:absolute;
+}
+.flexiciousGrid .sortLabel {
+position:absolute;
+}
+
+.flexiciousGrid .descendingSort {
+-moz-transform: scaleY(-1);
+-webkit-transform: scaleY(-1);
+-o-transform: scaleY(-1);
+transform: scaleY(-1);
+filter: flipv; /*IE*/
+}
+
+.flexiciousGrid .sortSeparator {
+position:absolute;
+/*  border-right:1px solid #CCCCCC; */
+border-right:1px dotted #eeeeee;
+}
+
+.flexiciousGrid .textHolder{
+position:absolute;
+}
+.flexiciousGrid .resizeGraphic{
+border-right:1px solid #222222;
+position: absolute;
+}
+.flexiciousGrid .movingGlyph{
+background: #6495ed;
+position: absolute;
+opacity:0.7;
+filter:alpha(opacity=70); /*IE*/
+}
+
+.fg-menu-container{
+z-index: 1003;
+}
+
+
+/*=============multi column sort popup===================*/
+.flexiciousSortPopupMenuItem{
+
+}
+.flexiciousSortPopupMenuItem .separator{
+border-bottom:  solid 1px #a9a9a9;
+margin-top: 5px;
+margin-bottom: 5px;
+}
+
+.flexiciousSortPopup {
+}
+.flexiciousSortPopup input {
+margin:4px;
+}
+.flexiciousSortPopup  .sortPopupHeader{
+/*	font-size: 12pt; 
+padding:5px;*/
+font-size: 12px;
+font-weight: bold;
+padding:0 0 3px 2px;
+}
+
+.flexiciousSortPopup .sortPopupRow{
+padding-left:50px;
+clear:both;
+padding:4px;
+}
+.flexiciousSortPopup .sortPopupLabel{
+width:100px;
+float:left;
+}
+.flexiciousSortPopup .sortPopupDropdown{
+width:200px;
+position:relative;
+float:left;
+padding-right:20px;
+}
+.flexiciousSortPopup .sortPopupDownArrow{
+position:absolute;
+top:2px;
+right:2px;
+}
+.flexiciousSortPopup .sortPopupButton{
+float:right;
+margin-left: 10px;
+}
+.flexiciousSortPopup .sortPopupButtonBar{
+padding-top: 25px;
+margin-bottom: 25px;
+margin-right: 10px;
+}
+.flexiciousSortPopup .disabledLabel{
+color: #bbbbbb;
+}
+
+
+/*=============date picker popup===================*/
+.flexiciousDatePickerPopup .datePickerButton{
+float:right;
+margin-left: 10px;
+}
+.flexiciousDatePickerPopup .datePickerButtonBar{
+padding-top: 25px;
+margin-bottom: 25px;
+margin-right: 10px;
+}
+
+.flexiciousDatePickerPopup .datePickerBar{
+padding-top: 25px;
+margin-bottom: 25px;
+margin-right: 10px;
+}
+
+.flexiciousDatePickerPopup .datePickerStartDate{
+float:left;
+}
+.flexiciousDatePickerPopup .datePickerEndDate{
+float:right;
+}
+
+
+/*=============multiselect combobox ===================*/
+.flexiciousGrid .multiSelectComboBox {
+display:inline-block;
+}
+.flexiciousGrid .multiSelectComboBox .textBox{
+top:2px;
+}
+.flexiciousGrid .multiSelectComboBox img{
+top:2px;
+width: 14px !important; 
+height: 15px !important; 
+margin: 1px 0 0 -3px;
+}
+
+.flexiciousGrid .multiSelectComboBoxPopup{
+
+/*	border: solid 1px black; */
+background: white;
+z-index: 1001;
+}
+.flexiciousGrid .multiSelectComboBoxPopup .checkBoxRow{
+padding:2px;
+}
+
+.flexiciousGrid .multiSelectComboBoxPopup .okCancelDiv{
+display:block;
+}
+.flexiciousGrid .multiSelectComboBoxPopup .okCancel{
+padding:4px;
+text-align:right;
+/*		 border-top:solid 1px #CCCCCC; */
+}
+.flexiciousGrid .multiSelectComboBoxPopup .okButton{
+
+/*padding:2px;
+text-decoration: underline; */
+cursor: pointer;
+display:inline;
+border: 1px solid #349f16;
+
+padding: 5px 20px !important;
+color: #FFF;
+font-weight: bold  !important; 
+text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.4) !important;
+border-radius: 4px;
+-webkit-border-radius: 4px;
+-moz-border-radius: 4px;
+background: #61bd4d !important;
+background: -moz-linear-gradient(top,  #61bd4d 0%, #21960e 11%, #5bc33a 100%) !important;
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#61bd4d), color-stop(11%,#21960e), color-stop(100%,#5bc33a)) !important;
+background: -webkit-linear-gradient(top,  #61bd4d 0%,#21960e 11%,#5bc33a 100%) !important;
+background: -o-linear-gradient(top,  #61bd4d 0%,#21960e 11%,#5bc33a 100%) !important;
+background: -ms-linear-gradient(top,  #61bd4d 0%,#21960e 11%,#5bc33a 100%) !important;
+background: linear-gradient(to bottom,  #61bd4d 0%,#21960e 11%,#5bc33a 100%) !important;
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#61bd4d', endColorstr='#5bc33a',GradientType=0 ) !important;
+font-size: 13px !important;
+margin:10px 0 10px 0px;
+
+-moz-box-shadow:    1px 1px 5px #ccc;
+-webkit-box-shadow:1px 1px 5px #ccc;
+box-shadow:         1px 1px 5px #ccc;
+}
+.flexiciousGrid .multiSelectComboBoxPopup .cancelButton{
+
+/* padding:2px;
+text-decoration: underline; */
+cursor: pointer;
+display:inline;
+border: 1px solid #a1a1a1;
+
+padding: 5px 12px !important;
+color: #616161 !important;
+font-weight: bold  !important; 
+text-shadow: 0 -1px 0 rgba(100, 100, 100, 0.4) !important;
+border-radius: 4px;
+-webkit-border-radius: 4px;
+-moz-border-radius: 4px;
+background: #ffffff !important;
+background: -moz-linear-gradient(top,  #ffffff 0%, #e4e4e4 11%, #f6f6f6 100%) !important;
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(11%,#e4e4e4), color-stop(100%,#f6f6f6)) !important;
+background: -webkit-linear-gradient(top,  #ffffff 0%,#e4e4e4 11%,#f6f6f6 100%) !important;
+background: -o-linear-gradient(top,  #ffffff 0%,#e4e4e4 11%,#f6f6f6 100%) !important;
+background: -ms-linear-gradient(top,  #ffffff 0%,#e4e4e4 11%,#f6f6f6 100%) !important;
+background: linear-gradient(to bottom,  #ffffff 0%,#e4e4e4 11%,#f6f6f6 100%) !important;
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#f6f6f6',GradientType=0 ) !important;
+
+font-size: 13px !important;
+margin:10px 0 10px 10px;
+
+-moz-box-shadow:    1px 1px 5px #ccc;
+-webkit-box-shadow:1px 1px 5px #ccc;
+box-shadow:         1px 1px 5px #ccc;
+}
+			.flexiciousGrid .multiSelectComboBoxPopup .hover{
+			/* background:#CEDBEF;  */
+			background: #dde9f6;
+			border: 1px solid #ff0000
+			}
+
+
+.multiSelectComboBoxPopup  .uIComponent{
+color: #003366;
+font-weight: bold;
+}
+
+#selectAndOr {
+float: left;
+}
+.multiSelectComboBoxPopup SELECT{
+width: 100px;
+border: 1px solid #94b2d9;
+margin-right: 5px; 
+background: rgb(242,244,247); /* Old browsers */
+background: -moz-linear-gradient(top,  rgba(242,244,247,1) 0%, rgba(255,255,255,1) 47%, rgba(238,242,246,1) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(242,244,247,1)), color-stop(47%,rgba(255,255,255,1)), color-stop(100%,rgba(238,242,246,1))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  rgba(242,244,247,1) 0%,rgba(255,255,255,1) 47%,rgba(238,242,246,1) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  rgba(242,244,247,1) 0%,rgba(255,255,255,1) 47%,rgba(238,242,246,1) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  rgba(242,244,247,1) 0%,rgba(255,255,255,1) 47%,rgba(238,242,246,1) 100%); /* IE10+ */
+background: linear-gradient(to bottom,  rgba(242,244,247,1) 0%,rgba(255,255,255,1) 47%,rgba(238,242,246,1) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f2f4f7', endColorstr='#eef2f6',GradientType=0 ); /* IE6-9 */
+
+}
+
+/*=============numeric range box===================*/
+
+.flexiciousGrid .numericRangeBox {
+display:inline-block;
+}
+.flexiciousGrid   {
+position:relative;
+}
+.flexiciousGrid  .flexDataGridVirtualBodyContainer {
+position:absolute;
+overflow: auto;
+/*	overflow-x: hidden !important;  turns of horz scroll*/
+}
+
+.flexiciousGrid  .flexDataGridHeaderContainer {
+position:absolute;
+overflow:hidden;
+}
+
+.flexiciousGrid  .lockedContent {
+position:absolute;
+overflow:hidden;
+}
+.flexiciousGrid  .elasticContainer {
+position:absolute;
+overflow:hidden;
+}
+
+.flexiciousGrid  .flexDataGridCell {
+position:absolute;
+
+box-sizing:border-box;
+-moz-box-sizing:border-box;
+-webkit-box-sizing:border-box;
+-ms-user-select: none;
+user-select: none;
+
+}
+
+
+.flexDataGridPagerCell{
+background-color: #d3ddf5 !important;
+background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(rgb(211, 221, 245)), to(rgb(211, 221, 245))) !important;
+padding-left: 10px;
+color: #1e4573 !important; 
+border-bottom-color:  #5e9cfc !important;
+}
+
+#networkSummaryMatrixTreeGridDivContainer, #networkMatrixTreeGridDivContainer, #scheduleMatrixTreeGridDivContainer, #scheduleLocAllocMatrixTreeGridDivContainer, #volumeUtilizationTreeGridMatrixContainer {
+left: 0px !important;
+right:  0px !important;
+top: 30px !important;
+border: 0px !important;
+border-top: 1px solid #b6c1da !important;
+}
+
+
+.flexDataGridExpandCollapseHeaderCell{
+background: #d3ddf5 !important;
+}
+
+
+
+.flexiciousGrid  .flexDataGridCell .cellIcon {
+position:absolute;
+}
+
+.flexiciousGrid  .flexDataGridCell .triStateCheckBox {
+/*padding-left: 0;*/
+background-position: 4px,4px ;
+-ms-background-position-x: 4px;
+-ms-background-position-y: 4px;
+
+}
+.flexiciousGrid  .flexDataGridCell .cellRenderer {
+position: relative;  
+/* display: inline-block; */
+display: table-cell;
+vertical-align: middle;
+overflow: hidden; 
+line-height: 13px;
+color: #0e3e70;
+padding-bottom: 2px;
+}
+.flexiciousGrid  .flexDataGridCell .expandCollapseIcon {
+position: absolute;
+}
+
+.flexDataGridFilterCell {
+background: #9ad6ff !important;
+border: 0px !important;
+}
+
+
+.flexDataGridFilterCell .multiSelectComboBox INPUT, .flexDataGridFilterCell .textInput INPUT  {
+border: 1px solid #94b2d9;
+height: 13px !important;
+font-size: 11px;
+border-radius: 2px;
+padding-left: 2px;
+}
+
+.flexiciousGrid  .flexDataGridHeaderCell {
+font-weight: bold;
+}
+
+.flexiciousGrid  .flexDataGridColumnGroupCell {
+font-weight: bold;
+}
+.flexiciousGrid  .bottomBar {
+position:absolute;
+}
+
+.flexiciousGrid  .leftLockedVerticalSeparator {
+position:absolute;
+}
+.flexiciousGrid  .rightLockedVerticalSeparator {
+position:absolute;
+}
+.flexiciousGrid  .rightLockedVerticalSeparator {
+position:absolute;
+}
+.flexiciousGrid  .uIComponent {
+text-overflow:clip;
+display: inline-block;
+background: transparent !important;
+}
+
+.flexiciousGrid .columnResizingGlyph{
+background-color: #222222;
+position: absolute;
+}
+.flexiciousGrid .columnResizingCellGlyph{
+position: absolute;
+}
+.flexiciousGrid .columnDraggingGlyph{
+background-color: #222222;
+position: absolute;
+}
+
+
+
+.flexiciousGrid .myHeader{
+padding-top:0;
+font-weight: bold ;
+color:#3764A0;
+}
+
+
+.flexiciousGrid .button {
+padding: 2px 5px;
+border-radius: 4px;
+border: solid 1px #20548D;
+background: #4479BB;
+color: #FFF;
+
+text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.4);
+box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.4), 0 1px 1px rgba(0, 0, 0, 0.2);
+-webkit-border-radius: 4px;
+-moz-border-radius: 4px;
+-webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.4), 0 1px 1px rgba(0, 0, 0, 0.2);
+-moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.4), 0 1px 1px rgba(0, 0, 0, 0.2);
+
+-webkit-transition-duration: 0.2s;
+-moz-transition-duration: 0.2s;
+transition-duration: 0.2s;
+
+-webkit-user-select:none;
+-moz-user-select:none;
+-ms-user-select:none;
+user-select:none;
+
+cursor: default;
+}
+.flexiciousGrid .button:hover {
+background: #356194;
+border: solid 1px #2A4D77;
+text-decoration: none;
+cursor: default;
+}
+.flexiciousGrid .button:active {
+-webkit-box-shadow: inset 0 1px 4px rgba(0, 0, 0, 0.6);
+-moz-box-shadow: inset 0 1px 4px rgba(0, 0, 0, 0.6);
+box-shadow: inset 0 1px 4px rgba(0, 0, 0, 0.6);
+background: #2E5482;
+border: solid 1px #213E5F;
+cursor: default;
+}
+
+.flexiciousGrid .handCursor{
+cursor: pointer;
+}
+
+
+/*=========settingsPopup========*/
+.flexiciousGrid .settingsPopup {
+height: 250px;
+}
+.flexiciousGrid .settingsPopup .multiSelectComboBox{
+position:absolute;
+left:10px;
+top:10px;
+visibility: hidden;
+}
+.flexiciousGrid .settingsPopup .multiSelectComboBoxPopup{
+position:absolute;
+left:10px;
+height: 205px;
+width: 250px;
+overflow-y: scroll;
+}
+
+.flexiciousGrid .settingsPopup .txtPageSize{
+width: 55px;
+}
+
+.flexiciousGrid .settingsPopup .columnsLabel{
+left:10px;
+top:1px;
+position:absolute;
+
+}
+
+.flexiciousGrid .settingsPopup .options{
+right:10px;
+top:30px;
+position:absolute;
+width:200px;
+
+}
+
+.flexiciousGrid .bottomButtonBar {
+position: absolute;
+right :10px;
+bottom :10px;
+vertical-align: bottom;
+}
+
+.flexiciousGrid .bottomButtonBarSave {
+position: absolute;
+right :110px;
+bottom :4px;
+}
+
+/*=========exportOptionsView========*/
+.flexiciousGrid .exportOptionsView {
+height: 250px;
+}
+
+.flexiciousGrid .exportOptionsView .txtPageFrom{
+width: 55px;
+}
+
+.flexiciousGrid .exportOptionsView .txtPageTo{
+width: 55px;
+}
+
+.flexiciousGrid .exportOptionsView .multiSelectComboBox{
+position:absolute;
+left:10px;
+top:10px;
+visibility: hidden;
+}
+.flexiciousGrid .exportOptionsView .multiSelectComboBoxPopup{
+position:absolute;
+left:10px;
+height: 205px;
+width: 250px;
+overflow-y: scroll;
+}
+.flexiciousGrid .exportOptionsView .options{
+right:10px;
+top:30px;
+position:absolute;
+width:200px;
+line-height: 22px;
+}
+
+.flexiciousGrid .exportOptionsView .columnsLabel{
+left:10px;
+top:1px;
+position:absolute;
+}
+
+
+.flexiciousGrid .exportOptionsView .comboBox{
+position:absolute;
+right:80px;
+top:142px;
+}
+/*=========exportOptionsView========*/
+.flexiciousGrid .printOptionsView {
+height: 250px;
+}
+
+.flexiciousGrid .printOptionsView .txtPageFrom{
+width: 55px;
+}
+
+.flexiciousGrid .printOptionsView .txtPageTo{
+width: 55px;
+}
+
+.flexiciousGrid .printOptionsView .multiSelectComboBox{
+position:absolute;
+left:10px;
+top:10px;
+visibility: hidden;
+}
+.flexiciousGrid .printOptionsView .multiSelectComboBoxPopup{
+position:absolute;
+left:10px;
+height: 205px;
+width: 250px;
+overflow-y: scroll;
+}
+.flexiciousGrid .printOptionsView .options{
+right:10px;
+top:30px;
+position:absolute;
+width:200px;
+line-height: 22px;
+}
+
+
+.flexiciousGrid .printOptionsView .comboBox{
+position:absolute;
+right:45px;
+top:150px;
+}
+/*=========openSettingsPopup========*/
+.flexiciousGrid .openSettingsPopup {
+height: 300px;
+}
+/*=========openSettingsPopup========*/
+.flexiciousGrid .saveSettingsPopup {
+height: 200px;
+}
+
+
+.flexiciousGrid .lessOpacity {
+zoom: 1;
+filter: alpha(opacity=50);
+opacity: 0.5;
+}
+
+
+
+.flexiciousGrid .spinnerLabel{
+background-color: #CDCDCD;
+padding: 5px;
+}
+
+.flexiciousGrid .backgroundForFillerRows{
+position: absolute;
+overflow: hidden;
+}
+
+.flexiciousGrid .largeIcons .iconCell{
+height: 36px;
+width: 36px;
+}
+
+.x-toolbar-cell .x-btn
+{
+width: 190px !important;
+}
+
+.uIComponent.leftLockedVerticalSeparator{ background-color: #fff!important;}

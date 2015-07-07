@@ -1,0 +1,609 @@
+/* --------------------------------------------------------
+Style Sheet for Map Viewer
+version: 1.0
+author: Satpal Jassal
+----------------------------------------------------------*/
+
+/* Slider panel styles */
+
+
+.k-tabstrip .k-content {
+	margin:0px;
+	border:none;
+	background-color:transparent !important;
+	padding-top:5px;
+}
+
+#mapOptions .k-tabstrip-items .k-tab-on-top {
+	padding-bottom:2px;
+	margin-botom:-3px;
+	border-bottom-color:#FFFFFF;
+}
+
+#utilIndicator .k-slider-selection {
+	height:8px;
+	border:1px solid #797979;
+	background: -moz-linear-gradient(top,  #00a00d 0%, #12c052 52%, #19cf73 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#00a00d), color-stop(52%,#12c052), color-stop(100%,#19cf73)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #00a00d 0%,#12c052 52%,#19cf73 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #00a00d 0%,#12c052 52%,#19cf73 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #00a00d 0%,#12c052 52%,#19cf73 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #00a00d 0%,#12c052 52%,#19cf73 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00a00d', endColorstr='#19cf73',GradientType=0 ); /* IE6-8 */
+}
+
+#utilIndicator .k-slider-track {
+	height:8px;
+	border:1px solid #797979;
+	filter:none;
+	background:#FFFFFF;
+}
+
+#utilIndicator .k-draghandle {
+	
+	border-top-left-radius:0px;
+	border-top-right-radius:0px;
+	border-bottom-left-radius:0px;
+	border-bottom-right-radius:0px;
+	border:1px solid #797979;
+	background: -moz-linear-gradient(top,  #dadada 0%, #717171 52%, #070707 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#dadada), color-stop(52%,#717171), color-stop(100%,#070707)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #dadada 0%,#717171 52%,#070707 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #dadada 0%,#717171 52%,#070707 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #dadada 0%,#717171 52%,#070707 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #dadada 0%,#717171 52%,#070707 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#dadada', endColorstr='#070707',GradientType=0 ); /* IE6-8 */
+    box-shadow: 0px 0px 6px #D8E3F1, 0px 0px 3px #EEF3F9, 0px 0px 2px #FEFFFF;
+}
+
+#utilIndicator .k-slider-horizontal .k-draghandle {
+	top:-4px;
+	width:15px;
+	height:15px;
+}
+
+
+
+#cautionIndicator  .k-slider-track {
+	height:8px;
+	border:1px solid #797979;
+	background: -moz-linear-gradient(top,  #00a00d 0%, #12c052 52%, #19cf73 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#00a00d), color-stop(52%,#12c052), color-stop(100%,#19cf73)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #00a00d 0%,#12c052 52%,#19cf73 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #00a00d 0%,#12c052 52%,#19cf73 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #00a00d 0%,#12c052 52%,#19cf73 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #00a00d 0%,#12c052 52%,#19cf73 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00a00d', endColorstr='#19cf73',GradientType=0 ); /* IE6-8 */
+}
+
+#cautionIndicator .k-slider-selection {
+	height:8px;
+	border:1px solid #797979;
+	background: -moz-linear-gradient(top,  #ffa62c 0%, #fee120 52%, #fefc19 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffa62c), color-stop(52%,#fee120), color-stop(100%,#fefc19)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #ffa62c 0%,#fee120 52%,#fefc19 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #ffa62c 0%,#fee120 52%,#fefc19 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #ffa62c 0%,#fee120 52%,#fefc19 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #ffa62c 0%,#fee120 52%,#fefc19 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffa62c', endColorstr='#fefc19',GradientType=0 ); /* IE6-8 */
+}
+
+#cautionIndicator .k-draghandle {
+	
+	border-top-left-radius:0px;
+	border-top-right-radius:0px;
+	border-bottom-left-radius:0px;
+	border-bottom-right-radius:0px;
+	border:1px solid #797979;
+	background: -moz-linear-gradient(top,  #dadada 0%, #717171 52%, #070707 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#dadada), color-stop(52%,#717171), color-stop(100%,#070707)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #dadada 0%,#717171 52%,#070707 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #dadada 0%,#717171 52%,#070707 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #dadada 0%,#717171 52%,#070707 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #dadada 0%,#717171 52%,#070707 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#dadada', endColorstr='#070707',GradientType=0 ); /* IE6-8 */
+    box-shadow: 0px 0px 6px #D8E3F1, 0px 0px 3px #EEF3F9, 0px 0px 2px #FEFFFF;
+}
+
+#cautionIndicator .k-slider-horizontal .k-draghandle {
+	top:-4px;
+	width:15px;
+	height:15px;
+}
+
+#cautionIndicator input.k-textbox, #utilIndicator input.k-textbox {
+	height:20px;
+	margin-top:-8px;
+}
+
+.ui-panel-content-text {
+	border-top:none;
+}
+
+.ui-widget-content {
+							/*	margin-top:-5px;  */
+							margin-top: 0px !Important
+}
+
+.mktPopupWindow {
+	padding-top:17px ! important;
+}
+
+/* .mktPopupWindow > .k-header, .querySubWindow .k-window-titlebar {
+	position:relative;
+} */
+
+.mktPopupWindow .k-window-titlebar {
+	min-height: 17px;
+	height: 17px ! important;
+	padding-top: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	margin-left: -1px;
+	margin-top:-17px ! important; 
+	font-family:Arial, Helvetica, sans-serif;
+    font-weight:bold;
+    font-size:8pt;
+	color:#3276C8;
+	margin-bottom:-2px ! important;
+}
+
+.mktPopupWindow .k-window-actions, .mktPopupWindow .k-window-title {
+	display:inline-block;
+}
+	 
+.marketHeaderDiv {
+	display:inline-block;
+	float:right;
+	padding-top: 3px;
+}
+
+.mktPopupWindow .k-window-titlebar .k-window-actions,
+.mktPopupWindow .k-window-titlebar .weightcube,
+.mktPopupWindow .k-window-titlebar .weight
+{
+	display:inline-block;
+}
+
+.mktPopupWindow .k-window-titlebar .k-window-title {
+	font-family:Arial, Helvetica, sans-serif;
+    font-weight:bold;
+    font-size:8pt;
+	color:#003366;
+}
+
+.mktPopupWindowTitle {
+	font-family:Arial, Helvetica, sans-serif;
+    font-weight:bold;
+    font-size:12pt !important;
+	color:#003366;
+}
+	
+.mktPopupWindow .k-window-titlebar .weight-label
+{
+	font-family:Arial, Helvetica, sans-serif;
+    font-weight:bold;
+    font-size:8pt;
+	color:#003366;
+	float:right;
+	margin-right:5px;	
+}
+	
+.mktPopupWindow .k-window-titlebar .weightcube,
+.mktPopupWindow .k-window-titlebar .weight-value
+{
+	font-family:Arial, Helvetica, sans-serif;
+    font-weight:bold;
+    font-size:8pt;
+	float:right;
+	margin-right:5px;	
+}
+	
+.mktpopup-window-actions .k-window-titlebar .k-window-actions {
+	position: absolute;
+	top: 0;
+	left:3px;
+	padding-top: 2px;
+	white-space: nowrap; 
+	width:50px;
+}
+
+.mktpopup-window-actions .k-icon{
+	margin-left: 0px;
+}
+
+.mktpopup-window-actions .k-window-titlebar .k-window-title{
+	margin-left: 14px;
+	margin-top: 3px;
+}
+
+.mktpopup-window-actions .k-link {
+	width: 11px;
+	height: 11px;
+	margin-left:0px;
+}
+
+.mktpopup-window-actions .k-link, .k-subwindow-actions .k-link:hover {
+	width: 11px;
+	height: 11px;
+}
+
+.mktpopup-window-actions .k-i-minimize {
+	background:url(../assets/icons/expandbtn.png) no-repeat ! important;
+	width:11px;
+	height:11px;
+	background-position: center center ! important;
+	border:none ! important;
+}
+
+.mktpopup-window-actions .k-i-restore {
+	background:url(../assets/icons/collapsebtn.png) ! important;
+	width:11px;
+	height:11px;
+	background-position: center center ! important;
+	border:none ! important;
+}
+
+.marketViewExampleDiv {
+	margin-top:8px;
+	width:284px;
+	height:20px;
+	border:none;
+	background-image:url(../assets/icons/mktmap-example.png);
+	background-position: center center;
+	background-repeat:no-repeat;
+}
+
+#mapOptions .ui-panel-content-text {
+	height:90%;
+}
+	
+/* End of slider panel styles */
+
+/* Map styles */
+
+.esriAttribution {
+	font-size: 50% !important; 
+	background-color: transparent !important; 
+	max-width: 610px; 
+	cursor: default;
+}
+
+.logo-sm {
+	background-size: contain; 
+	width: 21px !important; 
+	height: 11px !important;
+}
+
+.logo-med {
+	background-size: contain; 
+	width: 21px !important; 
+	height: 11px !important;
+}
+
+.vPanel {
+	width: 1020px;
+	height: auto;
+	max-height: 800px;
+	position: absolute;
+		top: -195px;
+	left: 17.5%;
+	z-index: 1999999;	
+}
+.vSlider-arrow {
+	padding: 3px;
+	position: absolute;
+	left: 47%;
+	top: 36px;
+	z-index: 1;
+}
+	
+.encyclopediaHPanel,
+.hPanel {
+	float: left;
+	position: absolute;
+	left: -280px;
+	z-index: 1;
+}
+.fSlider-arrow,
+.hSlider-arrow {
+				padding: 0 3px 0 0;
+	width: 10px;
+	float: left;
+	background: #d9dada;
+	text-decoration: none;
+	position: absolute;
+	left: 0px;
+				top: 56px;
+	z-index: 1;
+}
+/* end Map styles */
+
+.zoom_option_label {
+	padding-bottom: 13px;
+}
+
+.encyclopediaHPanel,
+	.hPanel {
+	  border-style: solid;
+				border-width: 1px  !important;
+	  border-color: rgb( 41, 133, 230 );
+	  background-color: rgb( 255, 255, 255 );
+	  box-shadow: 1.5px 2.598px 5px 0px rgb( 128, 128, 128 );
+	 /*  position: absolute;
+	  left:0px !important; */
+	  /* top: 38px; */
+	 /* width: 241px;    */
+					width: 218px;			
+					top:66px;
+	  height: 550px !important;
+	}
+	
+	.fPanel{
+	overflow: hidden;
+	z-index: 5;
+	/* top: 15% !important; */
+	display: block;
+	z-index: 5; 
+	top:70px; 
+	overflow: auto; 
+	/* height: auto !important !important; */ 
+	width: auto !important !important; 
+	border-top-left-radius: 2em; 
+	border-bottom-left-radius: 2em;
+	/* height: auto !important;  */
+	width: auto !important;
+	max-height: 600px; 
+	overflow-x:hidden; 
+	overflow-y: scroll;
+}  
+
+a.fSlider-arrow,
+a.fSlider-arrow:hover, 
+a.hSlider-arrow,
+a.hSlider-arrow:hover  {
+				-webkit-border-bottom-right-radius: 6px;
+				-webkit-border-top-right-radius: 6px;
+	-webkit-transform: translate3d(0,0,0);
+				-moz-border-radius-bottomright: 6px;                 
+				-moz-border-radius-topright: 6px;
+				border-bottom-right-radius: 6px;
+				border-top-right-radius: 6px;
+	border: 1px solid rgb( 41, 133, 230 );
+	border-left:none;
+				/*  border-top:none;	*/
+	background-color: rgb( 255, 255, 255 );
+  	box-shadow: 1.5px 2.598px 0px 0px rgb( 128, 128, 128 );
+  	/* left: 245px !important; */
+  	width: 15px;
+  	height: 25px;
+	background-image:url(../assets/icons/grip.png) !important;
+	background-position: center center ;
+	background-repeat: no-repeat !important;
+  	top: 35px;
+}
+			 	
+
+#facilityEncycloContent {
+	padding-left: 23px;
+	margin-top: -15px;
+}	
+
+.hide{
+	display: none !important;
+}
+
+.show{
+	display: ;
+}
+
+
+::-webkit-scrollbar {
+    background: #FFFFFF;
+ 	opacity: 0.2;
+	width: 10px;
+	
+						-webkit-border-bottom-right-radius: 10px;
+						 -moz-border-radius-bottomright: 10px;
+						  border-bottom-right-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    
+  	-webkit-border-radius: 5px;
+    border-style: solid;
+  	border-width: 1px;
+  	border-color: rgb( 180, 195, 203 );
+  	background-image: -moz-linear-gradient( -90deg, rgb(255,255,255) 0%, rgb(214,230,255) 100%);
+ 	background-image: -webkit-linear-gradient( -90deg, rgb(255,255,255) 0%, rgb(214,230,255) 100%);
+  	background-image: -ms-linear-gradient( -90deg, rgb(255,255,255) 0%, rgb(214,230,255) 100%);
+  	width: 8px;
+  	height: 23px;
+}
+
+::-webkit-scrollbar-corner {
+    background: #FFFFFF;
+}
+
+
+.left-padding2 {
+	padding-left:10px;
+}
+
+.meter { 
+			height: 20px;  /* Can be anything */
+			position: relative;
+			margin: 60px 0 20px 0; /* Just for demo spacing */
+			background: #555;
+			-moz-border-radius: 25px;
+			-webkit-border-radius: 25px;
+			border-radius: 25px;
+			padding: 5px;
+			-webkit-box-shadow: inset 0 -1px 1px rgba(255,255,255,0.3);
+			-moz-box-shadow   : inset 0 -1px 1px rgba(255,255,255,0.3);
+			box-shadow        : inset 0 -1px 1px rgba(255,255,255,0.3);
+		}
+		.meter > span {
+			display: block;
+			height: 100%;
+			   -webkit-border-top-right-radius: 8px;
+			-webkit-border-bottom-right-radius: 8px;
+			       -moz-border-radius-topright: 8px;
+			    -moz-border-radius-bottomright: 8px;
+			           border-top-right-radius: 8px;
+			        border-bottom-right-radius: 8px;
+			    -webkit-border-top-left-radius: 20px;
+			 -webkit-border-bottom-left-radius: 20px;
+			        -moz-border-radius-topleft: 20px;
+			     -moz-border-radius-bottomleft: 20px;
+			            border-top-left-radius: 20px;
+			         border-bottom-left-radius: 20px;
+			background-color: rgb(43,194,83);
+			background-image: -webkit-gradient(
+			  linear,
+			  left bottom,
+			  left top,
+			  color-stop(0, rgb(43,194,83)),
+			  color-stop(1, rgb(84,240,84))
+			 );
+			background-image: -moz-linear-gradient(
+			  center bottom,
+			  rgb(43,194,83) 37%,
+			  rgb(84,240,84) 69%
+			 );
+			-webkit-box-shadow: 
+			  inset 0 2px 9px  rgba(255,255,255,0.3),
+			  inset 0 -2px 6px rgba(0,0,0,0.4);
+			-moz-box-shadow: 
+			  inset 0 2px 9px  rgba(255,255,255,0.3),
+			  inset 0 -2px 6px rgba(0,0,0,0.4);
+			box-shadow: 
+			  inset 0 2px 9px  rgba(255,255,255,0.3),
+			  inset 0 -2px 6px rgba(0,0,0,0.4);
+			/* position: relative; */
+			overflow: hidden;
+		}
+		.meter > span:after, .animate > span > span {
+			content: "";
+			position: absolute;
+			top: 0; left: 0; bottom: 0; right: 0;
+			background-image: 
+			   -webkit-gradient(linear, 0 0, 100% 100%, 
+			      color-stop(.25, rgba(255, 255, 255, .2)), 
+			      color-stop(.25, transparent), color-stop(.5, transparent), 
+			      color-stop(.5, rgba(255, 255, 255, .2)), 
+			      color-stop(.75, rgba(255, 255, 255, .2)), 
+			      color-stop(.75, transparent), to(transparent)
+			   );
+			background-image: 
+				-moz-linear-gradient(
+				  -45deg, 
+			      rgba(255, 255, 255, .2) 25%, 
+			      transparent 25%, 
+			      transparent 50%, 
+			      rgba(255, 255, 255, .2) 50%, 
+			      rgba(255, 255, 255, .2) 75%, 
+			      transparent 75%, 
+			      transparent
+			   );
+			z-index: 1;
+			-webkit-background-size: 50px 50px;
+			-moz-background-size: 50px 50px;
+			-webkit-animation: move 2s linear infinite;
+			   -webkit-border-top-right-radius: 8px;
+			-webkit-border-bottom-right-radius: 8px;
+			       -moz-border-radius-topright: 8px;
+			    -moz-border-radius-bottomright: 8px;
+			           border-top-right-radius: 8px;
+			        border-bottom-right-radius: 8px;
+			    -webkit-border-top-left-radius: 20px;
+			 -webkit-border-bottom-left-radius: 20px;
+			        -moz-border-radius-topleft: 20px;
+			     -moz-border-radius-bottomleft: 20px;
+			            border-top-left-radius: 20px;
+			         border-bottom-left-radius: 20px;
+			overflow: hidden;
+		}
+		
+		.animate > span:after {
+			display: none;
+		}
+		
+		@-webkit-keyframes move {
+		    0% {
+		       background-position: 0 0;
+		    }
+		    100% {
+		       background-position: 50px 50px;
+		    }
+		}
+		
+		.orange > span {
+			background-color: #f1a165;
+			background-image: -moz-linear-gradient(top, #f1a165, #f36d0a);
+			background-image: -webkit-gradient(linear,left top,left bottom,color-stop(0, #f1a165),color-stop(1, #f36d0a));
+			background-image: -webkit-linear-gradient(#f1a165, #f36d0a); 
+		}
+		
+		.red > span {
+			background-color: #f0a3a3;
+			background-image: -moz-linear-gradient(top, #f0a3a3, #f42323);
+			background-image: -webkit-gradient(linear,left top,left bottom,color-stop(0, #f0a3a3),color-stop(1, #f42323));
+			background-image: -webkit-linear-gradient(#f0a3a3, #f42323);
+		}
+		
+		.nostripes > span > span, .nostripes > span:after {
+			-webkit-animation: none;
+			background-image: none;
+		}
+
+.modal {
+    /* some styles to position the modal at the center of the page */
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    width: 100px;
+    line-height: 200px;
+    margin-left: -150px;
+    margin-top: -100px;
+    text-align: center;
+    /* needed styles for the overlay */
+    z-index: 999999999999999; /* keep on top of other elements on the page */
+    /* outline: 9999px solid rgba(0,0,0,0.2); */
+}
+
+	
+.k-grid-custom-header {
+	padding-right: 0px !important;
+}
+
+.k-grid-custom-content {
+	overflow-y: hidden !important; 
+}
+
+.boldFont {
+	font-weight: bold;
+}
+
+div[class^="k-grid-header-wrap"] > table {
+   width: 590px !important;
+}
+
+div[class^="k-grid-content k-grid-custom-content"] > table {
+   width: 590px !important;
+}
+
+.k-invalid-msg {
+		margin: -1.7em 0em 0em 6em !important;
+}
+
+#routeSettingsDiv {
+	max-height: 800px;	
+	overflow-x: hidden;
+}
+
+.routeSettingsDiv{
+	/* width: auto !important;
+	height: auto !important; */
+} 

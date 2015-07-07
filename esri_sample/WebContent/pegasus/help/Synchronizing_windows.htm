@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- saved from url=(0014)about:internet -->
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+ <meta name="generator" content="Adobe RoboHelp 10" />
+<title>Synchronizing windows</title>
+<link rel="StyleSheet" href="Pegasus.css" type="text/css" />
+<script type="text/javascript" language="JavaScript">
+//<![CDATA[
+function reDo() {
+  if (innerWidth != origWidth || innerHeight != origHeight)
+     location.reload();
+}
+if ((parseInt(navigator.appVersion) == 4) && (navigator.appName == "Netscape")) {
+	origWidth = innerWidth;
+	origHeight = innerHeight;
+	onresize = reDo;
+}
+onerror = null; 
+//]]>
+</script>
+<style type="text/css">
+<!--
+div.WebHelpPopupMenu { position:absolute;
+left:0px;
+top:0px;
+z-index:4;
+visibility:hidden; }
+-->
+</style>
+<script type="text/javascript" language="javascript1.2" src="whmsg.js" charset="utf-8"></script>
+<script type="text/javascript" language="javascript" src="whver.js" charset="utf-8"></script>
+<script type="text/javascript" language="javascript1.2" src="whutils.js" charset="utf-8"></script>
+<script type="text/javascript" language="javascript1.2" src="whproxy.js" charset="utf-8"></script>
+<script type="text/javascript" language="javascript1.2" src="whlang.js" charset="utf-8"></script>
+<script type="text/javascript" language="javascript1.2" src="whtopic.js" charset="utf-8"></script>
+
+</head>
+
+<body><script type="text/javascript" language="javascript1.2">//<![CDATA[
+<!--
+if (window.gbWhTopic)
+{
+	var strUrl = document.location.href;
+	var bc = 0;
+	var n = strUrl.toLowerCase().indexOf("bc-");
+	if(n != -1)
+	{
+		document.location.href = strUrl.substring(0, n);
+		bc = strUrl.substring(n+3);
+	}
+
+	if (window.addTocInfo)
+	{
+	addTocInfo("Synchronizing windows");
+addButton("show",BTN_TEXT,"Show","","","","",0,0,"","","");
+
+	}
+	if (window.writeBtnStyle)
+		writeBtnStyle();
+
+	if (window.writeIntopicBar)
+		writeIntopicBar(1);
+
+	
+	
+}
+else
+	if (window.gbIE4)
+		document.location.reload();
+
+onLoadHandler = function()
+{
+  if (window.setRelStartPage)
+	{
+	setTimeout("setRelStartPage('Pegasus_Help.htm');", 1)
+
+    setTimeout("UpdateBreadCrumbsMarker();", 1);
+	}
+}
+
+if (window.addEventListener){  
+	window.addEventListener('load', onLoadHandler, false);   
+} else if (window.attachEvent){  
+	window.attachEvent('onload', onLoadHandler);  
+}
+
+function onSetStartPage()
+{
+  autoSync(1);
+  sendSyncInfo();
+  sendAveInfoOut();
+}
+//-->
+//]]></script>
+<script type="text/javascript" src="./ehlpdhtm.js" language="JavaScript1.2"></script>
+
+
+<h1>Synchronizing windows</h1>
+<p>After running a query, you may want to make changes that alter the data 
+ in one window and see those changes reflected in other windows. For example, 
+ when you change the Map to show only truck lanes, you want the Matrix 
+ updated to show only truck lanes. You can do this using window synchronization. 
+ </p>
+<p>&#160;</p>
+<p>Turn synchronization on using icons on the Map, Matrix, or Schematic 
+ toolbars. The window toolbar that you select the icon from is the <span 
+	 style="font-style: italic;"><i>source</i></span> window. The icon you select 
+ designates the <span style="font-style: italic;"><i>target</i></span> window. 
+ Changes made in the source window trigger changes in the target window. 
+ </p>
+<p class="DoAny">To turn synchronization on:</p>
+<p>From the source window's toolbar, click:</p>
+<table class="Pegasus" style="margin-left: 40px;" cellspacing="0px" width="81.944%">
+	<col style="width: 8.014%;" />
+	<col style="width: 91.986%;" />
+	<tr>
+		<td>&#160;<span style="font-weight: bold;"><img src="synchronize_to_matrix.png" 
+														 alt="" style="border: none;" 
+														 border="0" /> 
+		 </span></td>
+		<td>to synchronize the Matrix with changes made to the source window</td>
+	</tr>
+	<tr>
+		<td>&#160;<img src="synchronize_to_schematic.png" alt="" style="border: none;" 
+						 border="0" /></td>
+		<td>to synchronize the Schematic with changes made to the source 
+		 window</td>
+	</tr>
+	<tr>
+		<td><img src="synchronize_to_map.png" alt="" style="border: none;" 
+				 border="0" /></td>
+		<td>to synchronize the Map with changes made to the source window</td>
+	</tr>
+</table>
+<p>The synchronization icon stays on (the icon background is darker and 
+ looks pushed in <img src="synch_on.png" alt="" style="border: none;" border="0" />), 
+ and continues to update the target window as you make changes to the source 
+ window, until you click the icon again to turn it off.</p>
+<p>&#160;</p>
+<p>You can have only one source window at a time. If you can't turn on 
+ the synchronization icons in a window, that means synchronization is turned 
+ on in some other window. You need to turn it off before you can designate 
+ a new source window.</p>
+<p class="DoAny">For more details, see the following:</p>
+<p><a class="dropspot" href="javascript:TextPopup(this)" id="a4"><img class="Twisties" alt="" style="border: none; display: none;" src="expandbtn.png" /><img class="Twisties" alt="" style="border: none;" src="collapsebtn.png" />Synchronize 
+ the Map with Matrices</a></p>
+<div class="droptext" id="POPUP358077862" style="display: none;">
+	<p>From the Map window, when synchronize with Matrix is on:</p>
+	<ul style="list-style: disc;">
+		<li><p>Click a leg or lane or <a class="expandspot" href="javascript:TextPopup(this)" id="a11">select 
+		 a map area</a><span class="expandtext" id="POPUP3579562081" style="display: none;">(click <img src="lasso.png" 
+		 alt="" style="border: none;" border="0" /> and choose a selection 
+		 tool from the drop-down menu, click and drag to select, then right-click 
+		 the map to apply the selection)</span> to display 
+		 only the rows in the Matrix that correspond to the selected legs 
+		 or lanes.</p></li>
+		<li><p>On the Network Map, change the <a class="expandspot" href="javascript:TextPopup(this)" id="a21">lane 
+		 direction</a><span class="expandtext" id="POPUP3576049461" style="display: none;">(click <img src="both_directions.png" 
+		 alt="" style="border: none;" border="0" />, <img src="inbound.png" 
+															 alt="" style="border: none;" 
+															 border="0" />, 
+		 or <img src="outbound.png" alt="" style="border: none;" border="0" />)</span> 
+		 to display only rows that correspond to lanes going the selected 
+		 direction.</p></li>
+		<li><p>Change the following <a class="expandspot" href="javascript:TextPopup(this)" id="a31">map 
+		 settings</a><span class="expandtext" id="POPUP3574177421" style="display: none;">(Click &#160;<img src="drawer_handle.PNG" alt="" style="border: none;" border="0" />on 
+		 the right side of the window)</span> to display 
+		 only the lanes or legs that meet the setting criteria:</p></li>
+		<ul style="list-style: circle;">
+			<li><p>Show errors only (Network Map)</p></li>
+			<li><p>Show modes (Network and Schedule Map)</p></li>
+			<li><p>Change percentage utilization thresholds (Schedule Map)</p></li>
+			<li><p>Change load caution thresholds (Schedule Map)</p></li>
+			<li><p>Show leg type (Schedule Map)</p></li>
+		</ul>
+	</ul>
+</div>
+<p><a class="dropspot" href="javascript:TextPopup(this)" id="a6"><img class="Twisties" alt="" style="border: none; display: none;" src="expandbtn.png" /><img class="Twisties" alt="" style="border: none;" src="collapsebtn.png" />Synchronize 
+ the Map with the Schematic</a></p>
+<div class="droptext" id="POPUP360638882" style="display: none;">
+	<p>From the Map window, when synchronize with Schematic is on:</p>
+	<ul style="list-style: disc;">
+		<li><p>On the Network Map, changes to <a class="expandspot" href="javascript:TextPopup(this)" id="a2111">lane 
+		 direction</a><span class="expandtext" id="POPUP357604946111" style="display: none;">(click <img src="both_directions.png" 
+		 alt="" style="border: none;" border="0" />, <img src="inbound.png" 
+															 alt="" style="border: none;" 
+															 border="0" />, 
+		 or <img src="outbound.png" alt="" style="border: none;" border="0" />)</span> 
+		 are mirrored in the Network Schematic.</p></li>
+		<li><p>Changes to the following <a class="expandspot" href="javascript:TextPopup(this)" id="a3"><span 
+		 class="expandspot">Map </span>settings</a><span class="expandtext" id="POPUP360337144" style="display: none;">(Click 
+		 &#160;<img src="drawer_handle.PNG" alt="" style="border: none;" border="0" /> on the right side of the window)&#160;<br />
+		</span><span class="expandspot"> are mirrored in 
+		 the Schematic</span>:</p></li>
+		<ul style="list-style: circle;">
+			<li><p><span>Show errors only (Network)</span></p></li>
+			<li><p><span>Show modes (Network and Schedule)</span></p></li>
+			<li><p><span>Change percent utilization indicators (Schedule)</span></p></li>
+			<li><p><span>Change load caution indicators (Schedule)</span></p></li>
+			<li><p>Show leg type (Schedule)</p></li>
+		</ul>
+	</ul>
+</div>
+<p><a class="dropspot" href="javascript:TextPopup(this)" id="a1"><img class="Twisties" alt="" style="border: none; display: none;" src="expandbtn.png" /><img class="Twisties" alt="" style="border: none;" src="collapsebtn.png" />Synchronize 
+ Matrices with the Map or Schematic</a></p>
+<div class="droptext" id="POPUP360544124" style="display: none;">
+	<p>From any Matrix window, when synchronize with Map and/or Schematic 
+	 is on:</p>
+	<ul style="list-style: disc;">
+		<li><p>Select the checkbox next to a row in the Matrix to show 
+		 only the corresponding lane or leg on the Map or Schematic.</p></li>
+		<li><p>Filter the matrix to see on the Map or Schematic only those 
+		 lanes or legs that remain once the filter is applied. For more 
+		 information, see &quot;Filter a Matrix&quot; in <a href="Matrices/About_Matrices.htm">About 
+		 Matrices</a><span style="font-weight: bold;">.</span></p></li>
+	</ul>
+</div>
+<p><a class="dropspot" href="javascript:TextPopup(this)" id="a2"><img class="Twisties" alt="" style="border: none; display: none;" src="expandbtn.png" /><img class="Twisties" alt="" style="border: none;" src="collapsebtn.png" />Synchronize 
+ the Schematic with Matrices</a></p>
+<div class="droptext" id="POPUP360611082" style="display: none;">
+	<p>From the Schematic window, when synchronize with Matrix is on:</p>
+	<ul style="list-style: disc;">
+		<li><p>Click a leg or lane or <a class="expandspot" href="javascript:TextPopup(this)" id="a111">select 
+		 a map area</a><span class="expandtext" id="POPUP35795620811" style="display: none;">(click <img src="lasso.png" 
+		 alt="" style="border: none;" border="0" /> and choose a selection 
+		 tool from the drop-down menu, click and drag to select, then right-click 
+		 the map to apply the selection)</span> to display 
+		 only the rows in the Matrix that correspond to the selected legs 
+		 or lanes.</p></li>
+		<li><p>Change the following <a class="expandspot" href="javascript:TextPopup(this)" id="a22">Schematic 
+		 settings</a><span class="expandtext" id="POPUP3597875511" style="display: none;">(Click &#160;<img src="drawer_handle.PNG" alt="" style="border: none;" border="0" /> 
+		 on the right side of the window)</span> to update 
+		 the matrix to show only the lanes or legs that meet the setting 
+		 criteria:</p></li>
+		<ul style="list-style: circle;">
+			<li><p><span>Show errors only (Network Schematic)</span></p></li>
+			<li><p><span>Show modes (Network and Schedule Schematic)</span></p></li>
+			<li><p><span>Change percent utilization indicators (Schedule 
+			 Schematic)</span></p></li>
+			<li><p><span>Change load caution indicators (Schedule Schematic)</span></p></li>
+			<li><p>Show leg type (Schedule Schematic)</p></li>
+		</ul>
+	</ul>
+</div>
+<p><a class="dropspot" href="javascript:TextPopup(this)" id="a7"><img class="Twisties" alt="" style="border: none; display: none;" src="expandbtn.png" /><img class="Twisties" alt="" style="border: none;" src="collapsebtn.png" />Synchronize 
+ the Schematic with the Map</a></p>
+<div class="droptext" id="POPUP360662378" style="display: none;">
+	<p>From the Schematic window, when synchronize with Map is on:</p>
+	<ul style="list-style: disc;">
+		<li><p>On the Network Schematic, changes to <a class="expandspot" href="javascript:TextPopup(this)" id="a21111">lane direction</a><span class="expandtext" id="POPUP3576049461111" style="display: none;">(click 
+		 <img src="both_directions.png" alt="" style="border: none;" border="0" />, 
+		 <img src="inbound.png" alt="" style="border: none;" border="0" />, 
+		 or <img src="outbound.png" alt="" style="border: none;" border="0" />)</span> 
+		 are mirrored in the Network Map.</p></li>
+		<li><p>Changes to the following <a class="expandspot" href="javascript:TextPopup(this)" id="a5"><span 
+		 class="expandspot">Schematic </span>settings</a><span class="expandtext" id="POPUP3603371441" style="display: none;">(Click 
+		 &#160;<img src="drawer_handle.PNG" alt="" style="border: none;" border="0" /> on the right side of the window.)<br />
+		&#160;</span><span class="expandspot"> are mirrored 
+		 in the Map</span>:</p></li>
+		<ul style="list-style: circle;">
+			<li><p><span>Show errors only (Network)</span></p></li>
+			<li><p><span>Show modes (Network and Schedule)</span></p></li>
+			<li><p><span>Change percent utilization indicators (Schedule)</span></p></li>
+			<li><p><span>Change load caution indicators (Schedule)</span></p></li>
+			<li><p>Show leg type (Schedule)</p></li>
+		</ul>
+	</ul>
+	<p>&#160;</p>
+</div>
+<p>&#160;</p>
+<p>&#160;</p>
+<p>&#160;</p>
+<p>&#160;</p>
+
+
+<script type="text/javascript" language="JavaScript1.2">//<![CDATA[
+	if( typeof( TextPopupInit ) != 'function' ) TextPopupInit = new Function();
+	TextPopupInit('a4','POPUP358077862');
+	TextPopupInit('a11','POPUP3579562081');
+	TextPopupInit('a21','POPUP3576049461');
+	TextPopupInit('a31','POPUP3574177421');
+	TextPopupInit('a6','POPUP360638882');
+	TextPopupInit('a2111','POPUP357604946111');
+	TextPopupInit('a3','POPUP360337144');
+	TextPopupInit('a1','POPUP360544124');
+	TextPopupInit('a2','POPUP360611082');
+	TextPopupInit('a111','POPUP35795620811');
+	TextPopupInit('a22','POPUP3597875511');
+	TextPopupInit('a7','POPUP360662378');
+	TextPopupInit('a21111','POPUP3576049461111');
+	TextPopupInit('a5','POPUP3603371441');
+//]]></script>
+<script type="text/javascript" language="javascript1.2">//<![CDATA[
+<!--
+if (window.writeIntopicBar)
+	writeIntopicBar(0);
+
+
+highlightSearch();
+//-->
+//]]></script>
+</body>
+</html>

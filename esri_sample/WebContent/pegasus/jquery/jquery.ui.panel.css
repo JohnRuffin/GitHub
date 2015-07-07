@@ -1,0 +1,30 @@
+/*
+ * jQuery UI Panel @VERSION
+ *
+ * Copyright 2010, AUTHORS.txt (http://jqueryui.com/about)
+ * Dual licensed under the MIT or GPL Version 2 licenses.
+ * http://jquery.org/license
+ *
+ * http://docs.jquery.com/UI/Panel#theming
+ */
+.ui-panel { width: 100%; }
+
+.ui-panel .ui-panel-header { cursor: pointer; position: relative; margin-top: 1px; zoom: 1; }
+.ui-panel .ui-panel-header a { display: block; font-size: 1em; padding: .5em .5em .5em .7em; }
+.ui-panel .ui-panel-header .ui-icon { position: absolute; left: .5em; top: 50%; margin-top: -8px; }
+.ui-panel .ui-panel-header-active { border-bottom: 0 !important; }
+.ui-panel-icons .ui-panel-header a { padding-left: 2.2em; }
+
+.ui-panel .ui-panel-content { padding: 1em 2.2em; border-top: 0; margin-top: -2px; position: relative; top: 1px; margin-bottom: 2px; overflow: auto; display: none; zoom: 1; }
+.ui-panel .ui-panel-content-active { display: block; }
+
+.ui-widget-vertical {
+    -moz-transform-origin: 0 0; 
+    -moz-transform: rotate(-90deg);
+    -webkit-transform-origin: 0 0;
+    -webkit-transform: rotate(-90deg);
+    -o-transform-origin: 0 0;
+    -o-transform: rotate(-90deg);
+    transform-origin: 0 0;
+    transform: rotate(-90deg);
+}

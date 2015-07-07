@@ -1,0 +1,368 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* .headerbar, .k-window .k-window-titlebar */
+.window-headerbar .k-tabstrip {
+	border:none;
+}	
+
+/* .k-window {	
+	-moz-border-radius:6px;
+    -webkit-border-radius:6px;
+    border-radius:6px;
+    overflow:hidden;
+    border:1px solid #c7c7c7;
+} */
+
+.querySubWindow {
+	margin-top:30px;
+	padding-top:17px ! important;
+	min-height: 0px !important;
+	-moz-border-radius:6px;
+    -webkit-border-radius:6px;
+    border-radius:6px;
+    overflow:hidden;
+    border:1px solid #c7c7c7;
+}
+/*
+.querySubWindow > .k-header, .querySubWindow .k-window-titlebar {
+	position:relative;
+}
+*/
+.querySubWindow .k-window-titlebar {
+	min-height: 17px;
+	height: 17px ! important;
+	padding-top: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	margin-left: -1px;
+	margin-top:-17px ! important; 
+	font-family:Arial, Helvetica, sans-serif;
+    font-weight:bold;
+    font-size:8pt;
+	color:#3276C8;
+	margin-bottom:-2px ! important;
+	border-top-left-radius: 6px !important;
+	border-top-right-radius: 6px !important;
+}
+
+.k-subwindow-actions .k-window-titlebar .k-window-actions {
+	position: absolute;
+	top: 0;
+	left:3px;
+	padding-top: 2px;
+	white-space: nowrap 
+}
+
+.k-subwindow-actions .k-icon{
+	margin-left: 0px;
+}
+
+.k-subwindow-actions .k-window-titlebar .k-window-title{
+	margin-left: 14px;
+	margin-top: 3px;
+}
+
+.k-subwindow-actions .k-link {
+	width: 11px;
+	height: 11px;
+	margin-left:0px;
+}
+
+.k-subwindow-actions .k-link, .k-subwindow-actions .k-link:hover {
+	width: 11px;
+	height: 11px;
+}
+
+.querySubWindow .k-window-content {
+	padding:5px;
+}
+	
+.k-i-minimize {
+	background:url(../assets/icons/expandbtn.png) no-repeat ! important;
+	width:11px;
+	height:11px;
+	background-position: center center ! important;
+	border:none ! important;
+	opacity:1;
+}
+
+/* .k-i-minimize:hover {
+	background:url(../assets/icons/collapsebtn.png) no-repeat;
+	width:11px;
+	height:11px;
+	background-position: center center;
+	border:none;
+} */
+.k-i-restore {
+	background:url(../assets/icons/collapsebtn.png) ! important;
+	width:11px;
+	height:11px;
+	background-position: center center ! important;
+	border:none ! important;
+	opacity:1;
+}
+
+/* .k-i-restore:hover {
+	background:url(../assets/icons/expandbtn.png) ! important;
+	width:11px;
+	height:11px;
+	background-position: center center;
+	border:none;
+} */
+
+.multi-select-container {
+	width:100%;
+	height:100%;
+	overflow-y:auto;
+	overflow-x:hidden;
+	background-color:#FFFFFF;
+	border:1px solid #d3d3d3;
+   	-moz-border-radius:4px;
+    -webkit-border-radius:4px;
+    border-radius:4px; 
+}
+
+.multi-select-container .multi-select-combobox {
+	background-color:#ffffff;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+   	background-origin: content-box ;
+   	height:98%;
+   	width: 98%;
+   	background-color:#FFFFFF;
+   	border:none; 
+}
+
+.k-multiselect-wrap {
+	border:1px solid #ffffff;
+	background-color:#ffffff;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+   	background-origin: content-box ;
+}
+	
+.smMMList{
+    min-width: 65px !important;
+}
+
+.k-animation-container .k-list-container {
+	width:100%;
+}
+.originProductList{
+	width: 190px !important;
+}
+.destProductList{
+	width: 190px !important;
+}
+.truckEquipList{
+	width: 105px !important;
+}	
+.flightLegList{
+	width: 165px !important;
+}
+.truckLegList{
+	width: 180px !important;
+}
+.flightEquipmentList{
+	width: 90px !important;
+}
+
+.otherLegList{
+	width: 60px !important;
+}	
+	
+.productList{
+	width: 325px !important;
+}
+.productGrpList{
+	width: 230px !important;
+}
+.locList {
+    width: 270px !important;
+} 
+.countryCodeList {
+    width: 200px !important;
+}
+.groupNameList {
+    width: 360px !important;
+}
+.globalRegionList {
+    width: 200px !important;
+}
+.actList {
+    width: 65px !important;
+}
+#laneStatusCmb {
+	z-index:99999;
+}
+#laneStatusCmbDiv .k-list-container {
+	height:230px !important;
+}
+.window-error-msg {
+	overflow:hidden;
+	margin-left:5px;
+	margin-right:5px;
+}
+
+.ui-widget-content {
+	margin-top:-5px;
+}
+
+/* Grid Styles */
+.k-grid {
+	/* border-top:1px solid #FFFFFF !important;
+	border-left:1px solid #FFFFFF !important;
+	border-right:1px solid #FFFFFF !important;
+	border-bottom:1px solid #FFFFFF !important; */
+	border:none !important;
+	table-layout: fixed;
+}
+
+.k-grid-header-wrap {
+	border:none;
+	background:transparent;
+	background-image:none;
+}
+	
+div.k-grid-header {
+	border-bottom:none !important;
+}
+
+.k-grid .k-grid-header .k-header {
+	padding-top:5px;
+	padding-bottom:3px;
+	border-bottom:1px solid #c5c5c5;
+}
+
+			/*.k-grid-header .k-header:first-child, .k-grid-header .k-header:last-child {
+				border-bottom:none !important;
+			}
+	
+			.k-grid-header .k-header:first-child, .k-grid tbody td:first-child {
+				background-color:#FFFFFF;
+				border-left:none !important;
+				border-top:none !important;
+				border-bottom:none !important;
+			}
+
+		.k-grid-header .k-header:last-child, .k-grid tbody td:last-child {
+			 background-color:#FFFFFF !important; 
+			border-right:none !important;
+			border-top:none !important;
+			border-bottom:none !important;
+		}*/
+
+	
+
+/* .k-grid-header .k-header {
+	border-left:1px solid #FFFFFF ;
+	border-bottom:1px solid #FFFFFF ;
+} */
+
+
+			/* these 3 entries to make schedule/network less matrix like check no issues elsewhere*/
+			.k-grid td {
+				border-bottom:1px solid #C0D2E7 !important; 
+				
+			}	
+			.querySubWindow .k-grid td {
+				/* border-bottom:1px solid #C0D2E7 !important;  */
+				border:none !important;
+			}	
+			.querySubWindow .k-grid-header th.k-header, .querySubWindow .k-filter-row th {
+				border-left:none !important;
+				border-right:none !important;
+			}
+
+textarea.k-textbox {
+	width: 100%;
+	height: 98%;
+	overflow:auto;
+	resize:none;
+	padding:4px;
+}
+
+.k-grid-content {
+	padding-left: 1px;
+	background-color:#FFFFFF;
+}
+
+.main-heading {
+	font-family:Arial, Helvetica, sans-serif ;
+    font-weight:bold;
+    font-size:8pt;
+	color:#595959 ;
+}
+
+.main-subheading {
+	font-family:Arial, Helvetica, sans-serif !important;
+	font-weight:normal !important;
+    color:#7b7a7a !important;
+    font-size:9pt !important;
+}
+
+.k-window-actions .k-window-action {
+	padding-top:0px !important;
+}
+
+#flightEquipmentDiv .k-multiselect .k-multiselect-wrap .k-button,
+#truckEquipmentDiv .k-multiselect .k-multiselect-wrap .k-button,
+#otherEquipmentDiv .k-multiselect .k-multiselect-wrap .k-button,
+#flightLegDiv .k-multiselect .k-multiselect-wrap .k-button,
+#truckLegDiv .k-multiselect .k-multiselect-wrap .k-button,
+#otherLegDiv .k-multiselect .k-multiselect-wrap .k-button				 {
+	margin-right:2px !important;
+}
+
+.productButtonStyle {
+	border: 1px solid #94c0d2;
+	background-color: #daecf4;
+	color: #003366;
+	-webkit-border-radius: 4px;
+	border-radius: 4px;
+	display: inline-block;;
+	cursor: pointer;
+	line-height: 1.66em;
+	padding: 2px;
+}
+
+.productButtonStyle:hover {
+  	border-color: #7ec6e3;
+  	background-color: #7dd3f6;
+}
+
+.k-i-list-popup {
+	background:url(../assets/icons/pop-up-list.png) no-repeat ! important;
+	width:11px;
+	height:11px;
+	background-position: center center ! important;
+	border:none ! important;
+	opacity:1;
+}
+
+.k-i-list-popup-disable {
+	background:url(../assets/icons/pop-up-list_gray.png) no-repeat ! important;
+	width:11px;
+	height:11px;
+	background-position: center center ! important;
+	border:none ! important;
+	opacity:1 !important;
+	cursor: default;
+}
+
+.k-dirty {
+	border: none;
+	margin: 0;	
+}
+.k-grid td.k-state-focused {
+	background-color: transparent;
+  	-webkit-box-shadow: none;
+  	box-shadow: none;
+}
+
+
+#connectivityCmb-list {
+	width: 160px !important;
+}

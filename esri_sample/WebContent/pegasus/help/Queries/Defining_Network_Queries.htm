@@ -1,0 +1,453 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- saved from url=(0014)about:internet -->
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+ <meta name="generator" content="Adobe RoboHelp 10" />
+<title>Defining Network Queries</title>
+<link rel="StyleSheet" href="../Pegasus.css" type="text/css" />
+<script type="text/javascript" language="JavaScript">
+//<![CDATA[
+function reDo() {
+  if (innerWidth != origWidth || innerHeight != origHeight)
+     location.reload();
+}
+if ((parseInt(navigator.appVersion) == 4) && (navigator.appName == "Netscape")) {
+	origWidth = innerWidth;
+	origHeight = innerHeight;
+	onresize = reDo;
+}
+onerror = null; 
+//]]>
+</script>
+<style type="text/css">
+<!--
+div.WebHelpPopupMenu { position:absolute;
+left:0px;
+top:0px;
+z-index:4;
+visibility:hidden; }
+-->
+</style>
+<script type="text/javascript" language="javascript1.2" src="../whmsg.js" charset="utf-8"></script>
+<script type="text/javascript" language="javascript" src="../whver.js" charset="utf-8"></script>
+<script type="text/javascript" language="javascript1.2" src="../whutils.js" charset="utf-8"></script>
+<script type="text/javascript" language="javascript1.2" src="../whproxy.js" charset="utf-8"></script>
+<script type="text/javascript" language="javascript1.2" src="../whlang.js" charset="utf-8"></script>
+<script type="text/javascript" language="javascript1.2" src="../whtopic.js" charset="utf-8"></script>
+
+</head>
+
+<body><script type="text/javascript" language="javascript1.2">//<![CDATA[
+<!--
+if (window.gbWhTopic)
+{
+	var strUrl = document.location.href;
+	var bc = 0;
+	var n = strUrl.toLowerCase().indexOf("bc-");
+	if(n != -1)
+	{
+		document.location.href = strUrl.substring(0, n);
+		bc = strUrl.substring(n+3);
+	}
+
+	if (window.addTocInfo)
+	{
+	addTocInfo("Queries\nDefining Network Queries");
+addButton("show",BTN_TEXT,"Show","","","","",0,0,"","","");
+
+	}
+	if (window.writeBtnStyle)
+		writeBtnStyle();
+
+	if (window.writeIntopicBar)
+		writeIntopicBar(1);
+
+	
+	
+}
+else
+	if (window.gbIE4)
+		document.location.reload();
+
+onLoadHandler = function()
+{
+  if (window.setRelStartPage)
+	{
+	setTimeout("setRelStartPage('../Pegasus_Help.htm');", 1)
+
+    setTimeout("UpdateBreadCrumbsMarker();", 1);
+	}
+}
+
+if (window.addEventListener){  
+	window.addEventListener('load', onLoadHandler, false);   
+} else if (window.attachEvent){  
+	window.attachEvent('onload', onLoadHandler);  
+}
+
+function onSetStartPage()
+{
+  autoSync(1);
+  sendSyncInfo();
+  sendAveInfoOut();
+}
+//-->
+//]]></script>
+<script type="text/javascript" src="../ehlpdhtm.js" language="JavaScript1.2"></script>
+
+
+<h1>Defining Network Queries</h1>
+<p>The <span style="font-weight: bold;">Network</span> tab is displayed 
+ when the <span style="font-weight: bold;">Query</span> window<span style="font-weight: bold;"> 
+ </span>opens. It contains four subwindows where you enter any combination 
+ of query parameters. To create a valid Network query, however, in the 
+ <span style="font-weight: bold;">Primary </span><span>subwindow </span>you 
+ must either include one location or select the HAR or PTP routing type.</p>
+<p class="DoAny">Do any of the following to customize the window display:</p>
+<p><a class="dropspot" href="javascript:TextPopup(this)" id="a13"><img class="Twisties" alt="" style="border: none; display: none;" src="../expandbtn.png" /><img class="Twisties" alt="" style="border: none;" src="../collapsebtn.png" />Resize the 
+ query window and then rearrange the subwindows</a></p>
+<div class="droptext" id="POPUP389676712" style="display: none;">
+	<p>To resize a window, click and drag a the edge of a window. To move 
+	 a window, click and drag the window header</p>
+	<p>&#160;</p>
+</div>
+<p><a class="dropspot" href="javascript:TextPopup(this)" id="a14"><img class="Twisties" alt="" style="border: none; display: none;" src="../expandbtn.png" /><img class="Twisties" alt="" style="border: none;" src="../collapsebtn.png" />Collapse or 
+ expand the subwindows</a></p>
+<div class="droptext" id="POPUP390109956" style="display: none;">
+	<p>To collapse and expand a subwindow, click <img src="../expandbtn.png" 
+														 alt="" style="border: none;" 
+														 border="0" /> 
+	 or <img src="../collapsebtn.png" alt="" style="border: none;" border="0" /> 
+	 on the subwindow header.</p>
+	<p>&#160;</p>
+</div>
+<p><a class="dropspot" href="javascript:TextPopup(this)" id="a15"><img class="Twisties" alt="" style="border: none; display: none;" src="../expandbtn.png" /><img class="Twisties" alt="" style="border: none;" src="../collapsebtn.png" />Change the 
+ subwindow settings to set defaults and eliminate parameters that you don't 
+ expect to use</a></p>
+<div class="droptext" id="POPUP390292405" style="display: none;">
+	<p>The <span style="font-weight: bold;">Network Query</span> settings 
+	 determine the content of the subwindows. You can save any changes 
+	 you make as <span style="font-weight: bold;">Query</span> favorites. 
+	 </p>
+	<p>To change the settings:</p>
+	<ol style="list-style: decimal;">
+		<li><p>Click <img src="../drawer_handle.PNG" alt="" style="border: none;" border="0" /> on the right side of the window.</p></li>
+		<li><p>Do any of the following:</p></li>
+		<ul>
+			<li style="list-style: disc;"><p>Set the default display of 
+			 results to show <span style="font-weight: bold;">Full Routing 
+			 </span>or <span style="font-weight: bold;">Lane Level</span> 
+			 routing.</p></li>
+			<li style="list-style: disc;"><p>To hide the display of query 
+			 parameters that you do not expect to use, clear the parameter's 
+			 checkbox.</p></li>
+		</ul>
+	</ol>
+	<ol start="3" style="list-style: decimal;">
+		<li><span>(Optional) To save your settings as the default display, 
+		 do the following:</span></li>
+		<ol style="list-style: lower-alpha;">
+			<li><p>In the Query Windows toolbar, click <img src="../favorites.png" 
+															 alt="" style="border: none;" 
+															 border="0" /></p></li>
+			<li><p>Select <span style="font-weight: bold;">Add to Favorites</span><span>. 
+			 The </span><span style="font-weight: bold;">Add Favorites</span><span> 
+			 pop-up opens.</span></p></li>
+			<li><p>Type a name for the favorite.</p></li>
+			<li><p>Click <span style="font-weight: bold;">Save</span>. 
+			 You see a message confirming that the favorite was saved.</p></li>
+			<li><p>Click <img src="../favorites.png" alt="" style="border: none;" 
+								 border="0" /></p></li>
+			<li><p>Click <span style="font-weight: bold;">Manage</span>. 
+			 The <span style="font-weight: bold;">Manage Query Favorites</span><span> 
+			 pop-up opens.</span></p></li>
+			<li><p>Click your new favorite.</p></li>
+			<li><p>Click <span style="font-weight: bold;">Set Default</span>, 
+			 then click <span style="font-weight: bold;">OK</span>.</p></li>
+		</ol>
+	</ol>
+	<p>&#160;</p>
+</div>
+<p><a class="dropspot" href="javascript:TextPopup(this)" id="a12"><img class="Twisties" alt="" style="border: none; display: none;" src="../expandbtn.png" /><img class="Twisties" alt="" style="border: none;" src="../collapsebtn.png" />Save the rearranged 
+ subwindows as a default setting</a>. &#160;</p>
+<div class="droptext" id="POPUP362179326" style="display: none;">
+	<p>The organization of windows is determined by <span style="font-weight: bold;">Application</span><span> 
+	 favorites. If you reposition the </span><span style="font-weight: bold;">Query</span><span> 
+	 subwindows, you can save that position (as well as the position of 
+	 all the other windows) as an </span><span style="font-weight: bold;">Application 
+	 </span><span>favorite.</span></p>
+	<ol style="list-style: decimal;">
+		<li><p>Arrange the Query subwindows (on both the <span style="font-weight: bold;">Network 
+		 </span><span>tab and the </span><span style="font-weight: bold;">Schedule 
+		 </span><span>tab) </span>and all other windows (Map, Matrix, Schematic) 
+		 to your preference. </p></li>
+		<li><p>On the <span style="font-weight: bold;">Application </span>toolbar, 
+		 click <img src="../favorites.png" alt="" style="border: none;" 
+					 border="0" /></p></li>
+		<li><p>Select <span style="font-weight: bold;">Add to Favorites</span><span>. 
+		 The </span><span style="font-weight: bold;">Add Favorites</span><span> 
+		 pop-up opens.</span></p></li>
+		<li><p>Type a name for the favorite.</p></li>
+		<li><p>Click <span style="font-weight: bold;">Save</span>. You 
+		 see a message confirming that the favorite was saved.</p></li>
+		<li><p>To use these window positions each time you open Pegasus, 
+		 on the <span style="font-weight: bold;">Application</span><span> 
+		 toolbar, c</span>lick <img src="../favorites.png" alt="" style="border: none;" 
+									 border="0" /></p></li>
+		<li><p>Click <span style="font-weight: bold;">Manage</span>. The 
+		 <span style="font-weight: bold;">Manage Query Favorites</span><span> 
+		 pop-up opens.</span></p></li>
+		<li><p>Click your new favorite.</p></li>
+		<li><p>Click <span style="font-weight: bold;">Set Default</span>, 
+		 then click <span style="font-weight: bold;">OK</span>.</p></li>
+	</ol>
+	<p>&#160;</p>
+</div>
+<p>&#160;</p>
+<p>The following sections describe how to use each subwindow.</p>
+<h2>General subwindow </h2>
+<p>Use fields in this subwindow to search for lanes by full routing or 
+ by lane level.</p>
+<p>&#160;</p>
+<table class="Pegasus" cellspacing="0px" width="100.045%">
+	<col style="width: 13.937%;" />
+	<col style="width: 86.063%;" />
+	<tr>
+		<td style="vertical-align: Top;"><p><span style="font-weight: bold; 
+													 font-family: Verdana, sans-serif;">Full 
+		 Routing</span></p></td>
+		<td style="vertical-align: Top;"><p>Select this option to find 
+		 full path routings to and from the locations you enter in the 
+		 <span style="font-weight: bold;">Previous</span>, <span style="font-weight: bold;">Primary</span>, 
+		 and <span style="font-weight: bold;">Next</span> subwindows.</p></td>
+	</tr>
+	<tr>
+		<td style="vertical-align: Top;"><p><span style="font-weight: bold; 
+													 font-family: Verdana, sans-serif;">Lane 
+		 Level</span></p></td>
+		<td style="vertical-align: Top;"><p>Select this option to find 
+		 single lanes to and from the locations you enter in the <span 
+		 style="font-weight: bold;">Previous</span>, <span style="font-weight: bold;">Primary</span>, 
+		 and <span style="font-weight: bold;">Next</span> subwindows.</p></td>
+	</tr>
+	<tr>
+		<td style="vertical-align: Top;"><p><span style="font-weight: bold; 
+													 font-family: Verdana, sans-serif;">Lane 
+		 Status</span></p></td>
+		<td style="vertical-align: Top;"><p>Select a status from this drop-down 
+		 box&#160;to&#160;limit your results to show only those lanes that 
+		 have the selected status.&#160;&#160;For example, you can choose 
+		 to show only those lanes that match your other query parameters 
+		 and carry excess capacity.</p></td>
+	</tr>
+</table>
+<h2>Primary subwindow </h2>
+<p>Use fields in this subwindow to specify information you want to find 
+ about the primary location. </p>
+<p><a class="dropspot" href="javascript:TextPopup(this)" id="a6"><img class="Twisties" alt="" style="border: none; display: none;" src="../expandbtn.png" /><img class="Twisties" alt="" style="border: none;" src="../collapsebtn.png" />Using <span 
+	 style="font-weight: bold;">Locs</span></a></p>
+<div class="droptext" id="POPUP425125001" style="display: none;">
+	<p>Use to select a primary ramp, hub, or dock location.</p>
+	<ol style="list-style: decimal;">
+		<li style="font-family: Verdana, sans-serif;"><p style="font-family: Verdana, sans-serif;">Click 
+		 a cell in the <span style="font-weight: bold;">Locs</span> column.</p></li>
+	</ol>
+	<ol start="3" style="list-style: decimal;">
+		<li style="font-family: Verdana, sans-serif;"><p style="font-family: Verdana, sans-serif;">Start 
+		 typing and then select a code from the drop-down list.</p></li>
+	</ol>
+	<p style="font-family: Verdana, sans-serif;">&#160;</p>
+</div>
+<p><a class="dropspot" href="javascript:TextPopup(this)" id="a7"><img class="Twisties" alt="" style="border: none; display: none;" src="../expandbtn.png" /><img class="Twisties" alt="" style="border: none;" src="../collapsebtn.png" />Using <span 
+	 style="font-weight: bold;">ACT</span></a></p>
+<div class="droptext" id="POPUP388941482" style="display: none;">
+	<p>Use to limit your results to an activity.</p>
+	<ol style="list-style: decimal;">
+		<li><p>Click a cell in the <span style="font-weight: bold;">Act</span> 
+		 column.</p></li>
+		<li><p>Start typing and then select an activity from the drop-down 
+		 list.</p></li>
+	</ol>
+	<p>&#160;</p>
+</div>
+<p><a class="dropspot" href="javascript:TextPopup(this)" id="a8"><img class="Twisties" alt="" style="border: none; display: none;" src="../expandbtn.png" /><img class="Twisties" alt="" style="border: none;" src="../collapsebtn.png" />Using <span 
+	 style="font-weight: bold;">Day(s)</span></a></p>
+<div class="droptext" id="POPUP389115067" style="display: none;">
+	<p>Use to specify the day or days an activity occurs at the location.</p>
+	<p style="margin-left: 0px;">Do one of the following:</p>
+	<p><span class="rls-1-Bullets"><span style="font-family:'Symbol'">&#183;</span></span><span style='word-spacing:normal; font:6.0pt "Times New Roman"'><font size="1" style="font-size:6pt;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font></span>Click 
+	 a cell in the day column and type one or more day numbers, for example 
+	 <span style="font-style: italic;"><i>1-5,7,10</i></span>.</p>
+	<p><span class="rls-1-Bullets"><span style="font-family:'Symbol'">&#183;</span></span><span style='word-spacing:normal; font:6.0pt "Times New Roman"'><font size="1" style="font-size:6pt;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font></span>Click 
+	 <img src="../calendar.png" alt="" style="border: none;" border="0" /> 
+	 and do any of the following:</p>
+	<p style=" margin-left: 20px;"><span class="rls-2-Bullets"><span style="font-family:Wingdings">&#167;</span></span><span style='word-spacing:normal; font:6.0pt "Times New Roman"'><font size="1" style="font-size:6pt;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font></span>The 
+	 calendar shows plan days, to switch to Month days, click <img src="../plan_day_P.png" 
+	 alt="" style="border: none;" border="0" /></p>
+	<p style=" margin-left: 20px;"><span class="rls-2-Bullets"><span style="font-family:Wingdings">&#167;</span></span><span style='word-spacing:normal; font:6.0pt "Times New Roman"'><font size="1" style="font-size:6pt;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font></span>To 
+	 select all days, click <span style="font-weight: bold;">Select all</span>.</p>
+	<p style=" margin-left: 20px;"><span class="rls-2-Bullets"><span style="font-family:Wingdings">&#167;</span></span><span style='word-spacing:normal; font:6.0pt "Times New Roman"'><font size="1" style="font-size:6pt;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font></span>To 
+	 select all the days in a week, click a week number along the left 
+	 side of the calendar.</p>
+	<p style=" margin-left: 20px;"><span class="rls-2-Bullets"><span style="font-family:Wingdings">&#167;</span></span><span style='word-spacing:normal; font:6.0pt "Times New Roman"'><font size="1" style="font-size:6pt;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font></span><span>To 
+	 select all the same day in a month, click a day in the header.</span></p>
+	<p style="margin-left: 0px;">The Zulu or Local toggle at the top of 
+	 the <span style="font-weight: bold;">Query</span> window determines 
+	 whether a day is interpreted using Zulu time or Local time.</p>
+	<p style="margin-left: 0px;">&#160;</p>
+	<p>&#160;</p>
+</div>
+<p><a class="dropspot" href="javascript:TextPopup(this)" id="a9"><img class="Twisties" alt="" style="border: none; display: none;" src="../expandbtn.png" /><img class="Twisties" alt="" style="border: none;" src="../collapsebtn.png" />Using <span 
+	 style="font-weight: bold;">Products</span> and <span style="font-weight: bold;">Product 
+ Groups</span></a></p>
+<div class="droptext" id="POPUP391062281" style="display: none;">
+	<p>Use to select the products and product groups to include in the 
+	 query results.</p>
+	<ol style="list-style: decimal;">
+		<li><p>Click the <span style="font-weight: bold;">Products</span> 
+		 or <span style="font-weight: bold;">Product Groups </span>box.</p></li>
+		<li><p>Enter a product code.</p></li>
+	</ol>
+	<p>&#160;</p>
+</div>
+<p><a class="dropspot" href="javascript:TextPopup(this)" id="a10"><img class="Twisties" alt="" style="border: none; display: none;" src="../expandbtn.png" /><img class="Twisties" alt="" style="border: none;" src="../collapsebtn.png" />Using <span 
+	 style="font-weight: bold;">Display Connections</span> and <span style="font-weight: bold;">Routing 
+ Type</span></a></p>
+<div class="droptext" id="POPUP393480361" style="display: none;">
+	<p>Use to limit your results or filter the display of your results 
+	 to the selected connections and routing types.</p>
+	<ol style="list-style: decimal;">
+		<li><p>In the <span style="font-weight: bold;">Display Connections</span> 
+		 section, to limit the display of your results to a connection 
+		 type, select the desired connection type checkbox.</p></li>
+		<li><p>In the <span style="font-weight: bold;">Routing Type</span> 
+		 section, to limit your results to a particular routing type, click 
+		 <span style="font-weight: bold;">All</span> to deselect all routing 
+		 types, then select the desired routing type checkbox.</p></li>
+	</ol>
+	<p>&#160;</p>
+</div>
+<h2>Previous and Next subwindow</h2>
+<p>Use fields in these subwindows to specify information you want to find 
+ about lanes inbound to the primary location (<span style="font-weight: bold;">Previous</span> 
+ subwindow) or lanes outbound from the primary location (<span style="font-weight: bold;">Next</span> 
+ subwindow). The <span style="font-weight: bold;">Previous</span> and <span 
+	 style="font-weight: bold;">Next</span> subwindows use the same fields, 
+ all of which are optional when you define a query.</p>
+<p><a class="dropspot" href="javascript:TextPopup(this)" id="a1"><img class="Twisties" alt="" style="border: none; display: none;" src="../expandbtn.png" /><img class="Twisties" alt="" style="border: none;" src="../collapsebtn.png" />Using <span style="font-weight: bold;">Locs</span></a></p>
+<div class="droptext" id="POPUP375231834" style="display: none;">
+	<p>Use to select a primary ramp, hub, or dock location.</p>
+	<ol style="list-style: decimal;">
+		<li><p>Click a cell in the <span style="font-weight: bold;">Locs</span><span> 
+		 column.</span></p></li>
+		<li><p><span>Start typing and then select a code form the drop-down 
+		 list.</span></p></li>
+	</ol>
+</div>
+<p><a class="dropspot" href="javascript:TextPopup(this)" id="a2"><img class="Twisties" alt="" style="border: none; display: none;" src="../expandbtn.png" /><img class="Twisties" alt="" style="border: none;" src="../collapsebtn.png" />Using <span 
+	 style="font-weight: bold;">Act</span></a></p>
+<div class="droptext" id="POPUP422415867" style="display: none;">
+	<p>Use to limit your results to an activity.</p>
+	<ol style="list-style: decimal;">
+		<li><p>Click a cell in the <span style="font-weight: bold;">Act</span> 
+		 column.</p></li>
+		<li><p>Start typing and then select an activity from the drop-down 
+		 list.</p></li>
+	</ol>
+	<p>&#160;</p>
+</div>
+<p><a class="dropspot" href="javascript:TextPopup(this)" id="a3"><img class="Twisties" alt="" style="border: none; display: none;" src="../expandbtn.png" /><img class="Twisties" alt="" style="border: none;" src="../collapsebtn.png" />Using <span 
+	 style="font-weight: bold;">Day</span></a></p>
+<div class="droptext" id="POPUP423786277" style="display: none;">
+	<p>Use to find lanes coming from a Previous location or going to a 
+	 Next location on a specific day.</p>
+	<p style="margin-left: 0px;">Do one of the following:</p>
+	<p><span class="rls-1-Bullets"><span style="font-family:'Symbol'">&#183;</span></span><span style='word-spacing:normal; font:6.0pt "Times New Roman"'><font size="1" style="font-size:6pt;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font></span>Click 
+	 a cell in the day column and type a Plan day number.</p>
+	<p><span class="rls-1-Bullets"><span style="font-family:'Symbol'">&#183;</span></span><span style='word-spacing:normal; font:6.0pt "Times New Roman"'><font size="1" style="font-size:6pt;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font></span>Click 
+	 <img src="../calendar.png" alt="" style="border: none;" border="0" /> 
+	 and do the following:</p>
+	<ol>
+		<ol>
+			<li style="list-style: lower-alpha;"><p>(optional) The calendar 
+			 shows plan days, to switch to Month days, click <img src="../plan_day_P.png" 
+			 alt="" style="border: none;" border="0" /></p></li>
+			<li style="list-style: lower-alpha;"><p>Click a day.</p></li>
+		</ol>
+	</ol>
+	<p style="margin-left: 0px;">The Zulu or Local toggle at the top of 
+	 the <span style="font-weight: bold;">Query</span> window determines 
+	 whether a day is interpreted using Zulu time or Local time.</p>
+	<p>&#160;</p>
+	<p>&#160;</p>
+	<p>&#160;</p>
+</div>
+<p><a class="dropspot" href="javascript:TextPopup(this)" id="a4"><img class="Twisties" alt="" style="border: none; display: none;" src="../expandbtn.png" /><img class="Twisties" alt="" style="border: none;" src="../collapsebtn.png" />Using <span 
+	 style="font-weight: bold;">Transits</span> and <span style="font-weight: bold;">Transit 
+ Type</span></a></p>
+<div class="droptext" id="POPUP423738442" style="display: none;">
+	<p>Use to limit your results to lanes that pass through one or more 
+	 transits. When used in conjunction with the <span style="font-weight: bold;">Transit 
+	 Type</span> field you can further specify the transit as <span style="font-weight: bold;">any</span>, 
+	 <span style="font-weight: bold;">mandatory</span>, or <span style="font-weight: bold;">optional</span>.</p>
+	<ol style="list-style: decimal;">
+		<li><p>Click a cell in the <span style="font-weight: bold;">Transits</span> 
+		 column.</p></li>
+		<li><p>Start typing and then select a transit from the drop-down 
+		 list. You can enter more than one transit for any location.</p></li>
+		<li><p>(Optional) Click a cell in the <span style="font-weight: bold;">Transit 
+		 Type</span> column and select a type from the drop-down list.</p></li>
+		<li><p>(Optional) To clear this selection, click a cell and select 
+		 the blank row in the drop-down list.</p></li>
+	</ol>
+	<p>&#160;</p>
+</div>
+<p><a class="dropspot" href="javascript:TextPopup(this)" id="a5"><img class="Twisties" alt="" style="border: none; display: none;" src="../expandbtn.png" /><img class="Twisties" alt="" style="border: none;" src="../collapsebtn.png" />Using <span 
+	 style="font-weight: bold;">SM</span> and <span style="font-weight: bold;">MM</span></a></p>
+<div class="droptext" id="POPUP424251938" style="display: none;">
+	<p>Use to limit your results to lanes for which the mode used is the 
+	 <span style="font-weight: bold;">Suggested Mode</span> or the <span 
+	 style="font-weight: bold;">Mandatory Mode</span>. For example, you 
+	 can limit your results to find only those lanes for which trucks are 
+	 mandatory.</p>
+	<ol style="list-style: decimal;">
+		<li><p>Click a cell in the <span style="font-weight: bold;">SM</span> 
+		 or <span style="font-weight: bold;">MM</span> column.</p></li>
+		<li><p>Select a mode from the drop-down list.</p></li>
+		<li><p>To clear this selection, click a cell and select the blank 
+		 row in the drop-down list.</p></li>
+	</ol>
+	<p>&#160;</p>
+</div>
+
+
+<script type="text/javascript" language="JavaScript1.2">//<![CDATA[
+	if( typeof( TextPopupInit ) != 'function' ) TextPopupInit = new Function();
+	TextPopupInit('a13','POPUP389676712');
+	TextPopupInit('a14','POPUP390109956');
+	TextPopupInit('a15','POPUP390292405');
+	TextPopupInit('a12','POPUP362179326');
+	TextPopupInit('a6','POPUP425125001');
+	TextPopupInit('a7','POPUP388941482');
+	TextPopupInit('a8','POPUP389115067');
+	TextPopupInit('a9','POPUP391062281');
+	TextPopupInit('a10','POPUP393480361');
+	TextPopupInit('a1','POPUP375231834');
+	TextPopupInit('a2','POPUP422415867');
+	TextPopupInit('a3','POPUP423786277');
+	TextPopupInit('a4','POPUP423738442');
+	TextPopupInit('a5','POPUP424251938');
+//]]></script>
+<script type="text/javascript" language="javascript1.2">//<![CDATA[
+<!--
+if (window.writeIntopicBar)
+	writeIntopicBar(0);
+
+
+highlightSearch();
+//-->
+//]]></script>
+</body>
+</html>

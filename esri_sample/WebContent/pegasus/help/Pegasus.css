@@ -1,0 +1,212 @@
+﻿/*Created with Adobe RoboHelp 10.*/
+body {
+	font-family: Arial;
+	background-color: #ffffff;
+}
+h1 {
+	font-weight: bold;
+	color: #3075c6;
+	font-size: 18pt;
+	font-family: "Arial Black";
+	border-bottom-style: Ridge;
+	border-bottom-width: 4px;
+	x-next-class: ;
+	x-next-type: p;
+}
+h2 {
+	font-weight: bold;
+	font-size: 12pt;
+	margin-top: 9.5pt;
+	x-next-class: dropspot;
+	x-next-type: a;
+	color: #2d72c4;
+}
+h3 {
+	font-weight: bold;
+	font-size: 14.0pt;
+}
+h4 {
+	font-weight: bold;
+	font-size: 12.0pt;
+}
+h5 {
+	font-weight: bold;
+	font-size: 10.0pt;
+}
+h6 {
+	font-weight: bold;
+	font-size: 8.0pt;
+}
+p {
+	font-size: 10pt;
+	font-family: Verdana;
+	margin-bottom: 3pt;
+	margin-top: 3pt;
+}
+a {
+	display: inline;
+	font-size: 10pt;
+	color: #3075c6;
+	text-decoration: none;
+}
+a.expandspot {
+	color: #008000;
+	cursor: hand;
+	font-style: italic;
+	text-decoration: none;
+}
+span.expandtext {
+	font-style: italic;
+	font-weight: normal;
+	color: #000000;
+}
+a.dropspot {
+	cursor: hand;
+	x-open-image: url(expandbtn.png);
+	x-close-image: url(collapsebtn.png);
+	color: #2d72c6;
+	text-decoration: none;
+}
+a.glossterm {
+	color: #800000;
+	cursor: hand;
+	font-style: italic;
+	text-decoration: none;
+}
+span.glosstext {
+	font-style: italic;
+	font-weight: normal;
+	color: #0000ff;
+}
+ol,
+ul {
+	margin-bottom: 0px;
+	font-size: 10pt;
+	font-family: Verdana;
+	margin-top: 3px;
+}
+span.Style1 {
+}
+p.Style2 {
+}
+p.Style3 {
+}
+table.Pegasus {
+	font-family: Verdana;
+	font-size: 10pt;
+	x-border-spacing: 0px;
+}
+table.Pegasus td {
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+li.Bullet {
+	font-family: Verdana;
+	font-size: 10pt;
+	list-style: disc;
+	margin-top: 3px;
+	margin-bottom: 3px;
+}
+li.Style4 {
+}
+rh-list.BasicNumber {
+	x-lvl-1-format: "<x>&c";
+	x-lvl-2-type: lower-alpha;
+	x-lvl-2-format: "<x>&c";
+	x-lvl-1-p-tag: P;
+	x-lvl-2-margin: 20px;
+	x-lvl-2-p-tag: P;
+	x-lvl-3-type: lower-roman;
+	x-lvl-3-format: "<x>&c";
+	x-lvl-3-margin: 40px;
+	x-lvl-3-p-tag: P;
+	x-lvl-4-type: decimal;
+	x-lvl-4-format: "&o<x>&c";
+	x-lvl-4-margin: 60px;
+	x-lvl-4-p-tag: P;
+	x-lvl-5-format: "&o<x>&c";
+	x-lvl-5-margin: 80px;
+	x-lvl-5-p-tag: P;
+	x-lvl-6-type: lower-roman;
+	x-lvl-6-format: "&o<x>&c";
+	x-lvl-6-margin: 100px;
+	x-lvl-6-p-tag: P;
+	x-lvl-7-margin: 120px;
+	x-lvl-7-p-tag: P;
+	x-lvl-8-type: lower-alpha;
+	x-lvl-8-margin: 140px;
+	x-level-count: 9;
+	x-lvl-9-type: lower-roman;
+	x-lvl-9-margin: 160px;
+}
+rh-list.Bullets {
+	x-lvl-1-type: disc;
+	x-lvl-1-format: "<x>";
+	x-lvl-2-type: square;
+	x-lvl-2-format: "<x>";
+	x-lvl-2-margin: 20px;
+	x-lvl-3-type: circle;
+	x-lvl-3-format: "<x>";
+	x-lvl-3-margin: 40px;
+	x-lvl-4-type: diamond;
+	x-lvl-4-format: "<x>";
+	x-lvl-4-margin: 60px;
+	x-lvl-5-type: disc;
+	x-lvl-5-format: "<x>";
+	x-lvl-5-margin: 80px;
+	x-lvl-6-type: square;
+	x-lvl-6-format: "<x>";
+	x-lvl-6-margin: 100px;
+	x-lvl-7-type: circle;
+	x-lvl-7-format: "<x>";
+	x-lvl-7-margin: 120px;
+	x-lvl-8-type: diamond;
+	x-lvl-8-format: "<x>";
+	x-lvl-8-margin: 140px;
+	x-level-count: 9;
+	x-lvl-9-type: disc;
+	x-lvl-9-format: "<x>";
+	x-lvl-9-margin: 160px;
+	x-lvl-9-pfx-class: rls-9-Bullets;
+	x-lvl-1-pfx-class: rls-1-Bullets;
+	x-lvl-2-pfx-class: rls-2-Bullets;
+	x-lvl-3-pfx-class: rls-3-Bullets;
+	x-lvl-4-pfx-class: rls-4-Bullets;
+	x-lvl-5-pfx-class: rls-5-Bullets;
+	x-lvl-6-pfx-class: rls-6-Bullets;
+	x-lvl-7-pfx-class: rls-7-Bullets;
+	x-lvl-8-pfx-class: rls-8-Bullets;
+}
+span.rls-9-Bullets {
+	font-size: 8pt;
+}
+span.rls-1-Bullets {
+	font-size: 12pt;
+}
+span.rls-2-Bullets {
+	font-size: 12pt;
+}
+span.rls-3-Bullets {
+	font-size: 12pt;
+}
+span.rls-4-Bullets {
+	font-size: 12pt;
+}
+span.rls-5-Bullets {
+	font-size: 10pt;
+}
+span.rls-6-Bullets {
+	font-size: 10pt;
+}
+span.rls-7-Bullets {
+	font-size: 10pt;
+}
+span.rls-8-Bullets {
+	font-size: 10pt;
+}
+p.DoAny {
+	font-weight: bold;
+	margin-top: 7.5pt;
+}

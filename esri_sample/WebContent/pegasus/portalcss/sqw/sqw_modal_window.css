@@ -1,0 +1,249 @@
+@charset "utf-8";
+
+/************ SQW Popup - Outer layout ************/
+
+
+.ui-multiselect-menu.ui-multiselect-menu {
+border-left: 1px solid rgb( 41, 133, 230 );
+border-bottom: 1px solid rgb( 41, 133, 230 );
+border-right: 1px solid rgb( 41, 133, 230 );
+				/*  border-radius: 10px; */ 
+background-color: rgb( 255, 255, 255 );
+/*	box-shadow: 1px 1.732px 4px 0px rgb( 0, 0, 0 );*/ 
+padding:0px;
+/*	-webkit-border-bottom-right-radius: 10px;
+-webkit-border-bottom-left-radius: 10px;
+-moz-border-radius-bottomright: 10px;                 
+-moz-border-radius-bottomleft: 10px;
+border-bottom-right-radius: 10px;
+border-bottom-left-radius: 10px;*/ 
+	border: 1px solid #3795ec;
+	/* background-image: -moz-linear-gradient( 90deg, rgb(205,211,240) 0%, rgb(222,243,255) 99%);
+	background-image: -webkit-linear-gradient( 90deg, rgb(205,211,240) 0%, rgb(222,243,255) 99%);
+	background-image: -ms-linear-gradient( 90deg, rgb(205,211,240) 0%, rgb(222,243,255) 99%); */
+		box-shadow:  1px 1px 12px  #6284b9;
+	
+		/*	border-top-right-radius: 0px !important;
+			border-top-left-radius: 0px !important;*/
+			-webkit-border-radius: 10px; 
+			 -moz-border-radius: 10px;
+			 border-radius: 10px; 
+			width: auto !important
+}
+
+/************ SQW Popup - Header ************/
+.ui-multiselect-menu .ui-multiselect-header {	
+background-image: -moz-linear-gradient( 90deg, rgb(205,211,240) 0%, rgb(222,243,255) 99%);
+background-image: -webkit-linear-gradient( 90deg, rgb(205,211,240) 0%, rgb(222,243,255) 99%);
+background-image: -ms-linear-gradient( 90deg, rgb(205,211,240) 0%, rgb(222,243,255) 99%);
+box-shadow: 0.5px 0.866px 1px 0px rgb( 168, 185, 205 );
+width: auto;;
+height: 23px;
+border: none;
+		padding:2px 0 1px 0;
+			border-radius: 0px;
+			-webkit-border-top-left-radius: 10px;
+			 -moz-border-radius-topleft: 10px;
+			  border-top-left-radius: 10px;
+			-webkit-border-top-right-radius: 10px;
+			 -moz-border-radius-topright: 10px;
+			  border-top-right-radius: 10px;
+}
+
+/************ SQW Popup Header - Input box ************/
+.ui-multiselect-filter input {
+border:1px solid rgb( 41, 133, 230 ) !important;
+border-radius: 5px;
+background-color: rgb( 255, 255, 255 );
+box-shadow: 0.5px 0.866px 0px 0px rgb( 255, 255, 255 );
+width: 200px;
+height: 18px;
+margin-left:2px;
+font-family: arial, sans-serif !important;
+font-size: 12px !important;
+}
+
+/************ SQW Popup - close button************/
+
+.ui-multiselect-close .ui-icon-circle-close {
+display: block !important;
+	padding: 0px 2px 0 0;
+	margin: -6px -4px 0 0;
+}
+	.ui-dialog-titlebar .ui-multiselect-close .ui-icon-circle-close {
+	margin: 0px -2px 0 0;
+	}
+.ui-icon-circle-close {
+border:none;
+position: absolute !important;
+top: 3px;
+right: 5px;
+background-image:url(../../assets/icons/sqw_close.png) !important;
+background-position: center center !important;
+background-repeat: no-repeat !important;
+width: 11px;
+height: 11px;
+}
+
+/************ SQW Popup Header - Select and Clear Button ************/
+.ui-widget-header .ui-icon {
+width:11px;
+display: none;
+}
+
+a.ui-multiselect-all,
+a.ui-multiselect-none {
+display: block;
+font-size: 12px;
+font-family: "Arial";
+color: rgb( 50, 118, 200 );
+font-weight: bold;
+text-align: center;
+			width: 83px;
+height: 20px;
+text-decoration: none !important;
+			margin-top: -4px;
+			padding-top: 6px;
+			color: #3276c8
+}
+
+	a.ui-multiselect-all SPAN,
+	a.ui-multiselect-none  SPAN{
+			color: #3276c8
+	}
+a.ui-multiselect-all:hover,
+a.ui-multiselect-none:hover {
+/* display: block;
+font-size: 12px;
+font-family: "Arial";
+color: rgb( 255, 255, 255 );
+font-weight: bold;
+text-align: center; */
+text-decoration: none !important;
+background-image: -moz-linear-gradient( 90deg, rgb(70,161,236) 0%, rgb(32,125,228) 100%);
+background-image: -webkit-linear-gradient( 90deg, rgb(70,161,236) 0%, rgb(32,125,228) 100%);
+background-image: -ms-linear-gradient( 90deg, rgb(70,161,236) 0%, rgb(32,125,228) 100%);
+box-shadow: 0.5px 0.866px 1px 0px rgb( 0, 69, 0 );
+/* 	width: 80px;
+height: 20px;*/
+			color: #ffffff
+}
+	a.ui-multiselect-all:hover SPAN,
+	a.ui-multiselect-none:hover  SPAN,
+	a.ui-multiselect-all SPAN:hover,
+	a.ui-multiselect-none  SPAN:hover{
+			color: #ffffff
+	}
+
+/************ SQW Popup Header - Multi select checkbox Container ************/
+.ui-multiselect-checkboxes {
+margin-left:3px;
+margin-right: 3px;
+font-size: 12px;
+font-family: "Arial";
+color: rgb( 51, 51, 51 );
+line-height: 1.5;
+text-align: left;
+}
+.ui-multiselect-checkboxes li{
+	padding-right: 0px !important;
+ }
+.ui-multiselect-checkboxes li LABEL{
+	padding-left: 20px;
+ }
+ 
+				
+			.ui-multiselect-checkboxes label {
+				border: 0px solid transparent !important;
+				padding: 0px 0 0 20px !important;
+				}
+				
+				.ui-multiselect-checkboxes TABLE{
+				border-bottom: 1px solid #eeeeee;
+				width: 100%;
+				} 
+				.ui-multiselect-checkboxes TABLE:first-child{
+				background: #d2e0f0;
+				width: 100%;
+				padding: 2px 0 3px 0;
+				}
+				.ui-multiselect-checkboxes th,
+				.ui-multiselect-checkboxes label {
+				font-size: 12px;
+				font-family: "Arial";
+				text-align: left;
+				text-transform: uppercase;
+				font-size: 11px;
+				color: #666666;
+				
+				}
+				
+				.ui-multiselect-checkboxes li.ui-multiselect-optgroupparent-label {
+				padding: 3px 0 4px 10px;
+				font-weight: bold;
+				border-top: 1px solid #d8e6f7;
+				background: #e1e8f2;
+				} 
+				.ui-multiselect-checkboxes li.ui-multiselect-optgroupparent-label a {
+				display: block;
+				} 
+				.ui-multiselect-checkboxes li.ui-multiselect-optgroupparent-label:hover{
+				background: #2b9e1b !important;
+				} 
+				.ui-multiselect-checkboxes li.ui-multiselect-optgroupparent-label:hover a, .ui-multiselect-checkboxes li.ui-multiselect-optgroupparent-label a:hover{
+				text-decoration: none !important;
+				background: #2b9e1b;
+				color: #ffffff;
+				} 
+				.ui-multiselect-checkboxes li.ui-multiselect-optgroupparent-label a:before{
+				content: "> ";
+				} 
+
+				.ui-multiselect-checkboxes li.ui-multiselect-optgroup-label {
+				border: none !important;
+				font-weight: normal !important;
+				font-weight: bold !important; 
+					background: #eeeeee;
+				} 
+			
+				.ui-multiselect-checkboxes li.ui-multiselect-optgroup-label a{
+				padding-left: 20px  !important; 
+				border-top: 1px solid #d8e6f7 !important;
+				} 
+				.ui-multiselect-checkboxes li.ui-multiselect-optgroup-label a:hover{
+				background: #2b9e1b;
+				color: #ffffff;
+				} 
+				.ui-multiselect-checkboxes li.ui-multiselect-optgroup-label a:before{
+				content: "> ";
+				} 
+				
+
+
+.ui-state-hover,
+.ui-widget-content .ui-state-hover,
+.ui-multiselect-checkboxes li .ui-state-hover {
+font-size: 12px !important;
+font-family: "Arial" !important;
+color: rgb( 255, 255, 255 ) !important;
+font-weight: bold !important;
+text-align: left !important;
+background: rgb( 85, 142, 213 ) !important;
+border: none !important;
+-webkit-border-radius: 0px !important;
+-moz-border-radius: 0px !important;                 
+border-bottom-radius: 0px !important;
+}
+
+ #chkBox.ui-state-hover {
+background: none !important;
+text-decoration: underline;
+color: #003366 !important;
+font-weight: normal !important;
+}
+
+
+.checkUncheckAll{
+float: right;
+padding-right: 10px !important;
+} 

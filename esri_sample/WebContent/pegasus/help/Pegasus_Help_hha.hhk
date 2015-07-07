@@ -1,0 +1,29 @@
+﻿<html>
+<!-- Sitemap 1.0 -->
+<object type="text/site properties">
+  <param name="SiteType" value="index">
+</object>
+<ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="About Maps">
+    <param name="Name" value="About Schematics">
+    <param name="Local" value="Maps/About_Schematics.htm">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="About Schematics">
+    <param name="Name" value="About Maps">
+    <param name="Local" value="Maps/Maps.htm">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="Manipulate maps">
+    <param name="Name" value="About the Market View">
+    <param name="Local" value="Maps/About_the_Market_View.htm">
+    <param name="Name" value="Filtering map and schematic display">
+    <param name="Local" value="Maps/Filtering_map_display.htm">
+    <param name="Name" value="Showing results for a different day">
+    <param name="Local" value="Maps/Showing_results_for_a_differen_day.htm">
+    <param name="Name" value="Viewing lane and leg detail">
+    <param name="Local" value="Maps/Viewing_lane_and_leg_detail.htm">
+  </object>
+</ul>
+</html>

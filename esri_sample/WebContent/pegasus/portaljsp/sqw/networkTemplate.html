@@ -1,0 +1,567 @@
+<!--Network Dataset-->
+<div class="horizontalLayout_Div">
+<div id="verticalLayout" class="previousDataSet">
+<span regExpId="@count" class="verticalLayout_Span" id="PreviousDataSet@count">
+	<!--Previous-->
+	<table id="PreviousTable@count" class="tableDatasetStyle">
+	<tr>
+	<td>
+	<div class="datasetStyle">
+		<!--
+		<span class="closeOption" regExpId="@count" datasetType="Previous" onclick="SQW.removeNode(this)"></span> 
+		 -->
+		<table class="table" cellpadding="0" cellspacing="0">
+			<tr class="row">
+				<td colspan="4">
+					<div class="s-outer">
+						<div class="s-label-loc-div">Location</div>
+						<div class="s-label-facl-div">Facility Group</div>
+						<div class="s-label-ctry-div">Country</div>
+						<div class="s-label-reg-div">Region</div>
+					</div>		
+				</td>
+			</tr>
+			<tr class="row">		
+				<td colspan="4">
+					<div class="sqw-slider s-outer">
+						<div class="s-radio-loc">
+							<input id="Previouslocation@count" type="radio" class="locationRadioSelection" name="fromActivities@count" checked="checked"
+														onchange="SQW.facilityDatasourceChangeHandler('Previous@count', 'location', 'PreviousNearBy@count')"/>  
+							
+						</div>
+						<div class="s-radio-facl">
+							<input id="PreviousFacility@count" type="radio" class="locationRadioSelection" name="fromActivities@count" onchange="SQW.facilityDatasourceChangeHandler('Previous@count', 'facilityGroup', 'PreviousNearBy@count')"/>
+							
+						</div>
+						<div class="s-radio-ctry">
+							<input id="PreviousCountry@count" type="radio" class="locationRadioSelection" name="fromActivities@count" onchange="SQW.facilityDatasourceChangeHandler('Previous@count', 'country', 'PreviousNearBy@count')"/>
+							
+						</div>
+						<div class="s-radio-reg">
+							<input id="PreviousRegion@count" type="radio" class="locationRadioSelection" name="fromActivities@count" onchange="SQW.facilityDatasourceChangeHandler('Previous@count','region', 'PreviousNearBy@count')"
+						onclick="SQW.facilityDatasourceChangeHandler('Previous@count','region', 'PreviousNearBy@count')"/>	
+							
+						</div>
+					</div>
+				</td>
+			</tr>
+			<tr class="row">
+				<td colspan="4" class="tdata" style="padding-top:8px"> 
+					<span class="clearable">
+						<input class="locations_field autoCompleteInput" ref="preclear@count" checkbox="PreviousNearBy@count" daySelector="PreviousDayCal@count"
+						dialog="preDialog@count" regExpId="@count" datasetType="Previous" type="text" name="locations_field" 
+						activityCompId="PreviousActivity@count" activityTextId="PreviousActivitySelectedTextDiv@count" id="Previous@count"
+						 placeholder="From Location" />
+						 <label style="min-width: 20px;margin-top:-15px"></label>
+						<span id="preclear@count" ref="Previous@count" class="remove_icon_clear" ></span>
+						<div id="PrevioustreeviewDiv@count" style="width:83px;" align="center">
+							<select id="Previoustreeview@count" multiple="" name="Previoustreeview" ref="Previous@count" tabindex="-1"></select>
+							<div id="PrevioustreeviewSelectedTextDiv@count" style="display: none;"></div>
+						</div>
+					</span>			
+				</td>
+			</tr>
+			<tr>
+				<td colspan="4" style="height: 15px; padding-bottom:5px;" > 
+					<input type="checkbox" name="showNearBy" id="PreviousNearBy@count" /> <label class="label_style">Show nearby</label>
+				</td>
+			</tr>
+			<tr>
+				<td colspan="4" height="30" class="left-pad10"> 
+					<a id="PreviousDayCal@count" onclick="SQW.openDayControl(this, true)" href="#" selectedPlanDays="" 
+					ref="PreviousDayText@count" locationInputId="Previous@count" activityCompId="PreviousActivity@count" 
+					activityTextId="PreviousActivitySelectedTextDiv@count">On Day</a>
+					<div id="PreviousDayText@count" style="float:right; width:120px;"></div>
+					<div class="globalmenu" style="display: @none">
+					    <ant>&nbsp;&nbsp;</ant>
+					    <can><a href="#" onclick="SQW.sameasabove(this)" regExpId="@count" type="day" datasetType="Previous"
+							>same as above</a></can>
+					</div>		
+				</td>
+			</tr>	
+			<tr>
+				<td colspan="4" style="width: 70px; height: 20px;" class="left-pad10"> 
+					<div id="PreviousActivityDIV">
+						<select id="PreviousActivity@count" multiple="" name="PreviousActivity"></select>
+						<div id="PreviousActivitySelectedTextDiv@count" style="float:right; width:120px;"></div>
+					</div>
+					<!-- <div class="globalmenu" style="display: @none">
+					    <ant>&nbsp;&nbsp;</ant>
+					    <can><a href="#" onclick="SQW.sameasabove(this)" regExpId="@count" type="activity" datasetType="Previous">same as above</a></can>
+					</div> -->
+				</td>
+			</tr>			
+			<tr>
+				<td colspan="4"> 
+					<span id="preDialog@count"></span>
+				</td>
+			</tr>
+		</table>
+	</div>
+	</td>
+	<td style="padding-top: 60px; padding-right: 10px; vertical-align: top;">
+		<div class="transit_div">
+			<div id="PreviousTransitDIV" style="text-align:left">
+				<select id="PreviousTransit@count" multiple="" name="PreviousTransit"></select>
+				<div id="PreviousTransitSelectedTextDiv@count" style="float:right; width:80px;"></div>
+			</div>		
+			<div class="globalmenu" style="display: @none">
+		    	<ant>&nbsp;&nbsp;</ant>
+		    	<can><a href="#" onclick="SQW.sameasabove(this)" regExpId="@count" type="transit" datasetType="Previous">same as above</a></can>
+			</div>
+		</div>
+	</td>	
+	</table>
+	<!--/Previous-->
+</span>	
+</div>
+</div>
+
+<div class="horizontalLayout_Div">
+<div id="verticalLayout" class="primaryDataSet">
+<span regExpId="@count" class="verticalLayout_Span" id="PrimaryDataSet@count">
+	<!--Primary-->
+	<table id="PrimaryTable@count" class="tableDatasetStyle" >
+	<tr>
+		<td>
+		<div class="datasetStyle">
+		<!--
+		<span class="closeOption" regExpId="@count" datasetType="Primary" onclick="SQW.removeNode(this)"></span>
+		-->
+		<table class="table" cellpadding="0" cellspacing="0">
+			<tr class="row">
+				<td colspan="4">
+					<div class="s-outer">
+						<div class="s-label-loc-div">Location</div>
+						<div class="s-label-facl-div">Facility Group</div>
+						<div class="s-label-ctry-div">Country</div>
+						<div class="s-label-reg-div">Region</div>
+					</div>		
+				</td>
+			</tr>
+			<tr class="row">		
+				<td colspan="4">
+					<div class="sqw-slider s-outer">
+						<div class="s-radio-loc">
+							<input id="Primarylocation@count" type="radio" class="locationRadioSelection" name="primaryActivities@count" checked="checked" onchange="SQW.facilityDatasourceChangeHandler('Primary@count', 'location', 'PrimaryNearBy@count')" /> 
+							
+						</div>
+						<div class="s-radio-facl">
+							<input id="PrimaryFacility@count" type="radio" class="locationRadioSelection" name="primaryActivities@count" onchange="SQW.facilityDatasourceChangeHandler('Primary@count', 'facilityGroup', 'PrimaryNearBy@count')"/>
+							
+						</div>
+						<div class="s-radio-ctry">
+							<input id="PrimaryCountry@count" type="radio" class="locationRadioSelection" name="primaryActivities@count" onchange="SQW.facilityDatasourceChangeHandler('Primary@count', 'country', 'PrimaryNearBy@count')"/>
+							
+						</div>
+						<div class="s-radio-reg">
+							<input id="PrimaryRegion@count" type="radio" class="locationRadioSelection" name="primaryActivities@count" onchange="SQW.facilityDatasourceChangeHandler('Primary@count', 'region', 'PrimaryNearBy@count')"
+							onclick="SQW.facilityDatasourceChangeHandler('Primary@count','region', 'PrimaryNearBy@count')"/>	
+							
+						</div>
+					</div>
+				</td>
+			</tr>
+			
+			<tr class="row">
+				<td colspan="4" class="tdata" style="padding-top:8px">
+				<span class="clearable">
+					<input class="locations_field autoCompleteInput" ref="priclear@count" checkbox="PrimaryNearBy@count"  daySelector="PrimaryDayCal@count"
+					activityCompId="PrimaryActivity@count" activityTextId="PrimaryActivitySelectedTextDiv@count" dialog="priDialog@count"  
+					regExpId="@count"  datasetType="Primary" type="text" name="locations_field" id="Primary@count" placeholder="Through Location" />
+					<label style="min-width: 20px;margin-top:-15px"></label>
+					<span id="priclear@count" ref="Primary@count" class="remove_icon_clear" ></span>
+					<div id="PrimarytreeviewDiv@count" style="width:83px;" align="center">
+						<select id="Primarytreeview@count" multiple="" name="Primarytreeview" ref="Primary@count"></select>
+						<div id="PrimarytreeviewSelectedTextDiv@count" style="display: none;"></div>
+					</div>
+				</span>			
+				</td>
+			</tr>
+			<tr>
+				<td colspan="4" style="height: 15px; padding-bottom:5px;" > 
+					<input type="checkbox" name="showNearBy" id="PrimaryNearBy@count"/> <label class="label_style">Show nearby</label>
+				</td>
+			</tr>
+			<tr>
+				<td colspan="4" height="30" class="left-pad10"> 
+					<a id="PrimaryDayCal@count" onclick="SQW.openDayControl(this, false)" href="#" selectedPlanDays="" 
+					ref="PrimaryDayText@count" locationInputId="Primary@count" activityCompId="PrimaryActivity@count" 
+					activityTextId="PrimaryActivitySelectedTextDiv@count">On Day</a>
+					<div id="PrimaryDayText@count" style="float:right; width:120px;"></div>
+					<div class="globalmenu" style="display: @none">
+					    <ant>&nbsp;&nbsp;</ant>
+					    <can><a href="#" onclick="SQW.sameasabove(this)" regExpId="@count" type="day" datasetType="Primary"
+							>same as above</a></can>
+					</div>
+				</td>
+			</tr>	
+			<tr>
+				<td colspan="4" style="width: 70px;height: 20px;" class="left-pad10"> 
+					<div id="PrimaryActivityDIV">
+						<select id="PrimaryActivity@count" multiple="" name="PrimaryActivity"></select>
+						<div id="PrimaryActivitySelectedTextDiv@count" style="float:right; width:120px;"></div>
+					</div>
+					<!-- <div class="globalmenu" style="display: @none">
+					    <ant>&nbsp;&nbsp;</ant>
+					    <can><a href="#" onclick="SQW.sameasabove(this)" regExpId="@count" type="activity" datasetType="Primary"
+							>same as above</a></can>
+					</div> -->
+					
+				</td>
+			</tr>	
+			<tr>
+				<td colspan="4"> 
+					<span id="priDialog@count"></span>
+				</td>
+			</tr>		
+		</table>
+	</div>
+		</td>
+	</tr>
+	</table>
+	
+	<!--/Primary-->
+</span>		
+</div>
+</div>
+
+<div class="horizontalLayout_Div">
+<div id="verticalLayout" class="nextDataSet">
+<span regExpId="@count" class="verticalLayout_Span" id="NextDataSet@count">
+	<!--Next-->
+	<table id="NextTable@count" class="tableDatasetStyle">
+	<tr>
+	<td style="padding-top: 60px; padding-right: 10px; vertical-align: top;">
+		<div class="transit_div">
+			<div id="nextTransitDiv" style="text-align:left;">
+				<select id="NextTransit@count" multiple="" name="NextTransit"></select>
+				<div id="NextTransitSelectedTextDiv@count" style="float:right; width:80px;"></div>
+			</div>
+			<div class="globalmenu" style="display: @none">
+						    <ant>&nbsp;&nbsp;</ant>
+						    <can><a href="#" onclick="SQW.sameasabove(this)" regExpId="@count" type="transit" datasetType="Next"
+								>same as above</a></can>
+			</div>
+		</div>	
+	</td>
+	<td>
+	<div class="datasetStyle">
+		<!--
+			<span class="closeOption" regExpId="@count" datasetType="Next" onclick="SQW.removeNode(this)"></span> 
+		 -->
+		<table class="table" cellpadding="0" cellspacing="0">
+			<tr class="row">
+				<td colspan="4">
+					<div class="s-outer">
+						<div class="s-label-loc-div">Location</div>
+						<div class="s-label-facl-div">Facility Group</div>
+						<div class="s-label-ctry-div">Country</div>
+						<div class="s-label-reg-div">Region</div>
+					</div>		
+				</td>
+			</tr>
+			<tr class="row">		
+				<td colspan="4">
+					<div class="sqw-slider s-outer">
+						<div class="s-radio-loc">
+							<input id="Nextlocation@count" type="radio" class="locationRadioSelection" name="nextActivities@count" checked="checked" onchange="SQW.facilityDatasourceChangeHandler('Next@count', 'location', 'NextNearBy@count')"/> 
+							
+						</div>
+						<div class="s-radio-facl">
+							<input id="NextFacility@count" type="radio" class="locationRadioSelection" name="nextActivities@count" onchange="SQW.facilityDatasourceChangeHandler('Next@count', 'facilityGroup', 'NextNearBy@count')"/>
+							
+						</div>
+						<div class="s-radio-ctry">
+							<input id="NextCountry@count" type="radio" class="locationRadioSelection" name="nextActivities@count" onchange="SQW.facilityDatasourceChangeHandler('Next@count', 'country', 'NextNearBy@count')"/>
+							
+						</div>
+						<div class="s-radio-reg">
+							<input id="NextRegion@count" type="radio" class="locationRadioSelection" name="nextActivities@count" onchange="SQW.facilityDatasourceChangeHandler('Next@count', 'region', 'NextNearBy@count')" 
+						onclick="SQW.facilityDatasourceChangeHandler('Next@count', 'region', 'NextNearBy@count')" />	
+							
+						</div>
+					</div>
+				</td>
+			</tr>
+			<tr class="row">
+				<td colspan="4" class="tdata" style="padding-top:8px"> 
+				<span class="clearable">
+					<input class="locations_field autoCompleteInput" ref="nextclear@count" checkbox="NextNearBy@count" daySelector="NextDayCal@count" activityCompId="NextActivity@count" activityTextId="NextActivitySelectedTextDiv@count" dialog="nextDialog@count" regExpId="@count" datasetType="Next" type="text" name="locations_field" id="Next@count" placeholder="To Location" />
+					<label style="min-width: 20px;margin-top:-15px"></label>
+					<span id="nextclear@count" ref="Next@count" class="remove_icon_clear" ></span>
+					<div id="NexttreeviewDiv@count" style="width:83px;" align="center">
+						<select id="Nexttreeview@count" multiple="" name="Nexttreeview" ref="Next@count" ></select>
+						<div id="NexttreeviewSelectedTextDiv@count" style="display: none;"></div>
+					</div>
+				</span>			
+				</td>
+			</tr>
+			<tr>
+				<td colspan="4" style="height: 15px; padding-bottom:5px;" > 
+					<input type="checkbox" name="showNearBy" id="NextNearBy@count"/> <label class="label_style">Show nearby</label>
+				</td>
+			</tr>
+			<tr>
+				<td colspan="4" height="30" class="left-pad10"> 
+					<a id="NextDayCal@count" onclick="SQW.openDayControl(this, true)" href="#" selectedPlanDays="" 
+					ref="NextDayText@count" locationInputId="Next@count" activityCompId="NextActivity@count" 
+					activityTextId="NextActivitySelectedTextDiv@count">On Day</a>
+					<div id="NextDayText@count" style="float:right; width:120px;"></div>
+					<div class="globalmenu" style="display: @none">
+					    <ant>&nbsp;&nbsp;</ant>
+					    <can><a href="#" onclick="SQW.sameasabove(this)" regExpId="@count" type="day" datasetType="Next"
+							>same as above</a></can>
+					</div>
+					
+				</td>
+			</tr>	
+			<tr>
+				<td colspan="4" style="width: 70px;height: 20px;" class="left-pad10"> 
+					<div id="NextActivityDIV">
+						<select id="NextActivity@count" multiple="" name="NextActivity"></select>
+						<div id="NextActivitySelectedTextDiv@count" style="float:right; width:120px;"></div>
+					</div>
+					<!-- <div class="globalmenu" style="display: @none">
+					    <ant>&nbsp;&nbsp;</ant>
+					    <can><a href="#" onclick="SQW.sameasabove(this)" regExpId="@count" type="activity" datasetType="Next"
+							>same as above</a></can>
+					</div> -->
+					
+				</td>
+			</tr>
+			<tr>
+				<td colspan="4"> 
+					<span id="nextDialog@count"></span>
+				</td>
+			</tr>	
+		</table>
+	</div>
+	</td>	
+	</tr>
+	</table>
+	
+	<!--/Next-->
+</span>	
+</div>
+</div>
+<!--/Network Dataset-->
+<!--Schedule Dataset-->
+<div class="horizontalLayout_Div" style="width:200px">
+<div id="verticalLayout" class="routeDataSet">
+
+<span regExpId="@count" class="verticalLayout_Span">
+	<table id="RouteTable@count" class="tableDatasetStyle">
+	<tr>
+	<td>
+	<div class="routeTableDatasetStyle">
+	<textarea style="height: 110px;width: 180px;" id="enterRoute" onkeypress="validateNumberNHyphenNCommaNPcentNAlphabets(event)" placeholder="Route numbers"></textarea>
+	</div>
+	</td>
+	</table>
+</span>	
+</div>
+</div>
+
+<div class="horizontalLayout_Div" style="width:200px">
+<div id="verticalLayout" class="originDataSet">
+<span regExpId="@count" class="verticalLayout_Span" id="OriginDataSet@count">
+	<!--Origin-->
+	<table id="OriginTable@count" class="tableDatasetStyle">
+	<tr>
+	<td>
+	<div class="scheduleDatasetStyle">
+		<!--
+		<span class="closeOption" regExpId="@count" datasetType="Previous" onclick="SQW.removeNode(this)"></span> 
+		 -->
+		<table class="table">
+			<tr class="row">
+				<td colspan="4">
+					<div class="s-outer">
+						<div class="s-label-loc-div">Location</div>
+						<div class="s-label-facl-div">Facility Group</div>
+						<div class="s-label-ctry-div">Country</div>
+						<div class="s-label-reg-div">Region</div>
+					</div>		
+				</td>
+			</tr>
+			<tr class="row">		
+				<td colspan="4">
+					<div class="sqw-slider s-outer">
+						<div class="s-radio-loc">
+							<input id="OriginLocation@count" type="radio" class="locationRadioSelection" name="originActivities@count" checked="checked"
+														onchange="SQW.facilityDatasourceChangeHandler('Origin@count', 'Schedule', 'OriginNearBy@count')"/>  
+							
+						</div>
+						<div class="s-radio-facl">
+							<input id="OriginFacility@count" type="radio" class="locationRadioSelection" name="originActivities@count" onchange="SQW.facilityDatasourceChangeHandler('Origin@count', 'facilityGroup', 'OriginNearBy@count')"/>
+							
+						</div>
+						<div class="s-radio-ctry">
+							<input id="OriginCountry@count" type="radio" class="locationRadioSelection" name="originActivities@count" onchange="SQW.facilityDatasourceChangeHandler('Origin@count', 'country', 'OriginNearBy@count')"/>
+							
+						</div>
+						<div class="s-radio-reg">
+							<input id="OriginRegion@count" type="radio" class="locationRadioSelection" name="originActivities@count" onchange="SQW.facilityDatasourceChangeHandler('Origin@count','region', 'OriginNearBy@count')"
+						onclick="SQW.facilityDatasourceChangeHandler('Origin@count','region', 'OriginNearBy@count')"/>	
+							
+						</div>
+					</div>
+				</td>
+			</tr>
+			<tr class="row">
+				<td colspan="4" class="tdata" style="padding-top: 8px"> 
+					<span class="clearable">
+						<input class="locations_field autoCompleteInput" ref="originclear@count" checkbox="OriginNearBy@count" dialog="originDialog@count" 
+						regExpId="@count" datasetType="Origin" type="text" name="locations_field" id="Origin@count" placeholder="Origin" />
+						<label style="min-width: 20px;margin-top:-15px"></label>
+						<span id="originclear@count" ref="Origin@count" class="remove_icon_clear" ></span>
+						<div id="OrigintreeviewDiv@count" style="width:83px;" align="center">
+							<select id="Origintreeview@count" multiple="" name="Origintreeview" ref="Origin@count"></select>
+							<div id="OrigintreeviewSelectedTextDiv@count" style="display: none;"></div>
+						</div>						
+					</span>			
+				</td>
+			</tr>
+			<tr>
+				<td colspan="4" style="height: 15px; padding-bottom:5px;" > 
+					<input type="checkbox" name="showNearBy" id="OriginNearBy@count" /> <label class="label_style">Show nearby</label>
+					<label style="min-width: 20px;margin-top:-15px"></label>
+				</td>
+			</tr>
+			<tr>
+				<td colspan="4"> 
+					<span id="originDialog@count"></span>
+				</td>
+			</tr>
+		</table>
+	</div>
+	</td>
+	</table>
+	<!--/Origin-->
+</span>	
+</div>
+</div>
+
+<div class="horizontalLayout_Div" style="padding-top:20px; padding-left:10px">
+<div id="verticalLayout" class="operatorDataSet">
+<span regExpId="@count" class="verticalLayout_Span" id="PreviousDataSet@count">
+	<table id="operatorTable@count" class="tableDatasetStyle">
+		<tr>
+			<td>
+				<div style="padding-top: 59px">
+					<select id="operatorCmb@count" style="width: 60px; text-align: left;">
+						<option>and</option>
+						<option>or</option>
+						<option>bi</option>
+					</select>
+				</div>
+			</td>
+		</tr>	
+	</table>
+</span>	
+</div>
+</div>
+
+<div class="horizontalLayout_Div" style="width:200px">
+<div id="verticalLayout" class="destinationDataSet">
+<span regExpId="@count" class="verticalLayout_Span" id="DestinationDataSet@count">
+	<!--Destination-->
+	<table id="DestinationTable@count" class="tableDatasetStyle">
+	<tr>
+		<td>
+		<div class="scheduleDatasetStyle">
+		<!--
+		<span class="closeOption" regExpId="@count" datasetType="Primary" onclick="SQW.removeNode(this)"></span>
+		-->
+		<table class="table">
+			<tr class="row">
+				<td colspan="4">
+					<div class="s-outer">
+						<div class="s-label-loc-div">Location</div>
+						<div class="s-label-facl-div">Facility Group</div>
+						<div class="s-label-ctry-div">Country</div>
+						<div class="s-label-reg-div">Region</div>
+					</div>		
+				</td>
+			</tr>
+			<tr class="row">		
+				<td colspan="4">
+					<div class="sqw-slider s-outer">
+						<div class="s-radio-loc">
+							<input id="DestinationLocation@count" type="radio" class="locationRadioSelection" name="destinationActivities@count" checked="checked" onchange="SQW.facilityDatasourceChangeHandler('Destination@count', 'Schedule', 'DestinationNearBy@count')" />  
+							
+						</div>
+						<div class="s-radio-facl">
+							<input id="DestinationFacility@count" type="radio" class="locationRadioSelection" name="destinationActivities@count" onchange="SQW.facilityDatasourceChangeHandler('Destination@count', 'facilityGroup', 'DestinationNearBy@count')"/>
+							
+						</div>
+						<div class="s-radio-ctry">
+							<input id="DestinationCountry@count" type="radio" class="locationRadioSelection" name="destinationActivities@count" onchange="SQW.facilityDatasourceChangeHandler('Destination@count', 'country', 'DestinationNearBy@count')"/>
+							
+						</div>
+						<div class="s-radio-reg">
+							<input id="DestinationRegion@count" type="radio" class="locationRadioSelection" name="destinationActivities@count" onchange="SQW.facilityDatasourceChangeHandler('Destination@count', 'region', 'DestinationNearBy@count')"
+						onclick="SQW.facilityDatasourceChangeHandler('Destination@count', 'region', 'DestinationNearBy@count')"/>	
+							
+						</div>
+					</div>
+				</td>
+			</tr>
+			<tr class="row">
+				<td colspan="4" class="tdata" style="padding-top: 8px"> 
+				<span class="clearable">
+					<input class="locations_field autoCompleteInput" ref="destinationclear@count" checkbox="DestinationNearBy@count" dialog="destinationDialog@count"  regExpId="@count"  datasetType="Destination" type="text" name="locations_field" id="Destination@count" placeholder="Destination" />
+					<label style="min-width: 20px;margin-top:-15px"></label>
+					<span id="destinationclear@count" ref="Destination@count" class="remove_icon_clear" ></span>
+					<div id="DestinationtreeviewDiv@count" style="width:83px;" align="center">
+						<select id="Destinationtreeview@count" multiple="" name="Destinationtreeview" ref="Destination@count"> </select>
+						<div id="DestinationtreeviewSelectedTextDiv@count" style="display: none;"></div>
+					</div>
+				</span>			
+				</td>
+			</tr>
+			<tr>
+				<td colspan="4" style="height: 15px; padding-bottom:5px;" > 
+					<input type="checkbox" name="showNearBy" id="DestinationNearBy@count"/> <label class="label_style">Show nearby</label>
+				</td>
+			</tr>
+			<tr>
+				<td colspan="4"> 
+					<span id="destinationDialog@count"></span>
+				</td>
+			</tr>		
+		</table>
+	</div>
+		</td>
+	</tr>
+	</table>	
+	<!--/Destination-->
+</span>		
+</div>
+</div>
+
+<div class="horizontalLayout_Div" style="width:110px">
+<div id="verticalLayout" class="showCriteriaDataSet">
+<span regExpId="@count" class="verticalLayout_Span">
+	<table id="showCriteriaTable@count" class="tableDatasetStyle" width="300px" style="margin-top: 20px;">
+		<tr>
+			<td>
+			<div class="section-box-content">
+					<table>
+						<tr>
+							<td><label style="margin-left: 0px; margin-top:-2px; padding-left:30px;">Show results</label></td>
+						</tr>	
+						<tr>
+						<td style="padding-left:30px; padding-top: 8px;"><input type="radio" class="locationRadioSelection" id="showByRoute" name="radio2" checked="checked"/><label for="showByRoute" class="label_style">by Route</label></td>
+						<td><input id="showDeletedChk" type="checkbox" class="tickCheckBox" /><label for ="showDeletedChk"  class="label_style">Include deleted routes</label></td>
+						</tr>
+						<tr><td style="padding-left:30px"><input type="radio" class="locationRadioSelection" id="showByLeg" name="radio2"/><label for="showByLeg" class="label_style">by Leg</label></td></tr>
+					</table>
+			</div>
+		</tr>
+	</table>
+</span>	
+</div>
+</div>
+<!--/Schedule Dataset-->

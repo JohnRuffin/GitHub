@@ -1,0 +1,36 @@
+/* --------------------------------------------------------
+Style Sheet for Schedule Matrix
+version: 1.0
+author: Satpal Jassal
+----------------------------------------------------------*/
+
+/* Slider panel styles */
+
+.ui-panel-content-text {
+	border-top:none;
+}
+
+.ui-widget-content {
+	margin-top:-5px;
+}
+
+ul.ui-widget-content {
+	margin-top:-5px;
+	background-color: #ffffff !important;
+	-moz-box-shadow: 1px 1px 12px #6284b9; 
+	-webkit-box-shadow: 1px 1px 12px #6284b9; 
+	box-shadow:1px 1px 12px #6284b9;
+}
+
+/* End of slider panel stytles */
+
+.comment-col{
+  display: inline-block !important;
+}
+
+.comment-icon{
+	width: 8px;
+  	height: 8px;
+  	position: absolute;
+  	right: 0px;
+}

@@ -1,0 +1,17 @@
+/* --------------------------------------------------------
+Style Sheet for Network Matrix
+version: 1.0
+author: Satpal Jassal
+----------------------------------------------------------*/
+
+/* Slider panel styles */
+
+.ui-panel-content-text {
+	border-top:none;
+}
+
+.ui-widget-content {
+	margin-top:-5px;
+}
+
+/* End of slider panel stytles */

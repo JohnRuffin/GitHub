@@ -1,0 +1,408 @@
+
+.flexiciousGrid .flexDataGridColumnGroupCell  {
+    color: #888888;
+}
+
+
+.flexiciousGrid .flexDataGridHeaderCell  {
+    color: #888888 !important;
+}
+
+.flexDataGridHeaderCell  .cellRenderer{
+	left: 8px !important;
+}
+
+/* HTML Tree Grid */
+.cellIcon{
+	top:2px !important;
+}
+
+.flexDataGridDataCell  .cellRenderer{
+	top: 5px !important;
+}
+
+					.flexiciousGrid .flexDataGridHeaderCell {
+					/*	background-color: rgb(237, 236, 223) !important;	*/
+					background-color: #d3ddf5 !important;
+					background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(rgb(211, 221, 245)), to(rgb(211, 221, 245))) !important;
+					}
+					.flexiciousGrid .flexDataGridHeaderCell LABEL:hover {
+					cursor: pointer;
+					background-color: #ede9e5 !important;
+					background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(rgb(237, 233, 229)), to(rgb(237, 233, 229))) !important;
+					}
+					
+					.flexiciousGrid  .flexDataGridHeaderContainer {
+						background-color: #ede9e5 !important;
+					background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(rgb(237, 233, 229)), to(rgb(237, 233, 229))) !important;
+					}
+
+
+      .flexiciousGrid .flexDataGridFooterCell,  .flexiciousGrid  .flexDataGridPaddingCell  {
+       /* background-color: rgb(104, 160, 216) !important; */
+      border-top-color: #5e9cfa !important;
+      border-right-color: #c2d2e3 !important;
+      font-weight: bold;
+      background: #d0e0f1;
+      background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(rgb(208, 224, 241)), to(rgb(208, 224, 241)))  !important;
+      }
+
+
+.flexDataGridHeaderCell .triStateCheckBox{
+	left: 0px !important;
+}
+
+.flexDataGridDataCell .triStateCheckBox{
+	left: 0px !important;
+}
+
+
+					.flexiciousGrid .multiSelectComboBoxPopup{
+						overflow: auto;
+						max-height: 400px !important;
+						min-height: 60px;
+						max-width: 400px;
+						min-width: 150px;
+						width: auto !important;
+						height: auto !important;
+							border: 1px solid #3b93e9;
+							border-bottom-right-radius: 6px;
+							border-bottom-left-radius: 6px;
+							padding: 10px;
+							
+							  -moz-box-shadow:    1px 1px 8px #ccc;
+							  -webkit-box-shadow:1px 1px 8px #ccc;
+							  box-shadow:         1px 1px 8px #ccc;
+						
+					}
+					
+					
+.customFilterControl {
+	float: right;
+	width: auto !important;
+	padding-right: 5px;
+	padding-top: 5px;
+}
+
+.ui-dialog{
+
+       z-index:999;
+
+}
+
+.ui-dialog .ui-dialog-titlebar-close span{
+    left: 0px;
+    margin: 0px;
+    top: 0px;
+}
+
+/* .ui-icon-closethick{
+	position:absolute;
+	right:2px;
+	top: 0px;		
+	cursor:pointer;
+	font: bold 1em sans-serif;
+	color:#38468F;  
+	border:none;
+	height: 15px;
+	background-image:url(../../assets/sqw/clear.png) !important;
+	width: 15px;
+	background-repeat: no-repeat;
+	background-color: white;
+	background-position: center;
+} */
+
+.flexiciousGrid .settingsPopup .multiSelectComboBoxPopup{
+	height: 205px !important;
+	width: 230px !important;
+}
+
+.flexiciousGrid .exportOptionsView .multiSelectComboBoxPopup {
+	height: 205px !important;
+	width: 230px !important;
+}
+
+.multiSelectComboBoxPopupTd{
+	padding-bottom: 10px !important;
+}
+
+.ui-datepicker-trigger {
+	padding-left: 7px;
+	vertical-align: middle;
+}
+
+.flexiciousGridPager .pageInfo {
+	width: auto !important;
+}
+
+					.group-bar {
+							position: absolute;
+							width: 100%;
+									/* 	min-height: 40px; */
+							font-weight: bold;
+							color: #3276c8;
+							padding:8px 0 12px 10px;
+							font-size: 13px;
+							line-height: 13px;
+						/*nk-ta	
+						left: 10px;
+							top:20px;
+						background-color: #98c0f4;
+							border: solid 1px #000000;
+							padding: 6px; * / 
+							background-color: #999; /* layer fill content */
+							
+		-moz-box-shadow: 0 1px 1px rgba(168,185,205,.28), inset 0 1px 0 rgba(255,255,255,.3); /* drop shadow and inner shadow */
+		-webkit-box-shadow: 0 1px 1px rgba(168,185,205,.28), inset 0 1px 0 rgba(255,255,255,.3); /* drop shadow and inner shadow */
+		box-shadow: 0 1px 1px rgba(168,185,205,.28), inset 0 1px 0 rgba(255,255,255,.3); /* drop shadow and inner shadow */
+		background-image: -moz-linear-gradient(bottom, #cdd3ef 0%, #ddf3ff 99.19%, #ddf3ff 100%); /* gradient overlay */
+		background-image: -o-linear-gradient(bottom, #cdd3ef 0%, #ddf3ff 99.19%, #ddf3ff 100%); /* gradient overlay */
+		background-image: -webkit-linear-gradient(bottom, #cdd3ef 0%, #ddf3ff 99.19%, #ddf3ff 100%); /* gradient overlay */
+		background-image: linear-gradient(bottom, #cdd3ef 0%, #ddf3ff 99.19%, #ddf3ff 100%); /* gradient overlay */
+							
+							
+					}
+
+.level1 {
+	padding-right: 4px;
+	padding-left: 4px;
+	width: auto !important;
+}
+
+.level2 {
+	padding-right: 4px;
+	padding-left: 14px;
+	width: auto !important;
+}
+
+.level3 {
+	padding-right: 4px;
+	padding-left: 24px;
+	width: auto !important;
+}
+
+.level4 {
+	padding-right: 4px;
+	padding-left: 34px;
+	width: auto !important;
+}
+
+.level5 {
+	padding-right: 4px;
+	padding-left: 44px;
+	width: auto !important;
+}
+
+.fg-menu-container{
+	min-height: 100px;
+	max-height:400px;
+	overflow: auto;
+}
+
+/************ Single Query Window Header - header button styles ************/
+.sqw-button {
+	font-size: 12px !important;
+  	font-family: "Arial" !important;
+  	text-align: center !important;
+	padding:0px !important;
+	border-style: solid !important;
+ 	border-width: 1px !important;
+  	border-color: rgb( 204, 204, 204 ) ;
+  	border-radius: 4px !important;
+  	background-image: -moz-linear-gradient( 90deg, rgb(227,227,227) 0%, rgb(247,247,247) 100%) ;
+  	background-image: -webkit-linear-gradient( 90deg, rgb(227,227,227) 0%, rgb(247,247,247) 100%);
+  	background-image: -ms-linear-gradient( 90deg, rgb(227,227,227) 0%, rgb(247,247,247) 100%);
+ 	width: 100px !important;
+  	height: 23px !important;
+ 	margin-bottom:7px !important;
+ 	margin-top:4px !important;
+ 	margin-left:1px !important;
+}
+
+.sqw-button: hover {
+	color: rgb( 255, 255, 255 ) !important;
+  	font-weight: bold !important;
+  	text-shadow: 0px -1px 0px rgb( 0, 0, 0 ) !important;
+	border-style: solid !important;
+	border-width: 1px !important;
+	border-color: rgb( 0, 74, 128 ) !important;
+	border-radius: 4px !important;
+	background-image: -moz-linear-gradient( -90deg, rgb(54,156,236) 0%, rgb(29,122,227) 18%, rgb(93,184,242) 100%) !important;
+	background-image: -webkit-linear-gradient( -90deg, rgb(54,156,236) 0%, rgb(29,122,227) 18%, rgb(93,184,242) 100%) !important;
+	background-image: -ms-linear-gradient( -90deg, rgb(54,156,236) 0%, rgb(29,122,227) 18%, rgb(93,184,242) 100%) !important;
+	box-shadow: 0.5px 0.866px 1px 0px rgb( 0, 41, 117 ) !important;
+	width: 100px !important;
+	height: 23px !important;
+}
+
+.sqw-button .k-icon {
+	float: left !important;
+	margin-left: 5px !important;
+	height: 100% !important;
+}
+
+.sqw-button .icon-label {
+	min: 100% !important;
+	float: left !important;
+	display: inline-block !important;
+	padding-top: 2px !important;
+	margin-left: 5px !important;
+}
+
+
+.main_menu {
+    line-height:20px;
+    color:#FFF;
+    position:relative;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:13px;
+    /* float: right; */
+}
+
+.main_menu ul {
+    padding:0px;
+    margin:0;
+    list-style:none;
+}
+
+.main_menu ul li {
+    padding:0;
+    margin:0;
+    float:left;
+    padding-left:2px !important;
+	padding-right:2px !important;
+	border: none !important;
+}
+
+.main_menu ul li a {
+    color:#000;
+    display:block;
+    text-decoration:none;
+    padding:0 25px;
+}
+
+.main_menu ul li a:hover
+{
+    background:#acacac;
+				color:#FFF !important;
+}
+				
+			.main_menu ul li.k-state-hover  SPAN.icon-label {
+			/*	color:#FFFFFF !important; */
+				display: block;
+			}
+			
+			
+
+.main_menu ul li.selected a.sqw-button {
+	background-image: -moz-linear-gradient( 90deg, rgb(54,156,236) 0%, rgb(29,122,227) 18%, rgb(93,184,242) 100%);
+  	background-image: -webkit-linear-gradient( 90deg, rgb(54,156,236) 0%, rgb(29,122,227) 18%, rgb(93,184,242) 100%);
+  	background-image: -ms-linear-gradient( 90deg, rgb(54,156,236) 0%, rgb(29,122,227) 18%, rgb(93,184,242) 100%);
+  	box-shadow: 0.5px 0.866px 1px 0px rgb( 0, 41, 117 );
+ }
+
+.main_menu ul li ul {
+    display: none; 
+    margin-left:-20px !important;
+    padding-bottom: 5px !important;
+    color:#000;
+    width: auto;
+    position:absolute;
+    top:34px;
+    padding:0px;
+    margin:0px;
+    -webkit-border-bottom-right-radius: 10px;
+	-webkit-border-bottom-left-radius: 10px;
+	-moz-border-radius-bottomright: 10px;                 
+	-moz-border-radius-bottomleft: 10px;
+	border-bottom-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+  	border-style: solid;
+  	border-width: 1px;
+  	border-color: rgb( 59, 147, 233 );
+  	background-color: rgb( 255, 255, 255 );
+  	box-shadow: 2.5px 4.33px 5px 0px rgb( 64, 64, 64 );
+}
+
+.main_menu ul li:hover ul {
+     display: block;
+     position: absolute;
+     margin: 0;
+     padding: 0; 
+}
+
+.main_menu ul li:hover li {
+    float: none;
+    list-style:none;
+    margin:0px;
+}
+
+.main_menu ul li:hover li {
+    background:#fff;
+    border-top:1px solid #acacac;
+}
+
+.main_menu ul li:hover li a {
+    color: #000;
+    padding:0 20px;
+    display:block;
+    width:100px;
+}
+
+.main_menu ul li li a:hover {
+    color:#FFF;
+}
+
+.main_menu ul li.selected  {
+    background-color:transparent;
+    color:#fff;
+}
+
+.main_menu ul li.selected a {
+	 color:#fff;
+}
+
+.main_menu ul li a.sqw-button { 
+	font-size: 12px;
+  	font-family: "Arial";
+  	text-align: center;
+	padding:0px;
+	border-style: solid;
+ 	border-width: 1px;
+  	border-color: rgb( 204, 204, 204 );
+  	border-radius: 4px;
+  	background-image: -moz-linear-gradient( 90deg, rgb(227,227,227) 0%, rgb(247,247,247) 100%);
+  	background-image: -webkit-linear-gradient( 90deg, rgb(227,227,227) 0%, rgb(247,247,247) 100%);
+  	background-image: -ms-linear-gradient( 90deg, rgb(227,227,227) 0%, rgb(247,247,247) 100%);
+ 	width: 100px;
+  	height: 23px;
+ 	margin-bottom:7px;
+ 	margin-top:4px;
+ 	margin-left:1px;
+}
+
+.main_menu ul li a.sqw-button:hover { 
+	  font-size: 12px;
+  		font-family: "Arial";
+  		color: rgb( 255, 255, 255 );
+  		font-weight: bold;
+  		text-align: center;
+  		text-shadow: 0px -1px 0px rgb( 0, 0, 0 );	
+	  border-style: solid;
+	  border-width: 1px;
+	  border-color: rgb( 0, 74, 128 );
+	  border-radius: 4px;
+	  background-image: -moz-linear-gradient( -90deg, rgb(54,156,236) 0%, rgb(29,122,227) 18%, rgb(93,184,242) 100%);
+	  background-image: -webkit-linear-gradient( -90deg, rgb(54,156,236) 0%, rgb(29,122,227) 18%, rgb(93,184,242) 100%);
+	  background-image: -ms-linear-gradient( -90deg, rgb(54,156,236) 0%, rgb(29,122,227) 18%, rgb(93,184,242) 100%);
+	  box-shadow: 0.5px 0.866px 1px 0px rgb( 0, 41, 117 );
+	  width: 100px;
+	  height: 23px;
+}
+
+.main_menu ul li a:hover { 
+	color: rgb( 255, 255, 255 );
+  	font-weight: bold;
+  	border-radius: 3px;
+  	background-color:#52adef;
+}

@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <script>
+        function loadIframeRenderer(uri){
+            if(uri != undefined){
+                document.getElementById("iframeDiv").src=uri;
+            }
+        }
+    </script>
+</head>
+<body>
+    <a href="#" onclick="loadIframeRenderer('dynamicJavascript.do')">Configure Map Rules</a>
+
+    <iframe width="100%" height="100%" id="iframeDiv"></iframe>
+</body>
+</html>

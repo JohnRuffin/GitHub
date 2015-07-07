@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE polprojfile>
+<ppfml version="2.00" project="help">
+ <windowlist>
+  <window name="NewWindow" x="5%" y="5%" width="90%" height="90%" viewtype="doublepane" workspacestyle="DEFAULT" toolbar="off" locationbar="off" menu="off" resizable="yes" statusbar="off" usecurrentwindowsettings="yes" caption="NewWindow" skin="WebHelp_Skin_Files\Default\Default.skn">
+   <elements><element name="BrowseSequence" Present="yes" /><element name="SearchInput" Present="no" /><element name="SkinInstruction" value="whskin_ep_ins.ski" />
+   </elements>
+   <agents defaultagent="toc">
+    <agent>toc
+    </agent>
+    <agent>ndx
+    </agent>
+    <agent>nls
+    </agent>
+    <agent>gls
+    </agent>
+   </agents>
+  </window>
+ </windowlist>
+ <contextmap>
+ </contextmap>
+ <topiclist defaulttopic="About_Pegasus.htm">
+  <topic>Maps\Showing_results_for_a_differen_day.htm
+  </topic>
+  <topic>Queries\Defining_Network_Queries.htm
+  </topic>
+  <topic>Maps\About_the_Schedule_Map.htm
+  </topic>
+  <topic>Mode_analysis\About_Mode_Analysis.htm
+  </topic>
+  <topic>Maps\Viewing_lane_and_leg_detail.htm
+  </topic>
+  <topic>Queries\Running_a_Query.htm
+  </topic>
+  <topic>Maps\About_the_Market_View.htm
+  </topic>
+  <topic>Mode_analysis\Start_with_a_blank_chart.htm
+  </topic>
+  <topic>Maps\Filtering_map_display.htm
+  </topic>
+  <topic>Synchronizing_windows.htm
+  </topic>
+  <topic>Queries\About_Query_Window.htm
+  </topic>
+  <topic>About_Pegasus.htm
+  </topic>
+  <topic>Maps\Maps.htm
+  </topic>
+  <topic>Refreshing_the_display.htm
+  </topic>
+  <topic>Favorites\About_Favorites.htm
+  </topic>
+  <topic>Matrices\About_Matrices.htm
+  </topic>
+  <topic>Mode_analysis\Start_with_a_query.htm
+  </topic>
+  <topic>Maps\About_Schematics.htm
+  </topic>
+  <topic>Queries\Defining_Sched_Queries.htm
+  </topic>
+  <topic>Maps\Network_view.htm
+  </topic>
+ </topiclist>
+ <projectincludes>
+ </projectincludes>
+ <filenamemap>
+  <filenameentry moniker="wh_languagetype">
+   <filename>en_US
+   </filename>
+  </filenameentry>
+  <filenameentry moniker="toc">
+   <filename>Pegasus_Help.hhc
+   </filename>
+  </filenameentry>
+  <filenameentry moniker="ndx">
+   <filename>Pegasus_Help.hhk
+   </filename>
+  </filenameentry>
+  <filenameentry moniker="nls">
+   <filename>Pegasus_Help.nla
+   </filename>
+  </filenameentry>
+  <filenameentry moniker="gls">
+   <filename>Pegasus_Help.glo
+   </filename>
+  </filenameentry>
+  <filenameentry moniker="wh_lngfile">
+   <filename>Pegasus_Help.lng
+   </filename>
+  </filenameentry>
+  <filenameentry moniker="wh_stoplist">
+   <filename>Pegasus_Help.stp
+   </filename>
+  </filenameentry>
+  <filenameentry moniker="hiderankcolumn">
+   <filename>0
+   </filename>
+  </filenameentry>
+  <filenameentry moniker="enabletotalnumberofsearchresults">
+   <filename>1
+   </filename>
+  </filenameentry>
+  <filenameentry moniker="giveandsearch">
+   <filename>0
+   </filename>
+  </filenameentry>
+  <filenameentry moniker="enableandsearch">
+   <filename>0
+   </filename>
+  </filenameentry>
+ </filenamemap>
+</ppfml>
