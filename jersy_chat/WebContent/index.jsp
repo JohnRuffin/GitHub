@@ -1,54 +1,27 @@
-
+<!DOCTYPE html>
 <html>
 <head>
-    <script type="text/javascript" src="js/jquery-1.9.0.js"></script>
-    <script type="text/javascript" src="js/jquery.atmosphere.js"></script>
-<body> 
-<script type="text/javascript">
-$(document).ready(function() {
-	var counter=0;
-	var socket = $.atmosphere;
-	var wsUri = document.location.toString()+'chat';
-	alert(" wsUri :"+wsUri);
-	var request = { url :wsUri,
-					transport: 'websocket',
-					fallbackTransport: 'long-polling',
-					contentType : "application/json"};
-	var subSocket = socket.subscribe(request);
-	
-	
-	socket.onMessage = function(response) {
-		if (response.status == 200) {
-		 
-			var data = response.responseBody;
-			//alert(" respnse :"+data);
-			var marqElement = document.getElementById("marqueediv");
-			var messagestr = "<message>";			
-			marqElement.innerHTML = 'count :'+ counter+"&nbsp;";
-			counter++;
-			console.log(data); 
-		}
-	};
-	
-	socket.onTransportFailure = function(errorMsg, request) {
-		request.fallbackTransport = "long-polling";
-		marqElement.innerHTML = "Inner HTML";
-	};	
-	
-	
-	
-	function disconnect() {
-		socket.unsubscribe();
-		subSocket = null;
-	}
-	
-	setTimeout(function(){
-		subSocket.push(JSON.stringify({ author: 'Pegasus', message: 'Hello World!' }));
-	}, 5000);
-});
-</script>
-
-<h1 id="marqueediv">  </h1>
-</body>
+    <meta charset="utf-8">
+    <title>Atmosphere Chat</title>
+    <script type="text/javascript" src="jquery/jquery-2.0.3.js"></script>
+    <script type="text/javascript" src="jquery/jquery.atmosphere.js"></script>
+    <script type="text/javascript" src="jquery/application.js"></script>
+    <style>
+    * {font-family: tahoma; font-size: 12px; padding: 0px; margin: 0px;}
+    p {line-height: 18px;}
+    div {width: 500px; margin-left: auto; margin-right: auto;}
+    #content {padding: 5px; background: #ddd; border-radius: 5px; border: 1px solid #CCC; margin-top: 10px;}
+    #header {padding: 5px; background: #f5deb3; border-radius: 5px; border: 1px solid #CCC; margin-top: 10px;}
+    #input {border-radius: 2px; border: 1px solid #ccc; margin-top: 10px; padding: 5px; width: 400px;}
+    #status {width: 88px; display: block; float: left; margin-top: 15px;}
+    </style>
 </head>
+<body>
+    <div id="header"><h3>Atmosphere Chat. Default transport is SSE, fallback is long-polling</h3></div>
+    <div id="content"></div>
+    <div>
+        <span id="status">Connecting...</span>
+        <input type="text" id="input" disabled="disabled"/>
+    </div>
+</body>
 </html>

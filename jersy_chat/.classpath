@@ -12,10 +12,12 @@
 		</attributes>
 	</classpathentry>
 	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
-	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/atmosphere-annotations-2.1.0-RC2.jar"/>
-	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/atmosphere-jersey-2.1.0-RC2.jar"/>
-	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/atmosphere-runtime-2.1.0-RC2.jar"/>
-	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/atmosphere-weblogic-2.1.0-RC2.jar"/>
-	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/jersey-bundle-1.18.jar"/>
-	<classpathentry kind="output" path="build/classes"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/atmosphere/atmosphere-annotations-2.1.0-RC2.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/atmosphere/atmosphere-jersey-2.1.0-RC2.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/atmosphere/atmosphere-runtime-2.1.0-RC2.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/atmosphere/atmosphere-weblogic-2.1.0-RC2.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/jaxrs-1.18/javax.el-api-2.2.4.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/jaxrs-1.18/jersey-bundle-1.18.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/jaxrs-1.18/jersey-server-linking-1.18.jar"/>
+	<classpathentry kind="output" path="WebContent/WEB-INF/classes"/>
 </classpath>
