@@ -8,7 +8,7 @@
 $(document).ready(function() {
 	var counter=0;
 	var socket = $.atmosphere;
-	var wsUri = document.location.toString()+'custom';
+	var wsUri = document.location.toString()+'chat';
 	alert(" wsUri :"+wsUri);
 	var request = { url :wsUri,
 					transport: 'websocket',

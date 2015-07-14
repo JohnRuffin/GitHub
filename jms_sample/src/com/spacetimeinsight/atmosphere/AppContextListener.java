@@ -25,7 +25,7 @@ public class AppContextListener implements ServletContextListener {
 		TimerTask vodTimer = new CustTimer("self", 5, 1);
 		
 		System.out.println("Schedule a timer task...");
-		Timer timer = new Timer();
+		Timer timer = new Timer();  
 		timer.schedule(vodTimer, 10000, (10 * 1000));
 
 	}
