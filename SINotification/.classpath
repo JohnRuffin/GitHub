@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/Oracle WebLogic Server 11gR1 (10.3.5) JRE">
+		<attributes>
+			<attribute name="owner.project.facets" value="java"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="oracle.eclipse.tools.weblogic.lib.system">
+		<attributes>
+			<attribute name="owner.project.facets" value="jst.web"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/atmosphere/atmosphere-annotations-2.1.0-RC2.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/atmosphere/atmosphere-jersey-2.1.0-RC2.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/atmosphere/atmosphere-runtime-2.1.0-RC2.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/atmosphere/atmosphere-weblogic-2.1.0-RC2.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/jaxrs-1.18/javax.el-api-2.2.4.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/jaxrs-1.18/jersey-bundle-1.18.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/jaxrs-1.18/jersey-server-linking-1.18.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/activemq-all-5.3.0.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/jackson-all-1.7.5.jar"/>
+	<classpathentry kind="output" path="build/classes"/>
+</classpath>
